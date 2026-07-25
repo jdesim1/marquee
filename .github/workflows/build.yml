@@ -1,0 +1,47 @@
+name: build-and-deploy
+
+on:
+  schedule:
+    # 7am, 11am, 3pm, 7pm ET (UTC-4 during daylight time)
+    - cron: "0 11,15,19,23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # marquee.db carries first_seen history between runs (feeds the future
+      # alert diff). Cache eviction just resets history — safe, not fatal.
+      - name: Restore screening history
+        uses: actions/cache@v4
+        with:
+          path: marquee.db
+          key: marquee-db-${{ github.run_id }}
+          restore-keys: |
+            marquee-db-
+
+      - name: Fetch sources and build site
+        run: python3 -m marquee --days 60
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
