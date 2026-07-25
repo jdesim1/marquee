@@ -2,8 +2,9 @@ name: build-and-deploy
 
 on:
   schedule:
-    # 7am, 11am, 3pm, 7pm ET (UTC-4 during daylight time)
-    - cron: "0 11,15,19,23 * * *"
+    # ~7am, 11am, 3pm, 7pm ET (UTC-4 during daylight time); :07 because
+    # GitHub delays/drops top-of-hour scheduled runs under load
+    - cron: "7 11,15,19,23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -36,6 +37,9 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
+        with:
+          # auto-create the Pages site on first run (source: GitHub Actions)
+          enablement: true
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
