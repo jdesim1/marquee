@@ -1,6 +1,8 @@
 name: build-and-deploy
 
 on:
+  push:
+    branches: [main]
   schedule:
     # ~7am, 11am, 3pm, 7pm ET (UTC-4 during daylight time); :07 because
     # GitHub delays/drops top-of-hour scheduled runs under load
