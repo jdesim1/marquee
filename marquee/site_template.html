@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Marquee · NYC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bevan&family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Pathway+Gothic+One&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   MARQUEE — "The Ticket Stub"
+   The page is the box-office counter; every screening is a stub.
+   Palette from the object: ticket red, manila stock, stamp-pad
+   blue-black. Day theme = the daytime window; night theme = the
+   same stubs under marquee light on a dark counter.
+   ============================================================ */
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  color-scheme:light;
+  /* the counter (page ground) — cool zinc, no khaki */
+  --ground:#d4d6d3;
+  --groundink:#4b5054;          /* printed matter directly on the counter */
+  --headink:#33383c;            /* venue lines on the counter */
+  /* the stub (white ticket stock, both themes) */
+  --stock:#fbfaf6;
+  --stockhi:#ffffff;
+  --stockedge:#b6bab7;
+  --field:#f3f3ef;              /* printable field areas on cards */
+  /* the inks */
+  --ink:#221f1e;                /* letterpress black */
+  --inkfaint:#797e81;
+  --blue:#2d3d5f;               /* stamp-pad blue-black */
+  --red:#c0271c;                /* roll-ticket carmine, tuned for white stock */
+  --groundred:#b52318;          /* red ink printed on the counter itself */
+  /* the roll (header + day tabs) */
+  --band:#c0271c;
+  --bandink:#fbfaf6;
+  --focus:#c0271c;
+  --shadow:0 1px 0 rgba(35,40,45,.25), 0 2px 6px rgba(35,40,45,.14);
+  /* paper tooth */
+  --noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  --disp:'Bevan','Rockwell',Georgia,serif;                     /* wood-type slab */
+  --gothic:'Pathway Gothic One','Avenir Next Condensed','Arial Narrow',sans-serif; /* ticket gothic */
+  --stamp:'Special Elite','Courier New',monospace;             /* rubber stamp / numbering machine */
+  --print:'Libre Franklin','Franklin Gothic Medium','Helvetica Neue',Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    color-scheme:dark;
+    --ground:#101214;
+    --groundink:#a6abae;
+    --headink:#c6cacc;
+    --stock:#e9e8e2;            /* white stock, dimmed under the night lights */
+    --stockhi:#f4f3ee;
+    --stockedge:#3d4144;
+    --field:#f0efe9;
+    --band:#9c1f16;
+    --bandink:#f4f3ee;
+    --groundred:#e14a39;
+    --focus:#e14a39;
+    --shadow:0 2px 3px rgba(0,0,0,.55), 0 6px 16px rgba(0,0,0,.35);
+  }
+}
+html{-webkit-text-size-adjust:100%;background:var(--ground)}
+body{background:var(--ground);color:var(--ink);
+  font:16px/1.45 var(--print)}
+@media (prefers-color-scheme:dark){
+  body{background:radial-gradient(120% 46% at 50% -8%, rgba(255,240,225,.09), transparent 68%) no-repeat, var(--ground)}
+}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* ---------- the roll (masthead) ---------- */
+.roll{position:relative;overflow:hidden;background:var(--band);background-image:var(--noise);color:var(--bandink);
+  padding:16px 26px 18px;padding-top:calc(16px + env(safe-area-inset-top));
+  display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 14px}
+.brand,.topright{position:relative;z-index:1}
+.roll::after{content:"";position:absolute;left:0;right:0;bottom:0;height:7px;
+  background-image:radial-gradient(circle at 4px 7px, var(--ground) 2.6px, transparent 2.9px);
+  background-size:13px 7px;background-repeat:repeat-x}
+.rollend{position:absolute;top:0;bottom:7px;display:flex;align-items:center;
+  font-family:var(--gothic);font-size:9px;letter-spacing:.34em;text-transform:uppercase;
+  opacity:.35;writing-mode:vertical-rl;white-space:nowrap}
+.rollend.l{left:7px;transform:rotate(180deg)}
+.rollend.r{right:7px}
+h1{font-family:var(--disp);font-weight:400;text-transform:uppercase;
+  font-size:30px;line-height:1.04;letter-spacing:.045em;text-shadow:0 1px 0 rgba(0,0,0,.25)}
+.tag{font-family:var(--gothic);font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+  margin-top:4px;opacity:.85}
+.topright{display:flex;flex-direction:row;align-items:center;justify-content:space-between;
+  gap:8px;flex:1 1 100%;min-width:0}
+.count{font-family:var(--gothic);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;
+  text-align:left;line-height:1.4;font-variant-numeric:tabular-nums;opacity:.95;min-width:0}
+#filtersBtn{font-family:var(--gothic);text-transform:uppercase;letter-spacing:.18em;font-size:14px;
+  border:1.5px solid var(--bandink);padding:8px 14px;min-height:40px;color:var(--bandink)}
+#filtersBtn.on{background:var(--bandink);color:var(--band)}
+
+/* ---------- printed tickets as buttons ---------- */
+.strip{display:flex;gap:9px;overflow-x:auto;padding:12px 14px 10px;align-items:center;
+  scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.strip::-webkit-scrollbar{display:none}
+.strip.wrap{flex-wrap:wrap;overflow:visible;padding:0}
+.tkt{flex:0 0 auto;font-family:var(--gothic);text-transform:uppercase;letter-spacing:.15em;
+  font-size:15px;line-height:1;white-space:nowrap;
+  background:var(--stock);background-image:var(--noise);
+  border:1.5px solid var(--ink);color:var(--ink);
+  padding:11px 14px 10px;min-height:40px;box-shadow:var(--shadow);
+  transition:background .12s,color .12s,border-color .12s}
+.tkt.on{background:var(--blue);background-image:var(--noise);border-color:var(--blue);color:var(--stockhi)}
+.preset{border-color:var(--red);border-width:2px;color:var(--red);font-size:15.5px}
+.preset.ghost{border:1.5px dashed var(--ink);color:var(--ink)}
+.sep{flex:0 0 auto;height:26px;border-left:2px dashed var(--groundink);opacity:.55;margin:0 3px}
+
+/* ---------- the box-office window card (filter panel) ---------- */
+#panel{margin:6px 14px 16px;padding:16px 14px 18px;display:grid;gap:15px;
+  background:var(--stock);background-image:var(--noise);
+  border:2px solid var(--ink);box-shadow:4px 4px 0 rgba(43,33,21,.28)}
+.cardhead{display:flex;align-items:baseline;gap:10px;
+  font-family:var(--gothic);font-size:12.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--red)}
+.cardhead::before,.cardhead::after{content:"";flex:1;border-bottom:2px solid var(--red);opacity:.6;align-self:center}
+.frow{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+input[type=search],input[type=date],select{
+  font-family:var(--print);font-size:16px;color:var(--ink);
+  background:var(--field);border:1px solid var(--inkfaint);border-radius:0;
+  padding:9px 11px;min-height:42px;max-width:100%;-webkit-appearance:none;appearance:none}
+input[type=search]{flex:1;min-width:0}
+input::placeholder{color:var(--inkfaint);opacity:1}
+select{background-image:linear-gradient(45deg,transparent 46%,var(--ink) 46%,var(--ink) 54%,transparent 54%),
+       linear-gradient(-45deg,transparent 46%,var(--ink) 46%,var(--ink) 54%,transparent 54%);
+  background-position:calc(100% - 16px) 55%,calc(100% - 11px) 55%;
+  background-size:6px 6px;background-repeat:no-repeat;padding-right:28px}
+.lab{font-family:var(--gothic);font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkfaint)}
+.grouplab{display:flex;align-items:baseline;gap:10px;margin-bottom:8px;
+  font-family:var(--gothic);font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--inkfaint)}
+.grouplab::after{content:"";flex:1;border-bottom:1px dotted var(--inkfaint);opacity:.7}
+#panel .tkt{box-shadow:none}
+
+/* ---------- day tabs: the roll, torn day by day ---------- */
+.dayhead{position:sticky;top:0;z-index:10;
+  background:var(--band);background-image:var(--noise);color:var(--bandink);
+  font-family:var(--disp);font-weight:400;font-size:16px;letter-spacing:.06em;text-transform:uppercase;
+  padding:9px 14px 12px;box-shadow:0 2px 5px rgba(0,0,0,.22)}
+.dayhead::after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;
+  background-image:radial-gradient(circle at 3px 6px, var(--ground) 2.2px, transparent 2.5px);
+  background-size:11px 6px;background-repeat:repeat-x}
+.dn{opacity:1}
+.dayhead .rest{opacity:.85}
+.todaytag{display:inline-block;margin-left:10px;font-family:var(--stamp);font-size:11px;
+  letter-spacing:.12em;color:var(--bandink);border:1.5px solid var(--bandink);
+  padding:1px 7px;transform:rotate(-2.5deg);vertical-align:3px}
+
+/* ---------- issuing house line (printed on the counter) ---------- */
+.venuehead{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;
+  padding:18px 16px 3px;color:var(--headink);
+  font-family:var(--gothic);font-weight:400;text-transform:uppercase;letter-spacing:.17em;font-size:16px}
+.vname a{text-decoration:none;border-bottom:1.5px dotted var(--headink)}
+.vboro{font-size:12px;letter-spacing:.2em;opacity:.75}
+.vboro::before{content:"· "}
+.catstamp{font-family:var(--stamp);font-size:10px;letter-spacing:.08em;color:var(--groundred);
+  border:1.5px solid var(--groundred);padding:0 5px;transform:rotate(-2deg);display:inline-block;
+  opacity:.9;text-transform:uppercase}
+
+/* ---------- the stub itself ---------- */
+.stub{position:relative;display:flex;gap:10px;align-items:flex-start;
+  margin:7px 10px;padding:11px 14px 24px 30px;min-height:64px;
+  background:var(--stock);
+  background-image:var(--noise),linear-gradient(178deg,rgba(255,255,255,.32),rgba(96,72,24,.05));
+  border:1px solid var(--stockedge);box-shadow:var(--shadow);
+  text-decoration:none;color:var(--ink)}
+/* perforated tear line down the left edge */
+.stub::before{content:"";position:absolute;left:19px;top:2px;bottom:2px;width:4px;
+  background-image:radial-gradient(circle at 2px 2px, var(--ground) 1.5px, transparent 1.75px);
+  background-size:4px 9px;background-repeat:repeat-y}
+/* the conductor's punch */
+.stub::after{content:"";position:absolute;right:9px;top:9px;width:10px;height:10px;border-radius:50%;
+  background:var(--ground);box-shadow:inset 0 1px 1.5px rgba(0,0,0,.45)}
+a.stub:active{filter:brightness(.96)}
+@media (hover:hover){a.stub:hover .title{border-bottom:1.5px solid var(--red)}}
+
+/* the big stamped time */
+.tstamp{font-family:var(--stamp);font-variant-numeric:tabular-nums;
+  flex:0 0 88px;font-size:18px;line-height:1.15;color:var(--blue);margin-top:1px;opacity:.94}
+.tstamp .ap{font-size:10px;letter-spacing:.05em;margin-left:1px}
+.tstamp.late{color:var(--red)}
+.tba{opacity:.55;letter-spacing:.1em}
+/* the stamp never lands perfectly square */
+.stub:nth-child(3n) .tstamp{transform:rotate(-.7deg)}
+.stub:nth-child(3n+1) .tstamp{transform:rotate(.5deg)}
+.stub:nth-child(7n+2) .tstamp{transform:rotate(1.1deg)}
+.stub:nth-child(11n+4) .tstamp{transform:rotate(-1.2deg)}
+
+.main{flex:1;min-width:0}
+.title{display:inline;font-weight:700;font-size:16.5px;line-height:1.3;
+  border-bottom:1.5px solid transparent}
+.meta{display:block;color:var(--inkfaint);font-size:13px;margin-top:2px}
+.fmt{display:inline-block;font-family:var(--gothic);font-size:11.5px;letter-spacing:.1em;
+  text-transform:uppercase;border:1px solid var(--inkfaint);color:var(--inkfaint);
+  padding:1px 5px 0;vertical-align:1px}
+.fmt.film{border:1.5px solid var(--red);color:var(--red);font-weight:400}
+.series{display:block;color:var(--inkfaint);font-size:12.5px;font-style:italic;margin-top:2px}
+/* serial fine print along the bottom edge — real data */
+.serialrow{position:absolute;left:30px;right:14px;bottom:5px;display:flex;
+  justify-content:space-between;gap:8px;pointer-events:none;
+  font-family:var(--gothic);font-size:9px;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--inkfaint);opacity:.8;white-space:nowrap;overflow:hidden}
+.serialrow .no{font-family:var(--stamp);font-size:9px;letter-spacing:.14em}
+
+.note{padding:46px 20px;color:var(--groundink);text-align:center;
+  font-family:var(--gothic);font-size:17px;letter-spacing:.12em;text-transform:uppercase}
+
+footer{padding:26px 16px calc(30px + env(safe-area-inset-bottom));margin-top:28px;
+  color:var(--groundink);text-align:center;
+  font-family:var(--gothic);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;line-height:2}
+.fine{letter-spacing:.3em;opacity:.7;margin-bottom:4px}
+footer a{color:inherit;text-decoration:none;border-bottom:1.5px dotted var(--groundink)}
+
+@media (min-width:760px){
+  body{max-width:920px;margin:0 auto}
+  h1{font-size:40px}
+  .roll{padding-left:34px;padding-right:34px;flex-wrap:nowrap}
+  .topright{flex:0 0 auto;align-items:flex-end;gap:16px}
+  .count{text-align:right;font-size:12px;letter-spacing:.14em}
+  .tag{font-size:11px;letter-spacing:.3em}
+  .strip{flex-wrap:wrap;overflow:visible;padding-left:16px;padding-right:16px}
+  .stub{margin:8px 16px;padding-left:32px}
+  .tstamp{flex-basis:96px;font-size:19px}
+  .dayhead{font-size:18px}
+}
+</style>
+</head>
+<body>
+
+<header class="roll">
+  <span class="rollend l" aria-hidden="true">Admit One</span>
+  <span class="rollend r" aria-hidden="true">Admit One</span>
+  <div class="brand">
+    <h1>Marquee</h1>
+    <p class="tag">What&#8217;s Playing &middot; New York City</p>
+  </div>
+  <div class="topright">
+    <div id="count" class="count" aria-live="polite"></div>
+    <button id="filtersBtn" data-act="toggle-panel" aria-expanded="false" aria-controls="panel">Filters</button>
+  </div>
+</header>
+
+<nav class="strip" aria-label="Presets and date range">
+  <button class="tkt preset" data-act="preset-tonight">Tonight late</button>
+  <button class="tkt preset" data-act="preset-weekend">Weekend indie</button>
+  <button class="tkt preset ghost" data-act="preset-reset">Everything</button>
+  <span class="sep" aria-hidden="true"></span>
+  <button class="tkt" data-act="range-today" aria-pressed="false">Today</button>
+  <button class="tkt" data-act="range-week" aria-pressed="false">This week</button>
+  <button class="tkt" data-act="range-weekend" aria-pressed="false">Weekend</button>
+  <button class="tkt" data-act="range-all" aria-pressed="false">All</button>
+</nav>
+
+<section id="panel" hidden>
+  <p class="cardhead" aria-hidden="true">Box Office</p>
+  <div class="frow">
+    <input id="q" type="search" placeholder="Search titles&#8230;" enterkeyhint="search" aria-label="Search titles" autocomplete="off">
+  </div>
+  <div class="frow">
+    <label class="lab" for="from">From</label><input type="date" id="from">
+    <label class="lab" for="to">to</label><input type="date" id="to">
+  </div>
+  <div class="frow">
+    <label class="lab" for="after">Curtain</label>
+    <select id="after">
+      <option value="">Any time</option>
+      <option value="17:00">After 5 PM</option>
+      <option value="20:00">After 8 PM</option>
+      <option value="22:00">After 10 PM</option>
+    </select>
+    <label class="lab" for="venue">House</label>
+    <select id="venue"><option value="">All venues</option></select>
+  </div>
+  <div>
+    <p class="grouplab">Day of week</p>
+    <div class="strip wrap" role="group" aria-label="Day of week">
+      <button class="tkt" data-act="toggle-dow" data-val="1" aria-pressed="false">Mon</button>
+      <button class="tkt" data-act="toggle-dow" data-val="2" aria-pressed="false">Tue</button>
+      <button class="tkt" data-act="toggle-dow" data-val="3" aria-pressed="false">Wed</button>
+      <button class="tkt" data-act="toggle-dow" data-val="4" aria-pressed="false">Thu</button>
+      <button class="tkt" data-act="toggle-dow" data-val="5" aria-pressed="false">Fri</button>
+      <button class="tkt" data-act="toggle-dow" data-val="6" aria-pressed="false">Sat</button>
+      <button class="tkt" data-act="toggle-dow" data-val="7" aria-pressed="false">Sun</button>
+    </div>
+  </div>
+  <div>
+    <p class="grouplab">House type</p>
+    <div class="strip wrap" role="group" aria-label="Venue category">
+      <button class="tkt" data-act="toggle-cat" data-val="doc" aria-pressed="false">Doc</button>
+      <button class="tkt" data-act="toggle-cat" data-val="rep" aria-pressed="false">Rep</button>
+      <button class="tkt" data-act="toggle-cat" data-val="indie" aria-pressed="false">Indie</button>
+      <button class="tkt" data-act="toggle-cat" data-val="micro" aria-pressed="false">Micro</button>
+      <button class="tkt" data-act="toggle-cat" data-val="museum" aria-pressed="false">Museum</button>
+      <button class="tkt" data-act="toggle-cat" data-val="dine-in" aria-pressed="false">Dine-in</button>
+      <button class="tkt" data-act="toggle-cat" data-val="chain" aria-pressed="false">Chain</button>
+    </div>
+  </div>
+  <div>
+    <p class="grouplab">Borough</p>
+    <div class="strip wrap" id="boroRow" role="group" aria-label="Borough"></div>
+  </div>
+  <div>
+    <p class="grouplab">On film</p>
+    <div class="strip wrap" role="group" aria-label="Format">
+      <button class="tkt" data-act="toggle-fmt" data-val="35mm" aria-pressed="false">35mm</button>
+      <button class="tkt" data-act="toggle-fmt" data-val="70mm" aria-pressed="false">70mm</button>
+      <button class="tkt" data-act="toggle-fmt" data-val="16mm" aria-pressed="false">16mm</button>
+    </div>
+  </div>
+</section>
+
+<main id="list"><p class="note">Loading&#8230;</p></main>
+<footer>
+  <p class="fine" aria-hidden="true">&middot; No Refunds &middot; No Exchanges &middot; Not Valid Unless Torn &middot;</p>
+  <p id="foot"></p>
+</footer>
+
+<script>
+'use strict';
+var DATA=null, VEN={}, ROWS=[];
+var DAYN=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+var MONN=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+var CATL={doc:'Doc',rep:'Rep',indie:'Indie',micro:'Micro',museum:'Museum','dine-in':'Dine-in',chain:'Chain'};
+
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function pad(n){return (n<10?'0':'')+n;}
+function pad6(n){n=String(n);while(n.length<6)n='0'+n;return n;}
+function dstr(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());}
+function today(){return dstr(new Date());}
+function addDays(s,n){var p=s.split('-');return dstr(new Date(+p[0],+p[1]-1,+p[2]+n));}
+function isoDow(s){var p=s.split('-');var g=new Date(+p[0],+p[1]-1,+p[2]).getDay();return String(g===0?7:g);}
+function endOfWeek(){var g=new Date().getDay();return addDays(today(),(7-g)%7);}
+function weekendRange(){var g=new Date().getDay();
+  if(g===0)return [today(),today()];
+  var sat=addDays(today(),6-g);return [sat,addDays(sat,1)];}
+function boroLabel(b){return String(b).replace(/-/g,' ');}
+function defaults(){return {q:'',from:today(),to:addDays(today(),14),after:'',dow:[],cat:[],boro:[],fmt:[],venue:''};}
+var S=defaults();
+
+/* ---------- URL hash <-> state ---------- */
+function stateToHash(){
+  var p=new URLSearchParams();
+  if(S.q)p.set('q',S.q);
+  if(!S.from&&!S.to)p.set('range','all');
+  if(S.from)p.set('from',S.from);
+  if(S.to)p.set('to',S.to);
+  if(S.after)p.set('after',S.after);
+  if(S.dow.length)p.set('dow',S.dow.join('.'));
+  if(S.cat.length)p.set('cat',S.cat.join('.'));
+  if(S.boro.length)p.set('boro',S.boro.join('.'));
+  if(S.fmt.length)p.set('fmt',S.fmt.join('.'));
+  if(S.venue)p.set('venue',S.venue);
+  var h=p.toString();
+  history.replaceState(null,'', h?('#'+h):(location.pathname+location.search));
+}
+function hashToState(){
+  var raw=location.hash.replace(/^#/,'');
+  if(!raw){S=defaults();return;}
+  var p=new URLSearchParams(raw);
+  function list(k){var v=p.get(k);return v?v.split('.').filter(Boolean):[];}
+  S={q:p.get('q')||'', from:p.get('from')||'', to:p.get('to')||'', after:p.get('after')||'',
+     dow:list('dow'), cat:list('cat'), boro:list('boro'), fmt:list('fmt'), venue:p.get('venue')||''};
+}
+
+/* ---------- data load ---------- */
+fetch('./data.json',{cache:'no-store'})
+  .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+  .then(init)
+  .catch(function(e){
+    document.getElementById('list').innerHTML=
+      '<p class="note">Could not load data.json ('+esc(e.message)+'). Serve this folder over HTTP.</p>';
+  });
+
+function init(data){
+  DATA=data;
+  (data.venues||[]).forEach(function(v){if(v&&v.slug)VEN[v.slug]=v;});
+  ROWS=[];
+  (data.screenings||[]).forEach(function(r){
+    try{
+      if(!r||typeof r!=='object')return;
+      if(!/^\d{4}-\d{2}-\d{2}$/.test(r.date||''))return;
+      if(!r.title)return;
+      if(r.time&&!/^([01]\d|2[0-3]):[0-5]\d$/.test(r.time))r.time=null;
+      var v=r.venue?VEN[r.venue]:null;
+      r._vkey=r.venue||('~'+(r.venue_raw||'?'));
+      r._vname=v?v.name:(r.venue_raw||'Unknown venue');
+      r._vsite=(v&&v.website)?v.website:null;
+      r._boro=v?(v.borough||null):null;
+      r._cat=v?(v.category||null):null;
+      r._tl=String(r.title).toLowerCase();
+      r._dow=isoDow(r.date);
+      ROWS.push(r);
+    }catch(e){/* skip malformed record */}
+  });
+  ROWS.sort(function(a,b){
+    if(a.date!==b.date)return a.date<b.date?-1:1;
+    var an=a._vname.toLowerCase(), bn=b._vname.toLowerCase();
+    if(an!==bn)return an<bn?-1:1;
+    var at=a.time||'99:99', bt=b.time||'99:99';
+    if(at!==bt)return at<bt?-1:1;
+    return a._tl<b._tl?-1:(a._tl>b._tl?1:0);
+  });
+  /* the numbering machine: each stub keeps its serial */
+  ROWS.forEach(function(r,i){r._serial=pad6(i+1);});
+  buildBoroChips();
+  buildVenueSelect();
+  hashToState(); syncUI(); render();
+  var g=fmtGen(data.generated_at);
+  document.getElementById('foot').innerHTML=
+    'Updated '+esc(g)+' &middot; Data: <a href="https://repertory.nyc" rel="noopener">repertory.nyc</a> &middot; '+
+    'Screen Slate &mdash; support <a href="https://www.screenslate.com" rel="noopener">screenslate.com</a>';
+}
+
+function fmtGen(g){
+  if(!g)return 'unknown';
+  var d=new Date(g);
+  if(isNaN(d.getTime()))return String(g);
+  var h=d.getHours(), ap=h>=12?'PM':'AM'; h=h%12||12;
+  return MONN[d.getMonth()]+' '+d.getDate()+', '+d.getFullYear()+' '+h+':'+pad(d.getMinutes())+' '+ap;
+}
+
+function buildBoroChips(){
+  var order=['manhattan','brooklyn','queens','bronx','staten-island'];
+  var seen={};
+  (DATA.venues||[]).forEach(function(v){if(v&&v.borough)seen[v.borough]=1;});
+  var bs=order.filter(function(b){return seen[b];});
+  Object.keys(seen).sort().forEach(function(b){if(order.indexOf(b)<0)bs.push(b);});
+  document.getElementById('boroRow').innerHTML=bs.map(function(b){
+    return '<button class="tkt" data-act="toggle-boro" data-val="'+esc(b)+'" aria-pressed="false">'+esc(boroLabel(b))+'</button>';
+  }).join('');
+}
+
+function buildVenueSelect(){
+  var m={};
+  ROWS.forEach(function(r){m[r._vkey]=r._vname;});
+  var keys=Object.keys(m).sort(function(a,b){
+    var x=m[a].toLowerCase(), y=m[b].toLowerCase();
+    return x<y?-1:(x>y?1:0);});
+  document.getElementById('venue').innerHTML=
+    '<option value="">All venues</option>'+keys.map(function(k){
+      return '<option value="'+esc(k)+'">'+esc(m[k])+'</option>';}).join('');
+}
+
+/* ---------- filtering ----------
+   Screenings whose venue is not in the registry have unknown category/borough;
+   they PASS category & borough filters (filters only exclude known mismatches). */
+function pass(s){
+  if(S.q&&s._tl.indexOf(S.q.toLowerCase())<0)return false;
+  if(S.from&&s.date<S.from)return false;
+  if(S.to&&s.date>S.to)return false;
+  if(S.after&&(!s.time||s.time<S.after))return false;
+  if(S.dow.length&&S.dow.indexOf(s._dow)<0)return false;
+  if(S.cat.length&&s._cat&&S.cat.indexOf(s._cat)<0)return false;
+  if(S.boro.length&&s._boro&&S.boro.indexOf(s._boro)<0)return false;
+  if(S.fmt.length){
+    var f=(s.format||'').toLowerCase();
+    var hit=false;
+    for(var i=0;i<S.fmt.length;i++){if(f.indexOf(S.fmt[i].toLowerCase())>=0){hit=true;break;}}
+    if(!hit)return false;
+  }
+  if(S.venue&&s._vkey!==S.venue)return false;
+  return true;
+}
+
+/* ---------- render (one HTML string, one innerHTML swap) ---------- */
+function timeHTML(t){
+  if(!t)return '<span class="tba">TBA</span>';
+  var h=+t.slice(0,2), m=t.slice(3,5), ap=h>=12?'PM':'AM'; h=h%12||12;
+  return h+':'+m+'<span class="ap">'+ap+'</span>';
+}
+function rowHTML(s){
+  var late=!!(s.time&&s.time>='22:00');
+  var meta=[];
+  if(s.year)meta.push(esc(s.year));
+  if(s.director)meta.push(esc(s.director));
+  if(s.runtime_min)meta.push(esc(s.runtime_min)+' min');
+  var mhtml=meta.join(' &middot; ');
+  if(s.format){
+    var film=/\b(8|16|35|70)\s?mm\b/i.test(s.format);
+    mhtml+=(mhtml?' ':'')+'<span class="fmt'+(film?' film':'')+'">'+esc(s.format)+'</span>';
+  }
+  var inner='<span class="tstamp'+(late?' late':'')+'">'+timeHTML(s.time)+'</span>'+
+    '<span class="main"><span class="title">'+esc(s.title)+'</span>'+
+    (mhtml?'<span class="meta">'+mhtml+'</span>':'')+
+    (s.series?'<span class="series">'+esc(s.series)+'</span>':'')+
+    '</span>'+
+    '<span class="serialrow" aria-hidden="true"><span>Admit One</span>'+
+    '<span class="no">No. '+s._serial+'</span></span>';
+  var u=s.ticket_url;
+  if(u&&/^https?:\/\//i.test(u)){
+    return '<a class="stub" href="'+esc(u)+'" rel="noopener">'+inner+'</a>';
+  }
+  return '<div class="stub">'+inner+'</div>';
+}
+function dayLabel(ds){
+  var p=ds.split('-');var d=new Date(+p[0],+p[1]-1,+p[2]);
+  return '<span class="dn">'+DAYN[d.getDay()]+'</span> <span class="rest">&middot; '+
+    MONN[d.getMonth()]+' '+d.getDate()+'</span>';
+}
+function render(){
+  var rows=ROWS.filter(pass);
+  var films={};
+  rows.forEach(function(r){films[r._tl+'|'+(r.year||'')]=1;});
+  var nf=Object.keys(films).length;
+  document.getElementById('count').textContent=
+    rows.length+' screening'+(rows.length===1?'':'s')+' · '+nf+' film'+(nf===1?'':'s');
+  var listEl=document.getElementById('list');
+  if(!rows.length){
+    listEl.innerHTML='<p class="note">Nothing matches. Loosen a filter, or tap Everything.</p>';
+    return;
+  }
+  var out=[], curD=null, curV=null, tod=today();
+  for(var i=0;i<rows.length;i++){
+    var s=rows[i];
+    if(s.date!==curD){
+      if(curV!==null)out.push('</div>');
+      if(curD!==null)out.push('</section>');
+      curD=s.date; curV=null;
+      out.push('<section class="day"><h2 class="dayhead">'+dayLabel(s.date)+
+        (s.date===tod?'<span class="todaytag">Today</span>':'')+'</h2>');
+    }
+    if(s._vkey!==curV){
+      if(curV!==null)out.push('</div>');
+      curV=s._vkey;
+      var vh='<span class="vname">'+
+        (s._vsite&&/^https?:\/\//i.test(s._vsite)
+          ?'<a href="'+esc(s._vsite)+'" rel="noopener">'+esc(s._vname)+'</a>'
+          :esc(s._vname))+'</span>';
+      if(s._boro)vh+='<span class="vboro">'+esc(boroLabel(s._boro))+'</span>';
+      if(s._cat)vh+='<span class="catstamp">'+esc(CATL[s._cat]||s._cat)+'</span>';
+      out.push('<div class="venue"><h3 class="venuehead">'+vh+'</h3>');
+    }
+    out.push(rowHTML(s));
+  }
+  if(curV!==null)out.push('</div>');
+  if(curD!==null)out.push('</section>');
+  listEl.innerHTML=out.join('');
+}
+
+/* ---------- UI sync ---------- */
+function rangeMode(){
+  if(!S.from&&!S.to)return 'all';
+  if(S.from===today()&&S.to===today())return 'today';
+  if(S.from===today()&&S.to===endOfWeek())return 'week';
+  var w=weekendRange();
+  if(S.from===w[0]&&S.to===w[1])return 'weekend';
+  return null;
+}
+function syncUI(){
+  var q=document.getElementById('q');
+  if(q.value!==S.q)q.value=S.q;
+  ['from','to','after','venue'].forEach(function(id){
+    var el=document.getElementById(id);
+    if(el.value!==S[id])el.value=S[id];
+  });
+  var chips=document.querySelectorAll('button[data-act][data-val]');
+  for(var i=0;i<chips.length;i++){
+    var b=chips[i], act=b.getAttribute('data-act'), v=b.getAttribute('data-val'), on=false;
+    if(act==='toggle-dow')on=S.dow.indexOf(v)>=0;
+    else if(act==='toggle-cat')on=S.cat.indexOf(v)>=0;
+    else if(act==='toggle-boro')on=S.boro.indexOf(v)>=0;
+    else if(act==='toggle-fmt')on=S.fmt.indexOf(v)>=0;
+    b.classList.toggle('on',on);
+    b.setAttribute('aria-pressed',on?'true':'false');
+  }
+  var mode=rangeMode();
+  [['range-today','today'],['range-week','week'],['range-weekend','weekend'],['range-all','all']]
+    .forEach(function(pr){
+      var b=document.querySelector('button[data-act="'+pr[0]+'"]');
+      if(b){var on=mode===pr[1];b.classList.toggle('on',on);b.setAttribute('aria-pressed',on?'true':'false');}
+    });
+}
+function update(){stateToHash();syncUI();render();}
+function tog(arr,v){var i=arr.indexOf(v);if(i<0)arr.push(v);else arr.splice(i,1);}
+
+/* ---------- events ---------- */
+document.addEventListener('click',function(e){
+  var b=e.target.closest('button[data-act]');
+  if(!b)return;
+  var act=b.getAttribute('data-act'), val=b.getAttribute('data-val'), w;
+  if(act==='toggle-panel'){
+    var p=document.getElementById('panel'), open=p.hasAttribute('hidden');
+    if(open)p.removeAttribute('hidden');else p.setAttribute('hidden','');
+    b.setAttribute('aria-expanded',open?'true':'false');
+    b.classList.toggle('on',open);
+    return;
+  }
+  if(act==='preset-tonight'){S=defaults();S.from=today();S.to=endOfWeek();S.after='22:00';}
+  else if(act==='preset-weekend'){S=defaults();w=weekendRange();S.from=w[0];S.to=w[1];S.after='20:00';
+    S.cat=['doc','rep','indie','micro','museum','dine-in'];}
+  else if(act==='preset-reset'){S=defaults();}
+  else if(act==='range-today'){S.from=today();S.to=today();}
+  else if(act==='range-week'){S.from=today();S.to=endOfWeek();}
+  else if(act==='range-weekend'){w=weekendRange();S.from=w[0];S.to=w[1];}
+  else if(act==='range-all'){S.from='';S.to='';}
+  else if(act==='toggle-dow'){tog(S.dow,val);}
+  else if(act==='toggle-cat'){tog(S.cat,val);}
+  else if(act==='toggle-boro'){tog(S.boro,val);}
+  else if(act==='toggle-fmt'){tog(S.fmt,val);}
+  else return;
+  update();
+});
+
+var qTimer=null;
+document.getElementById('q').addEventListener('input',function(){
+  var el=this;
+  clearTimeout(qTimer);
+  qTimer=setTimeout(function(){S.q=el.value.trim();update();},150);
+});
+['from','to','after','venue'].forEach(function(id){
+  document.getElementById(id).addEventListener('change',function(){S[id]=this.value;update();});
+});
+window.addEventListener('hashchange',function(){hashToState();syncUI();render();});
+</script>
+</body>
+</html>
