@@ -47,6 +47,14 @@
   "year": 1977
  },
  "54 director s cut|1998": null,
+ "54 director s cut|2015": {
+  "genres": [],
+  "poster": "https://image.tmdb.org/t/p/w342/3Xd4WcpHorbqxoQMVvjBCcSFzDx.jpg",
+  "title": "Inspector Totsugawa Series 54 - The Woman of Sunrise Izumo",
+  "tmdb_id": 552730,
+  "trailer": null,
+  "year": 2015
+ },
  "a girl is a gun une aventure de billy le kid|": null,
  "a girl is a gun|1971": {
   "genres": [
@@ -1388,6 +1396,17 @@
   "tmdb_id": 155,
   "trailer": "https://www.youtube.com/watch?v=LDG9bisJEaI",
   "year": 2008
+ },
+ "day night day night|2006": {
+  "genres": [
+   "Drama",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/94tu7WApWuGtoQ0dhZPz9EE1XyW.jpg",
+  "title": "Day Night Day Night",
+  "tmdb_id": 13979,
+  "trailer": "https://www.youtube.com/watch?v=BaR9yDPKkgY",
+  "year": 2006
  },
  "day of wrath|1943": {
   "genres": [
@@ -2923,6 +2942,16 @@
   "trailer": "https://www.youtube.com/watch?v=vLn7aNjVNMA",
   "year": 2006
  },
+ "in family|2011": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/4WLkpV515Fk00d02YagR1Z6G4Y7.jpg",
+  "title": "In the Family",
+  "tmdb_id": 82929,
+  "trailer": "https://www.youtube.com/watch?v=qneyzEoWEw0",
+  "year": 2011
+ },
  "in hand of dante|2026": {
   "genres": [
    "Drama",
@@ -3562,6 +3591,17 @@
   "trailer": "https://www.youtube.com/watch?v=BpAFPgNyxmc",
   "year": 2011
  },
+ "leonora in morning light|2025": {
+  "genres": [
+   "Drama",
+   "History"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/oi0i7alntRT5BwrWVB5pO3UVU1V.jpg",
+  "title": "Leonora in the Morning Light",
+  "tmdb_id": 1207627,
+  "trailer": "https://www.youtube.com/watch?v=xMmW7-CBMn4",
+  "year": 2025
+ },
  "les bonnes femmes|1960": {
   "genres": [
    "Drama"
@@ -3661,6 +3701,16 @@
   "year": 2025
  },
  "lockjaw|2025": {
+  "genres": [
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/eodimaiU8j7GAM2OcyB7n45D9cQ.jpg",
+  "title": "Lockjaw",
+  "tmdb_id": 1355142,
+  "trailer": "https://www.youtube.com/watch?v=HzV1nX9GMlU",
+  "year": 2026
+ },
+ "lockjaw|2026": {
   "genres": [
    "Comedy"
   ],
@@ -4752,6 +4802,16 @@
   "tmdb_id": 94525,
   "trailer": "https://www.youtube.com/watch?v=inZy5os7Aq4",
   "year": 1926
+ },
+ "paint me road out of here|2024": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/zHlZeDFI5mNjiUF0lOdbb7cnGDV.jpg",
+  "title": "Paint Me a Road Out of Here",
+  "tmdb_id": 1283226,
+  "trailer": null,
+  "year": 2024
  },
  "panic in needle park|1971": {
   "genres": [
@@ -7594,6 +7654,14 @@
   "tmdb_id": 242828,
   "trailer": "https://www.youtube.com/watch?v=YBIfz76BYiY",
   "year": 2014
+ },
+ "when we saw each other more often|2025": {
+  "genres": [],
+  "poster": "https://image.tmdb.org/t/p/w342/5Jwsb9kUNhqNI8U7sEFcDiHvUO.jpg",
+  "title": "When We Saw Each Other More Often",
+  "tmdb_id": 1551011,
+  "trailer": null,
+  "year": 2026
  },
  "where is friend s house|": {
   "genres": [

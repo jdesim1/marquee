@@ -145,6 +145,15 @@ def normalize(raws: list[RawScreening], venues: dict) -> tuple[list[dict], list[
             tail = pipe.group(0).strip(" |").strip()
             title = _PIPE_TAIL.sub("", title).strip()
             series = series or tail
+        # Q&A/intro is a property of the SHOWING, not the film: strip it from
+        # the display name, keep it as a per-screening tag.
+        tail_m = _EVENT_TAIL.search(title)
+        qa = bool(tail_m and re.search(r"q\s*&?\s*a", tail_m.group(0), re.I))
+        se = r.extra.get("special_event")
+        if isinstance(se, dict) and se.get("event_type") == "q_and_a":
+            qa = True
+        if tail_m:
+            title = (_EVENT_TAIL.sub("", title).strip()) or title
         dedupe_key = (slug or _key(r.venue_raw), r.date, r.time or "", _title_key(r.title_raw))
         sid = hashlib.sha1("|".join(map(str, dedupe_key)).encode()).hexdigest()[:16]
         rec = {
@@ -162,7 +171,7 @@ def normalize(raws: list[RawScreening], venues: dict) -> tuple[list[dict], list[
             "series": series,
             "source": r.source,
             "film_key": _title_key(r.title_raw),
-            "tags": ["outdoor"] if r.extra.get("outdoor") else [],
+            "tags": (["outdoor"] if r.extra.get("outdoor") else []) + (["qa"] if qa else []),
         }
         prio = SOURCE_PRIORITY.get(r.source, 0)
         kept = best.get(dedupe_key)

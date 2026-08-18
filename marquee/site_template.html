@@ -239,7 +239,12 @@ a.stub:active{filter:brightness(.96)}
 .trl:hover{border-bottom-color:var(--red)}
 
 /* ---------- the film card (By Title view): same stock, laid out flat ---------- */
-.filmcard{display:block}
+.filmcard{display:flex;gap:14px;align-items:flex-start}
+.filmcard .main{flex:1 1 auto;min-width:0}
+.fposter{flex:0 0 auto;width:72px;height:auto;border:1px solid var(--stockedge);
+  box-shadow:0 1px 2px rgba(35,40,45,.18);margin-top:2px}
+.qat{font-family:var(--stamp);font-size:9px;letter-spacing:.08em;color:var(--groundred);
+  vertical-align:2px;white-space:nowrap}
 .fvenues{margin-top:9px;display:grid;gap:5px}
 .fvline{font-size:13.5px;line-height:1.55;color:var(--ink)}
 .fvname{font-family:var(--gothic);font-size:12.5px;letter-spacing:.15em;text-transform:uppercase;white-space:nowrap}
@@ -587,6 +592,7 @@ function rowHTML(s){
     mhtml+=(mhtml?' ':'')+'<span class="fmt'+(film?' film':'')+'">'+esc(s.format)+'</span>';
   }
   if(s._out)mhtml+=(mhtml?' ':'')+'<span class="airstamp">Open Air</span>';
+  if((s.tags||[]).indexOf('qa')>=0)mhtml+=(mhtml?' ':'')+'<span class="airstamp">Q&amp;A</span>';
   var sct=scoreTiles(s.film_key);
   if(sct)mhtml+=(mhtml?' ':'')+sct;
   var inner='<span class="tstamp'+(late?' late':'')+'">'+timeHTML(s.time)+'</span>'+
@@ -699,9 +705,10 @@ function renderTitle(rows,listEl){
         var th=ts.map(function(r){
           var late=!!(r.time&&r.time>='21:00');
           var body=timeHTML(r.time);
+          var qa=(r.tags||[]).indexOf('qa')>=0?' <span class="qat">Q&amp;A</span>':'';
           if(r.ticket_url&&/^https?:\/\//i.test(r.ticket_url))
-            return '<a class="ftime'+(late?' late':'')+'" href="'+esc(r.ticket_url)+'" rel="noopener">'+body+'</a>';
-          return '<span class="ftime'+(late?' late':'')+'">'+body+'</span>';
+            return '<a class="ftime'+(late?' late':'')+'" href="'+esc(r.ticket_url)+'" rel="noopener">'+body+'</a>'+qa;
+          return '<span class="ftime'+(late?' late':'')+'">'+body+'</span>'+qa;
         }).join(', ');
         return '<span class="fdate">'+mdLabel(ds)+'</span> '+th;
       }).join(' &middot; ');
@@ -711,7 +718,10 @@ function renderTitle(rows,listEl){
     }).join('');
     var gsc=scoreTiles(g.fk);
     var metaHTML=meta.join(' &middot; ')+(gsc?(meta.length?' ':'')+gsc:'');
-    var inner='<div class="main"><span class="title">'+esc(g.title)+'</span>'+
+    var gfe=g.fk?FILMS[g.fk]:null;
+    var poster=(gfe&&gfe.poster&&/^https?:\/\//i.test(gfe.poster))?
+      '<img class="fposter" loading="lazy" alt="" onerror="this.style.display=\'none\'" src="'+esc(gfe.poster)+'">':'';
+    var inner=poster+'<div class="main"><span class="title">'+esc(g.title)+'</span>'+
       (metaHTML?'<span class="meta">'+metaHTML+'</span>':'')+
       '<div class="fvenues">'+lines+'</div></div>';
     out.push('<div class="srow"><div class="stub filmcard">'+inner+'</div>'+

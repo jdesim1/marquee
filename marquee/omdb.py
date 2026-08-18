@@ -6,6 +6,7 @@ transient failures are NOT cached so they retry next run, and new lookups are
 capped per run. Route: TMDB external_ids (tmdb_id -> imdb_id), then OMDb by
 imdb_id — one OMDb call per film, ever.
 """
+import datetime
 import json
 import pathlib
 import ssl
@@ -17,6 +18,23 @@ from . import config
 
 UA = "Marquee/0.1 (personal NYC moviegoing tool)"
 MAX_NEW_PER_RUN = 400
+RECHECK_DAYS = 3  # incomplete entries re-check: RT/MC scores appear as reviews land
+
+
+def _stale(entry) -> bool:
+    """An entry missing a score gets re-checked every few days."""
+    if not isinstance(entry, dict):
+        return False
+    if entry.get("rt") and entry.get("metascore"):
+        return False
+    chk = entry.get("checked")
+    if not chk:
+        return True
+    try:
+        age = datetime.date.today() - datetime.date.fromisoformat(chk)
+        return age.days >= RECHECK_DAYS
+    except ValueError:
+        return True
 
 
 def _ssl_context():
@@ -83,20 +101,27 @@ def attach_ratings(films: dict, cache_path) -> dict:
     cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
     new = deferred = 0
 
+    today = datetime.date.today().isoformat()
     for f in films.values():
         tid = str(f.get("tmdb_id") or "")
         if not tid:
             continue
-        if tid in cache:
+        if tid in cache and not _stale(cache[tid]):
             entry = cache[tid]
         else:
             if new >= MAX_NEW_PER_RUN:
                 deferred += 1
-                continue
-            new += 1
-            entry = _lookup(tid, tmdb_key, omdb_key)
-            if entry is not None:          # transient failures retry next run
-                cache[tid] = entry
+                entry = cache.get(tid)
+            else:
+                new += 1
+                result = _lookup(tid, tmdb_key, omdb_key)
+                if result is not None:     # transient failures retry next run
+                    entry = dict(cache.get(tid) or {})
+                    entry.update({k: v for k, v in result.items() if v})
+                    entry["checked"] = today
+                    cache[tid] = entry
+                else:
+                    entry = cache.get(tid)
         if entry:
             for k in ("imdb_id", "rt", "metascore", "imdb_rating", "awards"):
                 if entry.get(k):
