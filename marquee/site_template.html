@@ -34,8 +34,8 @@
   --blue:#2d3d5f;               /* stamp-pad blue-black */
   --red:#c0271c;                /* roll-ticket carmine, tuned for white stock */
   --groundred:#b52318;          /* red ink printed on the counter itself */
-  /* the roll (header + day tabs) */
-  --band:#c0271c;
+  /* the roll (header + day tabs) — letterpress black; red stays in the details */
+  --band:#1b1a19;
   --bandink:#fbfaf6;
   --daybar:#1b1a19;             /* day tabs print in letterpress black */
   --daybarink:#fbfaf6;
@@ -59,7 +59,7 @@
     --stockhi:#f4f3ee;
     --stockedge:#3d4144;
     --field:#f0efe9;
-    --band:#9c1f16;
+    --band:#050607;
     --bandink:#f4f3ee;
     --daybar:#050607;
     --daybarink:#f4f3ee;
@@ -91,7 +91,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;-webki
   background-size:13px 7px;background-repeat:repeat-x}
 .rollend{position:absolute;top:0;bottom:7px;display:flex;align-items:center;
   font-family:var(--gothic);font-size:9px;letter-spacing:.34em;text-transform:uppercase;
-  opacity:.35;writing-mode:vertical-rl;white-space:nowrap}
+  color:var(--daybarred);opacity:.75;writing-mode:vertical-rl;white-space:nowrap}
 .rollend.l{left:7px;transform:rotate(180deg)}
 .rollend.r{right:7px}
 h1{font-family:var(--disp);font-weight:400;text-transform:uppercase;
