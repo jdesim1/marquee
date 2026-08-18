@@ -214,6 +214,9 @@ a.stub:active{filter:brightness(.96)}
   text-transform:uppercase;border:1px solid var(--inkfaint);color:var(--inkfaint);
   padding:1px 5px 0;vertical-align:1px}
 .fmt.film{border:1.5px solid var(--red);color:var(--red);font-weight:400}
+.sctile{display:inline-block;font-family:var(--gothic);font-size:11.5px;letter-spacing:.1em;
+  text-transform:uppercase;border:1px solid var(--blue);color:var(--blue);
+  padding:1px 5px 0;vertical-align:1px}
 /* rubber stamp for open-air screenings — smaller sibling of the Today seal */
 .airstamp{display:inline-block;font-family:var(--stamp);font-size:10px;letter-spacing:.08em;
   text-transform:uppercase;color:var(--blue);border:1.5px solid var(--blue);
@@ -228,7 +231,6 @@ a.stub:active{filter:brightness(.96)}
 .serialrow .rr{display:flex;gap:12px;align-items:baseline}
 .trl{pointer-events:auto;color:var(--red);text-decoration:none;border-bottom:1px dotted transparent}
 .trl:hover{border-bottom-color:var(--red)}
-.scr{font-family:var(--stamp);font-size:9px;letter-spacing:.1em;color:var(--blue)}
 
 /* ---------- the film card (By Title view): same stock, laid out flat ---------- */
 .filmcard{display:block}
@@ -542,19 +544,18 @@ function trailerFor(fk){
   var fe=fk?FILMS[fk]:null;
   return (fe&&fe.trailer&&/^https?:\/\//i.test(fe.trailer))?fe.trailer:null;
 }
-function scoresFor(fk){
+function scoreTiles(fk){
   var fe=fk?FILMS[fk]:null;
-  if(!fe)return null;
-  var parts=[];
-  if(fe.rt)parts.push('RT '+fe.rt);
-  if(fe.metascore)parts.push('MC '+fe.metascore);
-  return parts.length?parts.join(' · '):null;
+  if(!fe)return '';
+  var t='';
+  if(fe.rt)t+='<span class="sctile">RT '+esc(fe.rt)+'</span> ';
+  if(fe.metascore)t+='<span class="sctile">MC '+esc(fe.metascore)+'</span>';
+  return t.trim();
 }
 /* the fine-print rail lives NEXT TO the stub (inside .srow), never inside its
    <a>, so the trailer link can be a real anchor without nesting anchors */
-function railHTML(serial,tr,title,scores){
+function railHTML(serial,tr,title){
   return '<span class="serialrow"><span aria-hidden="true">Admit One</span><span class="rr">'+
-    (scores?'<span class="scr">'+esc(scores)+'</span>':'')+
     (tr?'<a class="trl" href="'+esc(tr)+'" target="_blank" rel="noopener" aria-label="Trailer: '+
         esc(title)+'">&#9654;&#xFE0E; Trailer</a>':'')+
     '<span class="no" aria-hidden="true">No. '+serial+'</span></span></span>';
@@ -571,12 +572,14 @@ function rowHTML(s){
     mhtml+=(mhtml?' ':'')+'<span class="fmt'+(film?' film':'')+'">'+esc(s.format)+'</span>';
   }
   if(s._out)mhtml+=(mhtml?' ':'')+'<span class="airstamp">Open Air</span>';
+  var sct=scoreTiles(s.film_key);
+  if(sct)mhtml+=(mhtml?' ':'')+sct;
   var inner='<span class="tstamp'+(late?' late':'')+'">'+timeHTML(s.time)+'</span>'+
     '<span class="main"><span class="title">'+esc(s.title)+'</span>'+
     (mhtml?'<span class="meta">'+mhtml+'</span>':'')+
     (s.series?'<span class="series">'+esc(s.series)+'</span>':'')+
     '</span>';
-  var rail=railHTML(s._serial,trailerFor(s.film_key),s.title,scoresFor(s.film_key));
+  var rail=railHTML(s._serial,trailerFor(s.film_key),s.title);
   var u=s.ticket_url, core;
   if(u&&/^https?:\/\//i.test(u)){
     core='<a class="stub" href="'+esc(u)+'" rel="noopener">'+inner+'</a>';
@@ -691,11 +694,13 @@ function renderTitle(rows,listEl){
         (v.out?' <span class="airstamp">Open Air</span>':'')+
         '<span class="dash"> &mdash; </span>'+runs+'</p>';
     }).join('');
+    var gsc=scoreTiles(g.fk);
+    var metaHTML=meta.join(' &middot; ')+(gsc?(meta.length?' ':'')+gsc:'');
     var inner='<div class="main"><span class="title">'+esc(g.title)+'</span>'+
-      (meta.length?'<span class="meta">'+meta.join(' &middot; ')+'</span>':'')+
+      (metaHTML?'<span class="meta">'+metaHTML+'</span>':'')+
       '<div class="fvenues">'+lines+'</div></div>';
     out.push('<div class="srow"><div class="stub filmcard">'+inner+'</div>'+
-      railHTML('F-'+pad6(i+1).slice(2),trailerFor(g.fk),g.title,scoresFor(g.fk))+'</div>');
+      railHTML('F-'+pad6(i+1).slice(2),trailerFor(g.fk),g.title)+'</div>');
   }
   out.push('</section>');
   listEl.innerHTML=out.join('');
