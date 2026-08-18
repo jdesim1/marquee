@@ -214,9 +214,15 @@ a.stub:active{filter:brightness(.96)}
   text-transform:uppercase;border:1px solid var(--inkfaint);color:var(--inkfaint);
   padding:1px 5px 0;vertical-align:1px}
 .fmt.film{border:1.5px solid var(--red);color:var(--red);font-weight:400}
-.sctile{display:inline-block;font-family:var(--gothic);font-size:11.5px;letter-spacing:.1em;
-  text-transform:uppercase;border:1px solid var(--blue);color:var(--blue);
+.sctile{display:inline-flex;align-items:center;gap:3px;font-family:var(--gothic);font-size:11.5px;
+  letter-spacing:.06em;border:1px solid var(--inkfaint);color:var(--ink);
   padding:1px 5px 0;vertical-align:1px}
+.scico{width:11px;height:11px;flex:0 0 auto}
+.mcbox{display:inline-block;font-family:var(--gothic);font-size:11.5px;letter-spacing:.02em;
+  padding:1px 6px 0;vertical-align:1px;color:#fff;font-weight:600;min-width:14px;text-align:center}
+.mcbox.g{background:#66cc33}
+.mcbox.y{background:#ffcc33;color:#1f1e1c}
+.mcbox.r{background:#ff3b30}
 /* rubber stamp for open-air screenings — smaller sibling of the Today seal */
 .airstamp{display:inline-block;font-family:var(--stamp);font-size:10px;letter-spacing:.08em;
   text-transform:uppercase;color:var(--blue);border:1.5px solid var(--blue);
@@ -544,12 +550,21 @@ function trailerFor(fk){
   var fe=fk?FILMS[fk]:null;
   return (fe&&fe.trailer&&/^https?:\/\//i.test(fe.trailer))?fe.trailer:null;
 }
+var TOMATO='<svg class="scico" viewBox="0 0 16 16" aria-hidden="true">'+
+  '<ellipse cx="8" cy="9.4" rx="5.6" ry="5" fill="#fa320a"/>'+
+  '<path fill="#00912d" d="M8 1.2C7.6 2.4 6.2 3.2 4.8 3c.8 1 2 1.5 3.2 1.3-1 .5-2.3.5-3.3 0 .7 1.2 2.2 1.8 3.3 1.3.6-.2.6-.2 1.1 0 1.2.5 2.6-.1 3.3-1.3-1 .5-2.3.5-3.3 0 1.2.2 2.4-.3 3.2-1.3-1.5.2-2.9-.6-3.3-1.8z"/></svg>';
 function scoreTiles(fk){
   var fe=fk?FILMS[fk]:null;
   if(!fe)return '';
   var t='';
-  if(fe.rt)t+='<span class="sctile">RT '+esc(fe.rt)+'</span> ';
-  if(fe.metascore)t+='<span class="sctile">MC '+esc(fe.metascore)+'</span>';
+  if(fe.rt)t+='<span class="sctile" role="img" aria-label="Rotten Tomatoes '+esc(fe.rt)+'">'+
+    TOMATO+esc(fe.rt)+'</span> ';
+  if(fe.metascore){
+    var m=parseInt(fe.metascore,10);
+    var cls=m>=61?'g':(m>=40?'y':'r');
+    t+='<span class="mcbox '+cls+'" role="img" aria-label="Metascore '+esc(fe.metascore)+'">'+
+      esc(fe.metascore)+'</span>';
+  }
   return t.trim();
 }
 /* the fine-print rail lives NEXT TO the stub (inside .srow), never inside its
