@@ -115,6 +115,9 @@ h1{font-family:var(--disp);font-weight:400;text-transform:uppercase;
 .preset{border-color:var(--red);border-width:2px;color:var(--red);font-size:15.5px}
 .preset.ghost{border:1.5px dashed var(--ink);color:var(--ink)}
 .sep{flex:0 0 auto;height:26px;border-left:2px dashed var(--groundink);opacity:.55;margin:0 3px}
+/* view tabs: two tickets still joined on the roll, torn along the shared perforation */
+.viewtabs{display:flex;flex:0 0 auto}
+.viewtabs .tkt+.tkt{margin-left:-1.5px;border-left-style:dashed}
 
 /* ---------- the box-office window card (filter panel) ---------- */
 #panel{margin:6px 14px 16px;padding:16px 14px 18px;display:grid;gap:15px;
@@ -166,8 +169,11 @@ select{background-image:linear-gradient(45deg,transparent 46%,var(--ink) 46%,var
   opacity:.9;text-transform:uppercase}
 
 /* ---------- the stub itself ---------- */
+/* .srow wraps each stub so the fine-print rail (serial + trailer link) can hold
+   a real link without nesting an <a> inside the stub's own ticket <a>. */
+.srow{position:relative;margin:7px 10px}
 .stub{position:relative;display:flex;gap:10px;align-items:flex-start;
-  margin:7px 10px;padding:11px 14px 24px 30px;min-height:64px;
+  padding:11px 14px 24px 30px;min-height:64px;
   background:var(--stock);
   background-image:var(--noise),linear-gradient(178deg,rgba(255,255,255,.32),rgba(96,72,24,.05));
   border:1px solid var(--stockedge);box-shadow:var(--shadow);
@@ -189,10 +195,10 @@ a.stub:active{filter:brightness(.96)}
 .tstamp.late{color:var(--red)}
 .tba{opacity:.55;letter-spacing:.1em}
 /* the stamp never lands perfectly square */
-.stub:nth-child(3n) .tstamp{transform:rotate(-.7deg)}
-.stub:nth-child(3n+1) .tstamp{transform:rotate(.5deg)}
-.stub:nth-child(7n+2) .tstamp{transform:rotate(1.1deg)}
-.stub:nth-child(11n+4) .tstamp{transform:rotate(-1.2deg)}
+.srow:nth-child(3n) .tstamp{transform:rotate(-.7deg)}
+.srow:nth-child(3n+1) .tstamp{transform:rotate(.5deg)}
+.srow:nth-child(7n+2) .tstamp{transform:rotate(1.1deg)}
+.srow:nth-child(11n+4) .tstamp{transform:rotate(-1.2deg)}
 
 .main{flex:1;min-width:0}
 .title{display:inline;font-weight:700;font-size:16.5px;line-height:1.3;
@@ -202,6 +208,10 @@ a.stub:active{filter:brightness(.96)}
   text-transform:uppercase;border:1px solid var(--inkfaint);color:var(--inkfaint);
   padding:1px 5px 0;vertical-align:1px}
 .fmt.film{border:1.5px solid var(--red);color:var(--red);font-weight:400}
+/* rubber stamp for open-air screenings — smaller sibling of the Today seal */
+.airstamp{display:inline-block;font-family:var(--stamp);font-size:10px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--blue);border:1.5px solid var(--blue);
+  padding:0 5px;transform:rotate(-2deg);vertical-align:1px;opacity:.9;white-space:nowrap}
 .series{display:block;color:var(--inkfaint);font-size:12.5px;font-style:italic;margin-top:2px}
 /* serial fine print along the bottom edge — real data */
 .serialrow{position:absolute;left:30px;right:14px;bottom:5px;display:flex;
@@ -209,6 +219,25 @@ a.stub:active{filter:brightness(.96)}
   font-family:var(--gothic);font-size:9px;letter-spacing:.28em;text-transform:uppercase;
   color:var(--inkfaint);opacity:.8;white-space:nowrap;overflow:hidden}
 .serialrow .no{font-family:var(--stamp);font-size:9px;letter-spacing:.14em}
+.serialrow .rr{display:flex;gap:12px;align-items:baseline}
+.trl{pointer-events:auto;color:var(--red);text-decoration:none;border-bottom:1px dotted transparent}
+.trl:hover{border-bottom-color:var(--red)}
+
+/* ---------- the film card (By Title view): same stock, laid out flat ---------- */
+.filmcard{display:block}
+.fvenues{margin-top:9px;display:grid;gap:5px}
+.fvline{font-size:13.5px;line-height:1.55;color:var(--ink)}
+.fvname{font-family:var(--gothic);font-size:12.5px;letter-spacing:.15em;text-transform:uppercase;white-space:nowrap}
+.fvline .dash{color:var(--inkfaint)}
+.fdate{font-family:var(--gothic);font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--inkfaint);white-space:nowrap}
+.ftime{font-family:var(--stamp);font-variant-numeric:tabular-nums;font-size:13px;color:var(--blue);
+  text-decoration:none;white-space:nowrap}
+a.ftime{border-bottom:1px dotted var(--blue)}
+.ftime.late{color:var(--red)}
+a.ftime.late{border-bottom-color:var(--red)}
+.ftime .ap{font-size:9px;letter-spacing:.05em}
+.films{padding-top:10px}
 
 .note{padding:46px 20px;color:var(--groundink);text-align:center;
   font-family:var(--gothic);font-size:17px;letter-spacing:.12em;text-transform:uppercase}
@@ -218,6 +247,10 @@ footer{padding:26px 16px calc(30px + env(safe-area-inset-bottom));margin-top:28p
   font-family:var(--gothic);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;line-height:2}
 .fine{letter-spacing:.3em;opacity:.7;margin-bottom:4px}
 footer a{color:inherit;text-decoration:none;border-bottom:1.5px dotted var(--groundink)}
+.tmdbrow{margin-top:12px}
+.tmdbrow a{border-bottom:0}
+.tmdbrow svg{width:100px;height:auto;vertical-align:middle}
+.tmdbnote{display:block;margin-top:5px;font-size:10px;letter-spacing:.12em;text-transform:none;opacity:.75}
 
 @media (min-width:760px){
   body{max-width:920px;margin:0 auto}
@@ -227,7 +260,8 @@ footer a{color:inherit;text-decoration:none;border-bottom:1.5px dotted var(--gro
   .count{text-align:right;font-size:12px;letter-spacing:.14em}
   .tag{font-size:11px;letter-spacing:.3em}
   .strip{flex-wrap:wrap;overflow:visible;padding-left:16px;padding-right:16px}
-  .stub{margin:8px 16px;padding-left:32px}
+  .srow{margin:8px 16px}
+  .stub{padding-left:32px}
   .tstamp{flex-basis:96px;font-size:19px}
   .dayhead{font-size:18px}
 }
@@ -257,6 +291,11 @@ footer a{color:inherit;text-decoration:none;border-bottom:1.5px dotted var(--gro
   <button class="tkt" data-act="range-week" aria-pressed="false">This week</button>
   <button class="tkt" data-act="range-weekend" aria-pressed="false">Weekend</button>
   <button class="tkt" data-act="range-all" aria-pressed="false">All</button>
+  <span class="sep" aria-hidden="true"></span>
+  <div class="viewtabs" role="group" aria-label="View">
+    <button class="tkt" data-act="view-date" aria-pressed="true">By Date</button>
+    <button class="tkt" data-act="view-title" aria-pressed="false">By Title</button>
+  </div>
 </nav>
 
 <section id="panel" hidden>
@@ -315,17 +354,25 @@ footer a{color:inherit;text-decoration:none;border-bottom:1.5px dotted var(--gro
       <button class="tkt" data-act="toggle-fmt" data-val="16mm" aria-pressed="false">16mm</button>
     </div>
   </div>
+  <div>
+    <p class="grouplab">Setting</p>
+    <div class="strip wrap" role="group" aria-label="Setting">
+      <button class="tkt" data-act="toggle-air" data-val="1" aria-pressed="false">Open Air</button>
+    </div>
+  </div>
 </section>
 
 <main id="list"><p class="note">Loading&#8230;</p></main>
 <footer>
   <p class="fine" aria-hidden="true">&middot; No Refunds &middot; No Exchanges &middot; Not Valid Unless Torn &middot;</p>
   <p id="foot"></p>
+  <p class="tmdbrow"><a href="https://www.themoviedb.org" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273.42 35.52" width="100" height="12.99" role="img" aria-label="TMDB"><defs><linearGradient id="tmdblg" y1="17.76" x2="273.42" y2="17.76" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#90cea1"/><stop offset="0.56" stop-color="#3cbec9"/><stop offset="1" stop-color="#00b3e5"/></linearGradient></defs><path fill="url(#tmdblg)" d="M191.85,35.37h63.9A17.67,17.67,0,0,0,273.42,17.7h0A17.67,17.67,0,0,0,255.75,0h-63.9A17.67,17.67,0,0,0,174.18,17.7h0A17.67,17.67,0,0,0,191.85,35.37ZM10.1,35.42h7.8V6.92H28V0H0v6.9H10.1Zm28.1,0H46V8.25h.1L55.05,35.4h6L70.3,8.25h.1V35.4h7.8V0H66.45l-8.2,23.1h-.1L50,0H38.2ZM89.14.12h11.7a33.56,33.56,0,0,1,8.08,1,18.52,18.52,0,0,1,6.67,3.08,15.09,15.09,0,0,1,4.53,5.52,18.5,18.5,0,0,1,1.67,8.25,16.91,16.91,0,0,1-1.62,7.58,16.3,16.3,0,0,1-4.38,5.5,19.24,19.24,0,0,1-6.35,3.37,24.53,24.53,0,0,1-7.55,1.15H89.14Zm7.8,28.2h4a21.66,21.66,0,0,0,5-.55A10.58,10.58,0,0,0,110,26a8.73,8.73,0,0,0,2.68-3.35,11.9,11.9,0,0,0,1-5.08,9.87,9.87,0,0,0-1-4.52,9.17,9.17,0,0,0-2.63-3.18A11.61,11.61,0,0,0,106.22,8a17.06,17.06,0,0,0-4.68-.63h-4.6ZM133.09.12h13.2a32.87,32.87,0,0,1,4.63.33,12.66,12.66,0,0,1,4.17,1.3,7.94,7.94,0,0,1,3,2.72,8.34,8.34,0,0,1,1.15,4.65,7.48,7.48,0,0,1-1.67,5,9.13,9.13,0,0,1-4.43,2.82V17a10.28,10.28,0,0,1,3.18,1,8.51,8.51,0,0,1,2.45,1.85,7.79,7.79,0,0,1,1.57,2.62,9.16,9.16,0,0,1,.55,3.2,8.52,8.52,0,0,1-1.2,4.68,9.32,9.32,0,0,1-3.1,3A13.38,13.38,0,0,1,152.32,35a22.5,22.5,0,0,1-4.73.5h-14.5Zm7.8,14.15h5.65a7.65,7.65,0,0,0,1.78-.2,4.78,4.78,0,0,0,1.57-.65,3.43,3.43,0,0,0,1.13-1.2,3.63,3.63,0,0,0,.42-1.8A3.3,3.3,0,0,0,151,8.6a3.42,3.42,0,0,0-1.23-1.13A6.07,6.07,0,0,0,148,6.9a9.9,9.9,0,0,0-1.85-.18h-5.3Zm0,14.65h7a8.27,8.27,0,0,0,1.83-.2,4.67,4.67,0,0,0,1.67-.7,3.93,3.93,0,0,0,1.23-1.3,3.8,3.8,0,0,0,.47-1.95,3.16,3.16,0,0,0-.62-2,4,4,0,0,0-1.58-1.18,8.23,8.23,0,0,0-2-.55,15.12,15.12,0,0,0-2.05-.15h-5.9Z"/></svg></a>
+  <span class="tmdbnote">This product uses the TMDB API but is not endorsed or certified by TMDB.</span></p>
 </footer>
 
 <script>
 'use strict';
-var DATA=null, VEN={}, ROWS=[];
+var DATA=null, VEN={}, ROWS=[], FILMS={};
 var DAYN=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 var MONN=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 var CATL={doc:'Doc',rep:'Rep',indie:'Indie',micro:'Micro',museum:'Museum','dine-in':'Dine-in',chain:'Chain'};
@@ -343,7 +390,7 @@ function weekendRange(){var g=new Date().getDay();
   if(g===0)return [today(),today()];
   var sat=addDays(today(),6-g);return [sat,addDays(sat,1)];}
 function boroLabel(b){return String(b).replace(/-/g,' ');}
-function defaults(){return {q:'',from:today(),to:addDays(today(),14),after:'',dow:[],cat:[],boro:[],fmt:[],venue:''};}
+function defaults(){return {q:'',from:today(),to:addDays(today(),14),after:'',dow:[],cat:[],boro:[],fmt:[],venue:'',air:false,view:'date'};}
 var S=defaults();
 
 /* ---------- URL hash <-> state ---------- */
@@ -358,7 +405,9 @@ function stateToHash(){
   if(S.cat.length)p.set('cat',S.cat.join('.'));
   if(S.boro.length)p.set('boro',S.boro.join('.'));
   if(S.fmt.length)p.set('fmt',S.fmt.join('.'));
+  if(S.air)p.set('air','1');
   if(S.venue)p.set('venue',S.venue);
+  if(S.view==='title')p.set('view','title');
   var h=p.toString();
   history.replaceState(null,'', h?('#'+h):(location.pathname+location.search));
 }
@@ -368,7 +417,8 @@ function hashToState(){
   var p=new URLSearchParams(raw);
   function list(k){var v=p.get(k);return v?v.split('.').filter(Boolean):[];}
   S={q:p.get('q')||'', from:p.get('from')||'', to:p.get('to')||'', after:p.get('after')||'',
-     dow:list('dow'), cat:list('cat'), boro:list('boro'), fmt:list('fmt'), venue:p.get('venue')||''};
+     dow:list('dow'), cat:list('cat'), boro:list('boro'), fmt:list('fmt'), venue:p.get('venue')||'',
+     air:p.get('air')==='1', view:p.get('view')==='title'?'title':'date'};
 }
 
 /* ---------- data load ---------- */
@@ -382,6 +432,7 @@ fetch('./data.json',{cache:'no-store'})
 
 function init(data){
   DATA=data;
+  FILMS=(data.films&&typeof data.films==='object')?data.films:{};
   (data.venues||[]).forEach(function(v){if(v&&v.slug)VEN[v.slug]=v;});
   ROWS=[];
   (data.screenings||[]).forEach(function(r){
@@ -398,6 +449,8 @@ function init(data){
       r._cat=v?(v.category||null):null;
       r._tl=String(r.title).toLowerCase();
       r._dow=isoDow(r.date);
+      r._fkey=r.film_key||(r._tl+'|'+(r.year||''));
+      r._out=!!(r.tags&&r.tags.indexOf&&r.tags.indexOf('outdoor')>=0);
       ROWS.push(r);
     }catch(e){/* skip malformed record */}
   });
@@ -467,6 +520,7 @@ function pass(s){
     for(var i=0;i<S.fmt.length;i++){if(f.indexOf(S.fmt[i].toLowerCase())>=0){hit=true;break;}}
     if(!hit)return false;
   }
+  if(S.air&&!s._out)return false;
   if(S.venue&&s._vkey!==S.venue)return false;
   return true;
 }
@@ -476,6 +530,18 @@ function timeHTML(t){
   if(!t)return '<span class="tba">TBA</span>';
   var h=+t.slice(0,2), m=t.slice(3,5), ap=h>=12?'PM':'AM'; h=h%12||12;
   return h+':'+m+'<span class="ap">'+ap+'</span>';
+}
+function trailerFor(fk){
+  var fe=fk?FILMS[fk]:null;
+  return (fe&&fe.trailer&&/^https?:\/\//i.test(fe.trailer))?fe.trailer:null;
+}
+/* the fine-print rail lives NEXT TO the stub (inside .srow), never inside its
+   <a>, so the trailer link can be a real anchor without nesting anchors */
+function railHTML(serial,tr,title){
+  return '<span class="serialrow"><span aria-hidden="true">Admit One</span><span class="rr">'+
+    (tr?'<a class="trl" href="'+esc(tr)+'" target="_blank" rel="noopener" aria-label="Trailer: '+
+        esc(title)+'">&#9654;&#xFE0E; Trailer</a>':'')+
+    '<span class="no" aria-hidden="true">No. '+serial+'</span></span></span>';
 }
 function rowHTML(s){
   var late=!!(s.time&&s.time>='22:00');
@@ -488,18 +554,20 @@ function rowHTML(s){
     var film=/\b(8|16|35|70)\s?mm\b/i.test(s.format);
     mhtml+=(mhtml?' ':'')+'<span class="fmt'+(film?' film':'')+'">'+esc(s.format)+'</span>';
   }
+  if(s._out)mhtml+=(mhtml?' ':'')+'<span class="airstamp">Open Air</span>';
   var inner='<span class="tstamp'+(late?' late':'')+'">'+timeHTML(s.time)+'</span>'+
     '<span class="main"><span class="title">'+esc(s.title)+'</span>'+
     (mhtml?'<span class="meta">'+mhtml+'</span>':'')+
     (s.series?'<span class="series">'+esc(s.series)+'</span>':'')+
-    '</span>'+
-    '<span class="serialrow" aria-hidden="true"><span>Admit One</span>'+
-    '<span class="no">No. '+s._serial+'</span></span>';
-  var u=s.ticket_url;
+    '</span>';
+  var rail=railHTML(s._serial,trailerFor(s.film_key),s.title);
+  var u=s.ticket_url, core;
   if(u&&/^https?:\/\//i.test(u)){
-    return '<a class="stub" href="'+esc(u)+'" rel="noopener">'+inner+'</a>';
+    core='<a class="stub" href="'+esc(u)+'" rel="noopener">'+inner+'</a>';
+  }else{
+    core='<div class="stub">'+inner+'</div>';
   }
-  return '<div class="stub">'+inner+'</div>';
+  return '<div class="srow">'+core+rail+'</div>';
 }
 function dayLabel(ds){
   var p=ds.split('-');var d=new Date(+p[0],+p[1]-1,+p[2]);
@@ -509,7 +577,7 @@ function dayLabel(ds){
 function render(){
   var rows=ROWS.filter(pass);
   var films={};
-  rows.forEach(function(r){films[r._tl+'|'+(r.year||'')]=1;});
+  rows.forEach(function(r){films[r._fkey]=1;});
   var nf=Object.keys(films).length;
   document.getElementById('count').textContent=
     rows.length+' screening'+(rows.length===1?'':'s')+' · '+nf+' film'+(nf===1?'':'s');
@@ -518,6 +586,10 @@ function render(){
     listEl.innerHTML='<p class="note">Nothing matches. Loosen a filter, or tap Everything.</p>';
     return;
   }
+  if(S.view==='title'){renderTitle(rows,listEl);return;}
+  renderDate(rows,listEl);
+}
+function renderDate(rows,listEl){
   var out=[], curD=null, curV=null, tod=today();
   for(var i=0;i<rows.length;i++){
     var s=rows[i];
@@ -546,6 +618,73 @@ function render(){
   listEl.innerHTML=out.join('');
 }
 
+/* ---------- By Title: one card per film, alphabetical (ignoring A/An/The) ---------- */
+function sortTitle(t){return String(t).toLowerCase().replace(/^(a|an|the)\s+/,'');}
+function mdLabel(ds){var p=ds.split('-');var d=new Date(+p[0],+p[1]-1,+p[2]);
+  return DAYN[d.getDay()]+' '+(+p[1])+'/'+(+p[2]);}
+function renderTitle(rows,listEl){
+  var G={}, order=[];
+  rows.forEach(function(r){
+    var g=G[r._fkey];
+    if(!g){g=G[r._fkey]={fk:r.film_key||null,title:r.title,year:r.year||null,
+      director:r.director||null,rt:r.runtime_min||null,ven:{},vord:[]};order.push(g);}
+    if(!g.year&&r.year)g.year=r.year;
+    if(!g.director&&r.director)g.director=r.director;
+    if(!g.rt&&r.runtime_min)g.rt=r.runtime_min;
+    var v=g.ven[r._vkey];
+    if(!v){v=g.ven[r._vkey]={name:r._vname,out:false,days:{},dord:[]};g.vord.push(v);}
+    if(r._out)v.out=true;
+    if(!v.days[r.date]){v.days[r.date]=[];v.dord.push(r.date);}
+    v.days[r.date].push(r);
+  });
+  order.forEach(function(g){
+    var fe=g.fk?FILMS[g.fk]:null;
+    if(fe&&!g.year&&fe.year)g.year=fe.year;
+  });
+  order.sort(function(a,b){
+    var x=sortTitle(a.title), y=sortTitle(b.title);
+    if(x!==y)return x<y?-1:1;
+    return (a.year||0)-(b.year||0);
+  });
+  var out=['<section class="films">'];
+  for(var i=0;i<order.length;i++){
+    var g=order[i];
+    g.vord.sort(function(a,b){
+      var x=a.name.toLowerCase(), y=b.name.toLowerCase();
+      return x<y?-1:(x>y?1:0);});
+    var meta=[];
+    if(g.year)meta.push(esc(g.year));
+    if(g.director)meta.push(esc(g.director));
+    if(g.rt)meta.push(esc(g.rt)+' min');
+    var lines=g.vord.map(function(v){
+      v.dord.sort();
+      var runs=v.dord.map(function(ds){
+        var ts=v.days[ds].slice().sort(function(a,b){
+          var at=a.time||'99:99', bt=b.time||'99:99';
+          return at<bt?-1:(at>bt?1:0);});
+        var th=ts.map(function(r){
+          var late=!!(r.time&&r.time>='22:00');
+          var body=timeHTML(r.time);
+          if(r.ticket_url&&/^https?:\/\//i.test(r.ticket_url))
+            return '<a class="ftime'+(late?' late':'')+'" href="'+esc(r.ticket_url)+'" rel="noopener">'+body+'</a>';
+          return '<span class="ftime'+(late?' late':'')+'">'+body+'</span>';
+        }).join(', ');
+        return '<span class="fdate">'+mdLabel(ds)+'</span> '+th;
+      }).join(' &middot; ');
+      return '<p class="fvline"><span class="fvname">'+esc(v.name)+'</span>'+
+        (v.out?' <span class="airstamp">Open Air</span>':'')+
+        '<span class="dash"> &mdash; </span>'+runs+'</p>';
+    }).join('');
+    var inner='<div class="main"><span class="title">'+esc(g.title)+'</span>'+
+      (meta.length?'<span class="meta">'+meta.join(' &middot; ')+'</span>':'')+
+      '<div class="fvenues">'+lines+'</div></div>';
+    out.push('<div class="srow"><div class="stub filmcard">'+inner+'</div>'+
+      railHTML('F-'+pad6(i+1).slice(2),trailerFor(g.fk),g.title)+'</div>');
+  }
+  out.push('</section>');
+  listEl.innerHTML=out.join('');
+}
+
 /* ---------- UI sync ---------- */
 function rangeMode(){
   if(!S.from&&!S.to)return 'all';
@@ -569,6 +708,7 @@ function syncUI(){
     else if(act==='toggle-cat')on=S.cat.indexOf(v)>=0;
     else if(act==='toggle-boro')on=S.boro.indexOf(v)>=0;
     else if(act==='toggle-fmt')on=S.fmt.indexOf(v)>=0;
+    else if(act==='toggle-air')on=S.air;
     b.classList.toggle('on',on);
     b.setAttribute('aria-pressed',on?'true':'false');
   }
@@ -578,6 +718,10 @@ function syncUI(){
       var b=document.querySelector('button[data-act="'+pr[0]+'"]');
       if(b){var on=mode===pr[1];b.classList.toggle('on',on);b.setAttribute('aria-pressed',on?'true':'false');}
     });
+  [['view-date','date'],['view-title','title']].forEach(function(pr){
+    var b=document.querySelector('button[data-act="'+pr[0]+'"]');
+    if(b){var on=S.view===pr[1];b.classList.toggle('on',on);b.setAttribute('aria-pressed',on?'true':'false');}
+  });
 }
 function update(){stateToHash();syncUI();render();}
 function tog(arr,v){var i=arr.indexOf(v);if(i<0)arr.push(v);else arr.splice(i,1);}
@@ -594,10 +738,11 @@ document.addEventListener('click',function(e){
     b.classList.toggle('on',open);
     return;
   }
-  if(act==='preset-tonight'){S=defaults();S.from=today();S.to=endOfWeek();S.after='22:00';}
-  else if(act==='preset-weekend'){S=defaults();w=weekendRange();S.from=w[0];S.to=w[1];S.after='20:00';
+  var vw=S.view;  /* the view survives preset resets: it's a lens, not a filter */
+  if(act==='preset-tonight'){S=defaults();S.view=vw;S.from=today();S.to=endOfWeek();S.after='22:00';}
+  else if(act==='preset-weekend'){S=defaults();S.view=vw;w=weekendRange();S.from=w[0];S.to=w[1];S.after='20:00';
     S.cat=['doc','rep','indie','micro','museum','dine-in'];}
-  else if(act==='preset-reset'){S=defaults();}
+  else if(act==='preset-reset'){S=defaults();S.view=vw;}
   else if(act==='range-today'){S.from=today();S.to=today();}
   else if(act==='range-week'){S.from=today();S.to=endOfWeek();}
   else if(act==='range-weekend'){w=weekendRange();S.from=w[0];S.to=w[1];}
@@ -606,6 +751,9 @@ document.addEventListener('click',function(e){
   else if(act==='toggle-cat'){tog(S.cat,val);}
   else if(act==='toggle-boro'){tog(S.boro,val);}
   else if(act==='toggle-fmt'){tog(S.fmt,val);}
+  else if(act==='toggle-air'){S.air=!S.air;}
+  else if(act==='view-date'){S.view='date';}
+  else if(act==='view-title'){S.view='title';}
   else return;
   update();
 });

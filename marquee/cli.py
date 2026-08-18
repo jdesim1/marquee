@@ -20,13 +20,13 @@ def main(argv=None):
     args = p.parse_args(argv)
     start = args.start or datetime.date.today().isoformat()
 
-    from .adapters import repertory_nyc, screenslate
-    from . import normalize, store, build_site
+    from .adapters import alamo, nyc_parks, poorstuart, repertory_nyc, screenslate
+    from . import enrich, normalize, store, build_site
 
     venues = json.loads((ROOT / "data" / "venues.json").read_text())
 
     raws = []
-    for mod in (repertory_nyc, screenslate):
+    for mod in (repertory_nyc, screenslate, alamo, nyc_parks, poorstuart):
         name = mod.__name__.rsplit(".", 1)[-1]
         try:
             got = mod.fetch(start, args.days)
@@ -42,9 +42,16 @@ def main(argv=None):
     db = store.Store(ROOT / "marquee.db")
     screenings = db.upsert(canon)
 
+    try:
+        films = enrich.enrich(screenings, ROOT / "data" / "tmdb_cache.json")
+        print(f"[marquee] enrich: {len(films)} films matched to TMDB", file=sys.stderr)
+    except Exception as e:  # enrichment is additive — never fatal
+        print(f"[marquee] WARNING: enrich failed: {e}", file=sys.stderr)
+        films = {}
+
     site_dir = ROOT / "build" / "site"
     generated_at = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
-    build_site.build(site_dir, venues["venues"], screenings, generated_at)
+    build_site.build(site_dir, venues["venues"], screenings, generated_at, films)
     print(f"[marquee] {len(screenings)} screenings -> {site_dir / 'index.html'}", file=sys.stderr)
     return 0
 

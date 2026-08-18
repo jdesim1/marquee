@@ -10,7 +10,8 @@ import re
 from .model import RawScreening
 
 # Higher wins when the same showtime arrives from multiple sources.
-SOURCE_PRIORITY = {"repertory_nyc": 2, "screenslate": 1}
+# Venue-direct beats curated aggregator beats daily-snapshot fill.
+SOURCE_PRIORITY = {"repertory_nyc": 4, "alamo": 3, "screenslate": 2, "nyc_parks": 2, "poorstuart": 1}
 
 _punct = re.compile(r"[^a-z0-9]+")
 
@@ -77,7 +78,9 @@ def normalize(raws: list[RawScreening], venues: dict) -> tuple[list[dict], list[
         if not r.title_raw or not r.date:
             continue
         slug = amap.get(_key(r.venue_raw))
-        if slug is None:
+        if slug is None and not r.extra.get("outdoor"):
+            # Outdoor hosts (parks, rooftops) are deliberately unregistered;
+            # only report venues that look like missing aliases.
             unmatched.append(r.venue_raw)
         # Source data bug seen live: release year leaking into runtime ("2025 min").
         year, runtime = r.year, r.runtime_min
@@ -103,6 +106,8 @@ def normalize(raws: list[RawScreening], venues: dict) -> tuple[list[dict], list[
             "ticket_url": r.ticket_url,
             "series": r.series,
             "source": r.source,
+            "film_key": _title_key(r.title_raw),
+            "tags": ["outdoor"] if r.extra.get("outdoor") else [],
         }
         prio = SOURCE_PRIORITY.get(r.source, 0)
         kept = best.get(dedupe_key)
@@ -115,6 +120,7 @@ def normalize(raws: list[RawScreening], venues: dict) -> tuple[list[dict], list[
             merged = {k: (hi[k] if hi[k] not in (None, "") else lo[k]) for k in hi}
             merged["id"] = hi["id"]
             merged["source"] = hi["source"]
+            merged["tags"] = sorted(set(hi.get("tags", [])) | set(lo.get("tags", [])))
             best[dedupe_key] = (max(prio, kept_prio), merged)
 
     out = sorted((rec for _, rec in best.values()),

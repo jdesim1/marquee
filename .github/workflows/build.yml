@@ -29,13 +29,17 @@ jobs:
       - name: Restore screening history
         uses: actions/cache@v4
         with:
-          path: marquee.db
+          path: |
+            marquee.db
+            data/tmdb_cache.json
           key: marquee-db-${{ github.run_id }}
           restore-keys: |
             marquee-db-
 
       - name: Fetch sources and build site
         run: python3 -m marquee --days 60
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 
       - name: Configure Pages
         uses: actions/configure-pages@v4

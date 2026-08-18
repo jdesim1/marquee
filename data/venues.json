@@ -1,57 +1,960 @@
 {
-  "_comment": "Marquee venue registry. category: doc|rep|indie|micro|museum|dine-in|chain. aliases are matched casefolded/punctuation-stripped against source venue names. Verified operating July 2026.",
-  "venues": [
-    {"slug": "film-forum", "name": "Film Forum", "borough": "manhattan", "category": "rep", "website": "https://filmforum.org", "aliases": []},
-    {"slug": "ifc-center", "name": "IFC Center", "borough": "manhattan", "category": "indie", "website": "https://www.ifccenter.com", "aliases": ["IFC"]},
-    {"slug": "metrograph", "name": "Metrograph", "borough": "manhattan", "category": "rep", "website": "https://metrograph.com", "aliases": []},
-    {"slug": "anthology-film-archives", "name": "Anthology Film Archives", "borough": "manhattan", "category": "rep", "website": "http://anthologyfilmarchives.org", "aliases": ["Anthology"]},
-    {"slug": "film-at-lincoln-center", "name": "Film at Lincoln Center", "borough": "manhattan", "category": "rep", "website": "https://www.filmlinc.org", "aliases": ["FLC", "Lincoln Center", "Walter Reade Theater", "Elinor Bunin Munroe Film Center", "Film Society of Lincoln Center"]},
-    {"slug": "moma", "name": "MoMA", "borough": "manhattan", "category": "museum", "website": "https://www.moma.org/calendar/film/", "aliases": ["Museum of Modern Art", "The Museum of Modern Art", "MoMA Titus Theaters"]},
-    {"slug": "angelika", "name": "Angelika Film Center", "borough": "manhattan", "category": "indie", "website": "https://angelikafilmcenter.com/nyc", "aliases": ["Angelika Film Center & Cafe", "Angelika New York"]},
-    {"slug": "village-east", "name": "Village East by Angelika", "borough": "manhattan", "category": "indie", "website": "https://angelikafilmcenter.com/villageeast", "aliases": ["Village East Cinema"]},
-    {"slug": "cinema-123", "name": "Cinema 123 by Angelika", "borough": "manhattan", "category": "indie", "website": "https://angelikafilmcenter.com/cinema123", "aliases": ["Cinema 1 2 3", "Cinema 123"]},
-    {"slug": "quad-cinema", "name": "Quad Cinema", "borough": "manhattan", "category": "indie", "website": "https://quadcinema.com", "aliases": ["Quad", "The Quad"]},
-    {"slug": "cinema-village", "name": "Cinema Village", "borough": "manhattan", "category": "indie", "website": "https://www.cinemavillage.com", "aliases": []},
-    {"slug": "paris-theater", "name": "Paris Theater", "borough": "manhattan", "category": "rep", "website": "https://www.paristheaternyc.com", "aliases": ["The Paris Theater", "Paris Theatre"]},
-    {"slug": "roxy-cinema", "name": "Roxy Cinema", "borough": "manhattan", "category": "micro", "website": "https://www.roxycinemanewyork.com", "aliases": ["Roxy Cinema New York", "The Roxy Cinema", "Roxy Hotel Cinema"]},
-    {"slug": "new-plaza-cinema", "name": "New Plaza Cinema", "borough": "manhattan", "category": "indie", "website": "https://www.newplazacinema.org", "aliases": []},
-    {"slug": "japan-society", "name": "Japan Society", "borough": "manhattan", "category": "rep", "website": "https://japansociety.org/film/", "aliases": ["Japan Society Film"]},
-    {"slug": "lalliance", "name": "L'Alliance New York", "borough": "manhattan", "category": "rep", "website": "https://lallianceny.org", "aliases": ["FIAF", "French Institute Alliance Francaise"]},
-    {"slug": "asia-society", "name": "Asia Society", "borough": "manhattan", "category": "museum", "website": "https://asiasociety.org/new-york", "aliases": []},
-    {"slug": "czech-center", "name": "Czech Center", "borough": "manhattan", "category": "rep", "website": "https://newyork.czechcentres.cz", "aliases": ["Czech Center New York", "Bohemian National Hall"]},
-    {"slug": "symphony-space", "name": "Symphony Space", "borough": "manhattan", "category": "rep", "website": "https://www.symphonyspace.org", "aliases": ["Leonard Nimoy Thalia", "Leonard Nimoy Thalia Theatre"]},
-    {"slug": "scandinavia-house", "name": "Scandinavia House", "borough": "manhattan", "category": "rep", "website": "https://www.scandinaviahouse.org", "aliases": []},
-    {"slug": "brooklyn-central-library", "name": "Brooklyn Central Library", "borough": "brooklyn", "category": "micro", "website": "https://www.bklynlibrary.org", "aliases": ["BPL Central Library", "Central Library"]},
-    {"slug": "ornithology-jazz-club", "name": "Ornithology Jazz Club", "borough": "brooklyn", "category": "micro", "website": "https://www.ornithologyjazzclub.com", "aliases": []},
-    {"slug": "united-palace", "name": "United Palace", "borough": "manhattan", "category": "rep", "website": "https://www.unitedpalace.org", "aliases": []},
-    {"slug": "film-makers-coop", "name": "The Film-Makers' Cooperative", "borough": "manhattan", "category": "micro", "website": "https://film-makerscoop.com", "aliases": ["Film-Makers' Cooperative", "Filmmakers Cooperative"]},
-    {"slug": "e-flux", "name": "e-flux Screening Room", "borough": "brooklyn", "category": "micro", "website": "https://www.e-flux.com/live/", "aliases": ["E-flux"]},
-    {"slug": "woodbine", "name": "Woodbine", "borough": "queens", "category": "micro", "website": "https://woodbine.nyc", "aliases": []},
-    {"slug": "dctv-firehouse", "name": "DCTV Firehouse Cinema", "borough": "manhattan", "category": "doc", "website": "https://firehousecinema.dctvny.org", "aliases": ["Firehouse Cinema", "Firehouse: DCTV's Cinema for Documentary Film", "DCTV", "Firehouse DCTV"]},
-    {"slug": "maysles", "name": "Maysles Documentary Center", "borough": "manhattan", "category": "doc", "website": "https://www.maysles.org", "aliases": ["Maysles Cinema", "Maysles Documentary Center"]},
-    {"slug": "alamo-fidi", "name": "Alamo Drafthouse Lower Manhattan", "borough": "manhattan", "category": "dine-in", "website": "https://drafthouse.com/nyc", "aliases": ["Alamo Drafthouse FiDi", "Alamo Drafthouse Financial District"]},
-    {"slug": "cinemas-fulton-market", "name": "The Cinemas at Fulton Market", "borough": "manhattan", "category": "dine-in", "website": "https://www.ipic.com/new-york-city-ny-fulton-market", "aliases": ["iPic New York", "iPic Fulton Market", "iPic Theaters New York"]},
-    {"slug": "light-industry", "name": "Light Industry", "borough": "brooklyn", "category": "micro", "website": "http://www.lightindustry.org", "aliases": []},
-    {"slug": "bam", "name": "BAM Rose Cinemas", "borough": "brooklyn", "category": "rep", "website": "https://www.bam.org/film", "aliases": ["BAM", "Brooklyn Academy of Music", "BAM Cinema", "BAM Rose"]},
-    {"slug": "nitehawk-williamsburg", "name": "Nitehawk Cinema Williamsburg", "borough": "brooklyn", "category": "dine-in", "website": "https://nitehawkcinema.com/williamsburg/", "aliases": ["Nitehawk Cinema", "Nitehawk Williamsburg"]},
-    {"slug": "nitehawk-prospect-park", "name": "Nitehawk Cinema Prospect Park", "borough": "brooklyn", "category": "dine-in", "website": "https://nitehawkcinema.com/prospectpark/", "aliases": ["Nitehawk Prospect Park"]},
-    {"slug": "alamo-brooklyn", "name": "Alamo Drafthouse Downtown Brooklyn", "borough": "brooklyn", "category": "dine-in", "website": "https://drafthouse.com/nyc", "aliases": ["Alamo Drafthouse Brooklyn", "Alamo Drafthouse City Point"]},
-    {"slug": "syndicated", "name": "Syndicated", "borough": "brooklyn", "category": "micro", "website": "https://syndicatedbk.com", "aliases": ["Syndicated Bar Theater Kitchen", "Syndicated BK"]},
-    {"slug": "cobble-hill-cinemas", "name": "Cobble Hill Cinemas", "borough": "brooklyn", "category": "indie", "website": "https://www.cobblehillcinemas.com", "aliases": []},
-    {"slug": "williamsburg-cinemas", "name": "Williamsburg Cinemas", "borough": "brooklyn", "category": "indie", "website": "https://www.williamsburgcinemas.com", "aliases": []},
-    {"slug": "alpine-cinemas", "name": "Alpine Cinemas", "borough": "brooklyn", "category": "indie", "website": "https://www.alpinecinemas.com", "aliases": []},
-    {"slug": "film-noir-cinema", "name": "Film Noir Cinema", "borough": "brooklyn", "category": "micro", "website": "https://www.filmnoircinema.com", "aliases": []},
-    {"slug": "spectacle", "name": "Spectacle Theater", "borough": "brooklyn", "category": "micro", "website": "https://www.spectacletheater.com", "aliases": ["Spectacle"]},
-    {"slug": "millennium-film-workshop", "name": "Millennium Film Workshop", "borough": "brooklyn", "category": "micro", "website": "https://millenniumfilm.org", "aliases": ["Millennium"]},
-    {"slug": "momi", "name": "Museum of the Moving Image", "borough": "queens", "category": "museum", "website": "https://movingimage.org", "aliases": ["MoMI"]},
-    {"slug": "kew-gardens-cinemas", "name": "Kew Gardens Cinemas", "borough": "queens", "category": "indie", "website": "https://www.kewgardenstheatre.com", "aliases": ["Kew Gardens Theatre"]},
-    {"slug": "cinemart-cinemas", "name": "Cinemart Cinemas", "borough": "queens", "category": "indie", "website": "https://www.cinemartcinemas.com", "aliases": ["Cinemart"]},
-    {"slug": "stuart-cinema", "name": "Stuart Cinema & Cafe", "borough": "queens", "category": "indie", "website": "https://www.stuartcinema.com", "aliases": ["Stuart Cinema"]},
-    {"slug": "low-cinema", "name": "Low Cinema", "borough": "queens", "category": "micro", "website": "https://lowcinema.com", "aliases": []},
-    {"slug": "uniondocs", "name": "UnionDocs", "borough": "queens", "category": "doc", "website": "https://uniondocs.org", "aliases": ["Union Docs"]},
-    {"slug": "bronx-documentary-center", "name": "Bronx Documentary Center", "borough": "bronx", "category": "doc", "website": "https://bronxdoc.org", "aliases": []},
-    {"slug": "cinema-on-the-sound", "name": "Cinema on the Sound", "borough": "bronx", "category": "micro", "website": "", "aliases": []},
-    {"slug": "alamo-staten-island", "name": "Alamo Drafthouse Staten Island", "borough": "staten-island", "category": "dine-in", "website": "https://drafthouse.com/staten-island", "aliases": []},
-    {"slug": "atrium-cinemas", "name": "Atrium Stadium Cinemas", "borough": "staten-island", "category": "indie", "website": "https://atriumcinemas.com", "aliases": ["Atrium Cinemas"]}
-  ]
+ "_comment": "Marquee venue registry. category: doc|rep|indie|micro|museum|dine-in|chain. aliases are matched casefolded/punctuation-stripped against source venue names. Verified operating July 2026.",
+ "venues": [
+  {
+   "slug": "bronx-documentary-center",
+   "name": "Bronx Documentary Center",
+   "borough": "bronx",
+   "category": "doc",
+   "website": "https://bronxdoc.org",
+   "aliases": []
+  },
+  {
+   "slug": "cinema-on-the-sound",
+   "name": "Cinema on the Sound",
+   "borough": "bronx",
+   "category": "micro",
+   "website": "",
+   "aliases": []
+  },
+  {
+   "slug": "alamo-brooklyn",
+   "name": "Alamo Drafthouse Downtown Brooklyn",
+   "borough": "brooklyn",
+   "category": "dine-in",
+   "website": "https://drafthouse.com/nyc",
+   "aliases": [
+    "Alamo Drafthouse Brooklyn",
+    "Alamo Drafthouse City Point",
+    "Alamo Drafthouse Cinema - Downtown Brooklyn"
+   ],
+   "address": "445 Albee Square West, Brooklyn, NY",
+   "phone": "(718) 513-2547",
+   "lat": 40.6907,
+   "lon": -73.983479
+  },
+  {
+   "slug": "alpine-cinemas",
+   "name": "Alpine Cinemas",
+   "borough": "brooklyn",
+   "category": "indie",
+   "website": "https://www.alpinecinemas.com",
+   "aliases": [],
+   "address": "6817 5th Ave, Bay Ridge, Brooklyn, NY",
+   "phone": "(718) 748-4200",
+   "lat": 40.634,
+   "lon": -74.0207
+  },
+  {
+   "slug": "bam",
+   "name": "BAM Rose Cinemas",
+   "borough": "brooklyn",
+   "category": "rep",
+   "website": "https://www.bam.org/film",
+   "aliases": [
+    "BAM",
+    "Brooklyn Academy of Music",
+    "BAM Cinema",
+    "BAM Rose"
+   ],
+   "address": "30 Lafayette Ave, Brooklyn, NY",
+   "phone": "(718) 636-4100",
+   "lat": 40.6868,
+   "lon": -73.9777
+  },
+  {
+   "slug": "brooklyn-central-library",
+   "name": "Brooklyn Central Library",
+   "borough": "brooklyn",
+   "category": "micro",
+   "website": "https://www.bklynlibrary.org",
+   "aliases": [
+    "BPL Central Library",
+    "Central Library"
+   ]
+  },
+  {
+   "slug": "cobble-hill-cinemas",
+   "name": "Cobble Hill Cinemas",
+   "borough": "brooklyn",
+   "category": "indie",
+   "website": "https://www.cobblehillcinemas.com",
+   "aliases": [],
+   "address": "265 Court Street, Brooklyn, NY",
+   "phone": "(718) 596-9113",
+   "lat": 40.6849,
+   "lon": -73.9946
+  },
+  {
+   "slug": "e-flux",
+   "name": "e-flux Screening Room",
+   "borough": "brooklyn",
+   "category": "micro",
+   "website": "https://www.e-flux.com/live/",
+   "aliases": [
+    "E-flux"
+   ]
+  },
+  {
+   "slug": "film-noir-cinema",
+   "name": "Film Noir Cinema",
+   "borough": "brooklyn",
+   "category": "micro",
+   "website": "https://www.filmnoircinema.com",
+   "aliases": [],
+   "address": "122 Meserole Ave, Brooklyn NY",
+   "phone": "(718) 389-5773",
+   "lat": 40.72723,
+   "lon": -73.95158
+  },
+  {
+   "slug": "light-industry",
+   "name": "Light Industry",
+   "borough": "brooklyn",
+   "category": "micro",
+   "website": "http://www.lightindustry.org",
+   "aliases": [],
+   "address": "361 Stagg St, Suite 407, Brooklyn NY",
+   "lat": 40.710758,
+   "lon": -73.934174
+  },
+  {
+   "slug": "millennium-film-workshop",
+   "name": "Millennium Film Workshop",
+   "borough": "brooklyn",
+   "category": "micro",
+   "website": "https://millenniumfilm.org",
+   "aliases": [
+    "Millennium"
+   ]
+  },
+  {
+   "slug": "nitehawk-prospect-park",
+   "name": "Nitehawk Cinema Prospect Park",
+   "borough": "brooklyn",
+   "category": "dine-in",
+   "website": "https://nitehawkcinema.com/prospectpark/",
+   "aliases": [
+    "Nitehawk Prospect Park"
+   ],
+   "address": "188 Prospect Park West, Brooklyn NY",
+   "phone": "(718) 369-0838 ",
+   "lat": 40.6615,
+   "lon": -73.9793
+  },
+  {
+   "slug": "nitehawk-williamsburg",
+   "name": "Nitehawk Cinema Williamsburg",
+   "borough": "brooklyn",
+   "category": "dine-in",
+   "website": "https://nitehawkcinema.com/williamsburg/",
+   "aliases": [
+    "Nitehawk Cinema",
+    "Nitehawk Williamsburg"
+   ],
+   "address": "136 Metropolitan Ave, Brooklyn, NY",
+   "phone": "(718) 384-3980 ",
+   "lat": 40.7162,
+   "lon": -73.9624
+  },
+  {
+   "slug": "ornithology-jazz-club",
+   "name": "Ornithology Jazz Club",
+   "borough": "brooklyn",
+   "category": "micro",
+   "website": "https://www.ornithologyjazzclub.com",
+   "aliases": []
+  },
+  {
+   "slug": "ua-sheepshead-bay",
+   "name": "Regal UA Sheepshead Bay",
+   "borough": "brooklyn",
+   "category": "chain",
+   "website": "https://www.fandango.com/ua-sheepshead-bay-stadium-14-imax-and-rpx-AABKC/theater-page",
+   "aliases": [
+    "UA Sheepshead Bay Stadium 14 IMAX & RPX"
+   ],
+   "address": "3907 Shore Pkwy, Brooklyn, NY",
+   "phone": "(844) 462-7342",
+   "lat": 40.5859,
+   "lon": -73.9309
+  },
+  {
+   "slug": "spectacle",
+   "name": "Spectacle Theater",
+   "borough": "brooklyn",
+   "category": "micro",
+   "website": "https://www.spectacletheater.com",
+   "aliases": [
+    "Spectacle"
+   ],
+   "address": "124 South 3rd St, between Bedford and Berry, Brooklyn NY",
+   "lat": 40.71253,
+   "lon": -73.96282
+  },
+  {
+   "slug": "syndicated",
+   "name": "Syndicated",
+   "borough": "brooklyn",
+   "category": "micro",
+   "website": "https://syndicatedbk.com",
+   "aliases": [
+    "Syndicated Bar Theater Kitchen",
+    "Syndicated BK"
+   ],
+   "address": "40 Bogart St., Bushwick, Brooklyn NY",
+   "lat": 40.704962,
+   "lon": -73.93286
+  },
+  {
+   "slug": "williamsburg-cinemas",
+   "name": "Williamsburg Cinemas",
+   "borough": "brooklyn",
+   "category": "indie",
+   "website": "https://www.williamsburgcinemas.com",
+   "aliases": [],
+   "address": "217 Grand St (Grand and Riggs), Brooklyn, NY",
+   "phone": "(718) 210-2955",
+   "lat": 40.7139,
+   "lon": -73.9599
+  },
+  {
+   "slug": "alamo-fidi",
+   "name": "Alamo Drafthouse Lower Manhattan",
+   "borough": "manhattan",
+   "category": "dine-in",
+   "website": "https://drafthouse.com/nyc",
+   "aliases": [
+    "Alamo Drafthouse FiDi",
+    "Alamo Drafthouse Financial District"
+   ],
+   "address": "28 Liberty Street, Lower Level, New York NY",
+   "lat": 40.707771,
+   "lon": -74.009117
+  },
+  {
+   "slug": "amc-19th-street-east",
+   "name": "AMC 19th St. East 6",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.amctheatres.com/movie-theatres/amc-loews-19th-st-east-6",
+   "aliases": [
+    "AMC Loews 19th Street East 6"
+   ],
+   "address": "890 Broadway, New York, NY",
+   "phone": "(888) 262-4386",
+   "lat": 40.7385,
+   "lon": -73.9903
+  },
+  {
+   "slug": "amc-34th-street",
+   "name": "AMC 34th Street 14",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.amctheatres.com/movie-theatres/amc-loews-34th-street-14",
+   "aliases": [
+    "AMC Loews 34th Street 14"
+   ],
+   "address": "312 West 34th St, New York NY",
+   "phone": "888-AMC-4FUN",
+   "lat": 40.7524,
+   "lon": -73.994
+  },
+  {
+   "slug": "amc-84th-street",
+   "name": "AMC 84th Street 6",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-84th-street-6",
+   "aliases": [
+    "AMC Loews 84th St"
+   ],
+   "address": "2310 Broadway (at 84th St) , New York, NY",
+   "phone": "(212) 877-3892 ",
+   "lat": 40.7866,
+   "lon": -73.97777
+  },
+  {
+   "slug": "amc-empire-25",
+   "name": "AMC Empire 25",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.amctheatres.com/movie-theatres/amc-empire-25",
+   "aliases": [],
+   "address": "234 West 42nd St, New York, NY",
+   "phone": "(888) 262-4386",
+   "lat": 40.7564,
+   "lon": -73.988
+  },
+  {
+   "slug": "amc-kips-bay",
+   "name": "AMC Kips Bay 15",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-loews-kips-bay-15",
+   "aliases": [
+    "AMC Loews Kips Bay 15"
+   ],
+   "address": "570 2nd Ave, New York NY",
+   "phone": "(888) 262-4386",
+   "lat": 40.7435,
+   "lon": -73.9767
+  },
+  {
+   "slug": "amc-lincoln-square",
+   "name": "AMC Lincoln Square 13",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-loews-lincoln-square-13",
+   "aliases": [
+    "AMC Loews Lincoln Square 13"
+   ],
+   "address": "1998 Broadway (at 68th St), New York, NY",
+   "phone": "(212) 336-5020",
+   "lat": 40.7753,
+   "lon": -73.982
+  },
+  {
+   "slug": "amc-magic-johnson-harlem",
+   "name": "AMC Magic Johnson Harlem 9",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-magic-johnson-harlem-9",
+   "aliases": [],
+   "address": "2309 Frederick Douglass Blvd., New York NY",
+   "phone": "212-665-8733",
+   "lat": 40.809686,
+   "lon": -73.951782
+  },
+  {
+   "slug": "amc-orpheum",
+   "name": "AMC Orpheum 7",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.fandango.com/amc-orpheum-7-AABQC/theater-page",
+   "aliases": [
+    "AMC Loews Orpheum 7"
+   ],
+   "address": "1538 Third Ave. (86th St),",
+   "phone": "(888) AMC-4FUN",
+   "lat": 40.7791,
+   "lon": -73.9537
+  },
+  {
+   "slug": "amc-village-7",
+   "name": "AMC Village 7",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.amctheatres.com/movie-theatres/amc-loews-village-7",
+   "aliases": [
+    "AMC Loews Village 7"
+   ],
+   "address": "66 3rd Avenue, New York, NY",
+   "phone": "(888) 262-4386",
+   "lat": 40.7314,
+   "lon": -73.9885
+  },
+  {
+   "slug": "angelika",
+   "name": "Angelika Film Center",
+   "borough": "manhattan",
+   "category": "indie",
+   "website": "https://angelikafilmcenter.com/nyc",
+   "aliases": [
+    "Angelika Film Center & Cafe",
+    "Angelika New York",
+    "Angelika Film Center New York"
+   ],
+   "address": "18 W. Houston St, New York NY",
+   "phone": "(800) 326-3264 ",
+   "lat": 40.7257,
+   "lon": -73.9972
+  },
+  {
+   "slug": "anthology-film-archives",
+   "name": "Anthology Film Archives",
+   "borough": "manhattan",
+   "category": "rep",
+   "website": "http://anthologyfilmarchives.org",
+   "aliases": [
+    "Anthology"
+   ],
+   "address": "32 2nd Ave, New York NY",
+   "phone": "(212) 505-5181",
+   "lat": 40.7247,
+   "lon": -73.9904
+  },
+  {
+   "slug": "asia-society",
+   "name": "Asia Society",
+   "borough": "manhattan",
+   "category": "museum",
+   "website": "https://asiasociety.org/new-york",
+   "aliases": []
+  },
+  {
+   "slug": "cinema-123",
+   "name": "Cinema 123 by Angelika",
+   "borough": "manhattan",
+   "category": "indie",
+   "website": "https://angelikafilmcenter.com/cinema123",
+   "aliases": [
+    "Cinema 1 2 3",
+    "Cinema 123",
+    "Cinemas 123 by Angelika"
+   ],
+   "address": "1001 3rd Avenue, New York NY",
+   "phone": "(800) 326-3264 ",
+   "lat": 40.7618,
+   "lon": -73.9663
+  },
+  {
+   "slug": "cinema-village",
+   "name": "Cinema Village",
+   "borough": "manhattan",
+   "category": "indie",
+   "website": "https://www.cinemavillage.com",
+   "aliases": [],
+   "address": "22 East 12th St, New York NY",
+   "phone": "(212) 924-3363",
+   "lat": 40.7341,
+   "lon": -73.9934
+  },
+  {
+   "slug": "czech-center",
+   "name": "Czech Center",
+   "borough": "manhattan",
+   "category": "rep",
+   "website": "https://newyork.czechcentres.cz",
+   "aliases": [
+    "Czech Center New York",
+    "Bohemian National Hall"
+   ]
+  },
+  {
+   "slug": "dctv-firehouse",
+   "name": "DCTV Firehouse Cinema",
+   "borough": "manhattan",
+   "category": "doc",
+   "website": "https://firehousecinema.dctvny.org",
+   "aliases": [
+    "Firehouse Cinema",
+    "Firehouse: DCTV's Cinema for Documentary Film",
+    "DCTV",
+    "Firehouse DCTV"
+   ],
+   "address": "87 Lafayette St., New York NY",
+   "phone": "(212) 966-4510",
+   "lat": 40.71731,
+   "lon": -74.00112
+  },
+  {
+   "slug": "film-at-lincoln-center",
+   "name": "Film at Lincoln Center",
+   "borough": "manhattan",
+   "category": "rep",
+   "website": "https://www.filmlinc.org",
+   "aliases": [
+    "FLC",
+    "Lincoln Center",
+    "Walter Reade Theater",
+    "Elinor Bunin Munroe Film Center",
+    "Film Society of Lincoln Center",
+    "Elinor Bunin Munroe Film Center At Lincoln Center",
+    "Walter Reade Theater Lincoln Center"
+   ],
+   "address": "144 W. 65th St, New York, NY",
+   "phone": "(212) 875-5232",
+   "lat": 40.7735,
+   "lon": -73.9836
+  },
+  {
+   "slug": "film-forum",
+   "name": "Film Forum",
+   "borough": "manhattan",
+   "category": "rep",
+   "website": "https://filmforum.org",
+   "aliases": [],
+   "address": "209 W Houston St (west of 6th Ave), New York, NY",
+   "phone": "(212) 727-8110",
+   "lat": 40.7284,
+   "lon": -74.0041
+  },
+  {
+   "slug": "ifc-center",
+   "name": "IFC Center",
+   "borough": "manhattan",
+   "category": "indie",
+   "website": "https://www.ifccenter.com",
+   "aliases": [
+    "IFC"
+   ],
+   "address": "323 Avenue of the Americas, New York, NY",
+   "phone": "(212) 924-7771",
+   "lat": 40.731,
+   "lon": -74.0014
+  },
+  {
+   "slug": "japan-society",
+   "name": "Japan Society",
+   "borough": "manhattan",
+   "category": "rep",
+   "website": "https://japansociety.org/film/",
+   "aliases": [
+    "Japan Society Film"
+   ]
+  },
+  {
+   "slug": "lalliance",
+   "name": "L'Alliance New York",
+   "borough": "manhattan",
+   "category": "rep",
+   "website": "https://lallianceny.org",
+   "aliases": [
+    "FIAF",
+    "French Institute Alliance Francaise"
+   ]
+  },
+  {
+   "slug": "amnh-lefrak",
+   "name": "LeFrak Giant Screen (AMNH)",
+   "borough": "manhattan",
+   "category": "museum",
+   "website": "https://www.amnh.org/exhibitions/giant-screen-film",
+   "aliases": [
+    "LeFrak Giant Screen - American Museum of Natural History",
+    "American Museum of Natural History"
+   ],
+   "address": "175-208 Central Park West (79th St), New York NY",
+   "phone": "(212) 769-5100",
+   "lat": 40.7813241,
+   "lon": -73.9739882
+  },
+  {
+   "slug": "maysles",
+   "name": "Maysles Documentary Center",
+   "borough": "manhattan",
+   "category": "doc",
+   "website": "https://www.maysles.org",
+   "aliases": [
+    "Maysles Cinema",
+    "Maysles Documentary Center"
+   ],
+   "address": "343 Lenox Ave / Malcolm X Blvd, New York NY",
+   "phone": "(646) 853-1296",
+   "lat": 40.80947,
+   "lon": -73.94474
+  },
+  {
+   "slug": "metrograph",
+   "name": "Metrograph",
+   "borough": "manhattan",
+   "category": "rep",
+   "website": "https://metrograph.com",
+   "aliases": [],
+   "address": "7 Ludlow Street, New York, NY",
+   "phone": "212 660 0312",
+   "lat": 40.7151,
+   "lon": -73.99117
+  },
+  {
+   "slug": "moma",
+   "name": "MoMA",
+   "borough": "manhattan",
+   "category": "museum",
+   "website": "https://www.moma.org/calendar/film/",
+   "aliases": [
+    "Museum of Modern Art",
+    "The Museum of Modern Art",
+    "MoMA Titus Theaters",
+    "Film at MoMA"
+   ],
+   "address": "11 West 53 Street (btwn 5th and 6th Aves) , New York, NY",
+   "lat": 40.761417,
+   "lon": -73.97712
+  },
+  {
+   "slug": "new-plaza-cinema",
+   "name": "New Plaza Cinema",
+   "borough": "manhattan",
+   "category": "indie",
+   "website": "https://www.newplazacinema.org",
+   "aliases": [],
+   "address": "35 West 67 St, New York, NY",
+   "phone": "(646) 505-4444",
+   "lat": 40.78113,
+   "lon": -73.980202
+  },
+  {
+   "slug": "paris-theater",
+   "name": "Paris Theater",
+   "borough": "manhattan",
+   "category": "rep",
+   "website": "https://www.paristheaternyc.com",
+   "aliases": [
+    "The Paris Theater",
+    "Paris Theatre"
+   ],
+   "address": "4 West 58th St, New York NY",
+   "phone": "(212) 688-3800",
+   "lat": 40.764,
+   "lon": -73.9744
+  },
+  {
+   "slug": "quad-cinema",
+   "name": "Quad Cinema",
+   "borough": "manhattan",
+   "category": "indie",
+   "website": "https://quadcinema.com",
+   "aliases": [
+    "Quad",
+    "The Quad"
+   ],
+   "address": "34 West 13th St, New York NY",
+   "phone": "(212) 255-8800",
+   "lat": 40.7357,
+   "lon": -73.9953
+  },
+  {
+   "slug": "regal-battery-park",
+   "name": "Regal Battery Park",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "http://www.fandango.com/regalbatteryparkstadium11_aapos/theaterpage",
+   "aliases": [
+    "Regal Battery Park Stadium 11"
+   ],
+   "address": "102 North End Ave, New York NY",
+   "phone": "(800) 326-3264",
+   "lat": 40.715,
+   "lon": -74.0159
+  },
+  {
+   "slug": "regal-essex-crossing",
+   "name": "Regal Essex Crossing",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.regmovies.com/theatres/regal-essex-crossing-rpx/1412",
+   "aliases": [],
+   "address": "129 Delancey St, New York NY",
+   "phone": "(212) 475-5768",
+   "lat": 40.718502,
+   "lon": -73.987511
+  },
+  {
+   "slug": "regal-times-square",
+   "name": "Regal Times Square",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.regmovies.com/theatres/regal-e-walk-4dx-rpx/1929",
+   "aliases": [
+    "Regal E-Walk"
+   ],
+   "address": "247 West 42nd St, New York, NY",
+   "phone": "(800) 326-3264",
+   "lat": 40.7566,
+   "lon": -73.9882
+  },
+  {
+   "slug": "regal-union-square",
+   "name": "Regal Union Square",
+   "borough": "manhattan",
+   "category": "chain",
+   "website": "https://www.fandango.com/regal-union-square-screenx-and-4dx-AAJNK/theater-page",
+   "aliases": [
+    "Regal Union Square Stadium 14"
+   ],
+   "address": "850 Broadway, New York, NY",
+   "phone": "844-462-7342",
+   "lat": 40.7345,
+   "lon": -73.9908
+  },
+  {
+   "slug": "roxy-cinema",
+   "name": "Roxy Cinema",
+   "borough": "manhattan",
+   "category": "micro",
+   "website": "https://www.roxycinemanewyork.com",
+   "aliases": [
+    "Roxy Cinema New York",
+    "The Roxy Cinema",
+    "Roxy Hotel Cinema",
+    "Roxy Cinema Tribeca"
+   ],
+   "address": "2 Avenue of The Americas, New York NY",
+   "phone": "212-519-6820",
+   "lat": 40.719381,
+   "lon": -74.004781
+  },
+  {
+   "slug": "scandinavia-house",
+   "name": "Scandinavia House",
+   "borough": "manhattan",
+   "category": "rep",
+   "website": "https://www.scandinaviahouse.org",
+   "aliases": [],
+   "address": "58 Park Ave, New York NY",
+   "phone": "(212) 779-3587",
+   "lat": 40.749432,
+   "lon": -73.980019
+  },
+  {
+   "slug": "symphony-space",
+   "name": "Symphony Space",
+   "borough": "manhattan",
+   "category": "rep",
+   "website": "https://www.symphonyspace.org",
+   "aliases": [
+    "Leonard Nimoy Thalia",
+    "Leonard Nimoy Thalia Theatre",
+    "Symphony Space Leonard Nimoy Thalia"
+   ],
+   "address": "2537 Broadway at 95th St, New York, NY",
+   "phone": "212.864.5400",
+   "lat": 40.7939,
+   "lon": -73.9726
+  },
+  {
+   "slug": "cinemas-fulton-market",
+   "name": "The Cinemas at Fulton Market",
+   "borough": "manhattan",
+   "category": "dine-in",
+   "website": "https://www.ipic.com/new-york-city-ny-fulton-market",
+   "aliases": [
+    "iPic New York",
+    "iPic Fulton Market",
+    "iPic Theaters New York",
+    "The Cinemas"
+   ],
+   "address": "11 Fulton St, New York NY",
+   "phone": "(212) 776-8272",
+   "lat": 40.706783,
+   "lon": -74.003289
+  },
+  {
+   "slug": "film-makers-coop",
+   "name": "The Film-Makers' Cooperative",
+   "borough": "manhattan",
+   "category": "micro",
+   "website": "https://film-makerscoop.com",
+   "aliases": [
+    "Film-Makers' Cooperative",
+    "Filmmakers Cooperative"
+   ]
+  },
+  {
+   "slug": "united-palace",
+   "name": "United Palace",
+   "borough": "manhattan",
+   "category": "rep",
+   "website": "https://www.unitedpalace.org",
+   "aliases": []
+  },
+  {
+   "slug": "uptown-film-center",
+   "name": "Uptown Film Center",
+   "borough": "manhattan",
+   "category": "micro",
+   "website": "https://uwscinema.org/screenings/",
+   "aliases": [],
+   "address": "Broadway between 99th and 100th St, New York NY",
+   "phone": null,
+   "lat": 42.020805,
+   "lon": -76.795298
+  },
+  {
+   "slug": "village-east",
+   "name": "Village East by Angelika",
+   "borough": "manhattan",
+   "category": "indie",
+   "website": "https://angelikafilmcenter.com/villageeast",
+   "aliases": [
+    "Village East Cinema"
+   ],
+   "address": "181 2nd Ave, New York NY",
+   "phone": "(800) 326-3264",
+   "lat": 40.7309,
+   "lon": -73.9859
+  },
+  {
+   "slug": "amc-fresh-meadows",
+   "name": "AMC Fresh Meadows 7",
+   "borough": "queens",
+   "category": "chain",
+   "website": "https://www.amctheatres.com/movie-theatres/amc-fresh-meadows-7",
+   "aliases": [],
+   "address": "190-02 Horace Harding Expy, Fresh Meadows, NY",
+   "phone": "(718) 454-6767",
+   "lat": 40.7364,
+   "lon": -73.7963
+  },
+  {
+   "slug": "cinemart-cinemas",
+   "name": "Cinemart Cinemas",
+   "borough": "queens",
+   "category": "indie",
+   "website": "https://www.cinemartcinemas.com",
+   "aliases": [
+    "Cinemart",
+    "Cinemart Cinemas and Theater Cafe"
+   ],
+   "address": "106-03 Metropolitan Ave, Forest Hills, NY",
+   "phone": "(718) 261-2043",
+   "lat": 40.7235,
+   "lon": -73.8465
+  },
+  {
+   "slug": "kew-gardens-cinemas",
+   "name": "Kew Gardens Cinemas",
+   "borough": "queens",
+   "category": "indie",
+   "website": "https://www.kewgardenstheatre.com",
+   "aliases": [
+    "Kew Gardens Theatre"
+   ],
+   "address": "81-05 Lefferts Blvd, Kew Gardens, NY",
+   "phone": "(718) 441-9835",
+   "lat": 40.7072,
+   "lon": -73.8298
+  },
+  {
+   "slug": "low-cinema",
+   "name": "Low Cinema",
+   "borough": "queens",
+   "category": "micro",
+   "website": "https://lowcinema.com",
+   "aliases": []
+  },
+  {
+   "slug": "momi",
+   "name": "Museum of the Moving Image",
+   "borough": "queens",
+   "category": "museum",
+   "website": "https://movingimage.org",
+   "aliases": [
+    "MoMI"
+   ],
+   "address": "36-01 35 Ave (at 36 St), Astoria, NY",
+   "phone": "(718) 777 6888",
+   "lat": 40.7562,
+   "lon": -73.9244
+  },
+  {
+   "slug": "regal-atlas-park",
+   "name": "Regal Atlas Park",
+   "borough": "queens",
+   "category": "chain",
+   "website": "http://www.fandango.com/regalatlasparkstadium8_aatzo/theaterpage",
+   "aliases": [
+    "Regal Atlas Park Stadium 8"
+   ],
+   "address": "80-28 Cooper Ave (80th St), Glendale, NY",
+   "phone": "844-462-7342",
+   "lat": 40.7092,
+   "lon": -73.8701
+  },
+  {
+   "slug": "regal-tangram",
+   "name": "Regal Tangram",
+   "borough": "queens",
+   "category": "chain",
+   "website": "https://www.regmovies.com/theatres/regal-tangram-4dx",
+   "aliases": [],
+   "address": "133-36 37th Ave, Flushing NY",
+   "phone": "(844) 462-7342",
+   "lat": 40.76005,
+   "lon": -73.834
+  },
+  {
+   "slug": "ua-kaufman-astoria",
+   "name": "Regal UA Kaufman Astoria",
+   "borough": "queens",
+   "category": "chain",
+   "website": "https://www.fandango.com/uakaufmanastoriacinemas1426rpx_aapot/theaterpage",
+   "aliases": [
+    "UA Kaufman Astoria Cinemas 14 & RPX",
+    "Regal UA Kaufman Astoria & RPX"
+   ],
+   "address": "35-30 38th St., Astoria NY",
+   "phone": "(844) 462-7342",
+   "lat": 40.754253,
+   "lon": -73.92393
+  },
+  {
+   "slug": "ua-midway",
+   "name": "Regal UA Midway",
+   "borough": "queens",
+   "category": "chain",
+   "website": "https://www.fandango.com/uamidwaystadium9_aabjw/theaterpage",
+   "aliases": [
+    "UA Midway Stadium 9"
+   ],
+   "address": "108-22 Queens Blvd., Forest Hills NY",
+   "phone": "(844) 462-7342",
+   "lat": 40.718133,
+   "lon": -73.837073
+  },
+  {
+   "slug": "stuart-cinema",
+   "name": "Stuart Cinema & Cafe",
+   "borough": "queens",
+   "category": "indie",
+   "website": "https://www.stuartcinema.com",
+   "aliases": [
+    "Stuart Cinema"
+   ]
+  },
+  {
+   "slug": "uniondocs",
+   "name": "UnionDocs",
+   "borough": "queens",
+   "category": "doc",
+   "website": "https://uniondocs.org",
+   "aliases": [
+    "Union Docs"
+   ]
+  },
+  {
+   "slug": "woodbine",
+   "name": "Woodbine",
+   "borough": "queens",
+   "category": "micro",
+   "website": "https://woodbine.nyc",
+   "aliases": []
+  },
+  {
+   "slug": "alamo-staten-island",
+   "name": "Alamo Drafthouse Staten Island",
+   "borough": "staten-island",
+   "category": "dine-in",
+   "website": "https://drafthouse.com/staten-island",
+   "aliases": [],
+   "address": "2636 Hylan Blvd, Staten Island NY",
+   "phone": "(929) 233-9660",
+   "lat": 40.56746,
+   "lon": -74.11261
+  },
+  {
+   "slug": "amc-staten-island",
+   "name": "AMC DINE-IN Staten Island 11",
+   "borough": "staten-island",
+   "category": "chain",
+   "website": "https://www.amctheatres.com/movie-theatres/new-york-city/amc-dine-in-staten-island-11",
+   "aliases": [],
+   "address": "2655 Richmond Ave, Staten Island NY",
+   "phone": "(718) 285-7529",
+   "lat": 40.582371,
+   "lon": -74.168968
+  },
+  {
+   "slug": "atrium-cinemas",
+   "name": "Atrium Stadium Cinemas",
+   "borough": "staten-island",
+   "category": "indie",
+   "website": "https://atriumcinemas.com",
+   "aliases": [
+    "Atrium Cinemas"
+   ]
+  }
+ ]
 }

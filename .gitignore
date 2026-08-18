@@ -3,3 +3,4 @@ __pycache__/
 marquee.db
 build/
 .DS_Store
+.env
