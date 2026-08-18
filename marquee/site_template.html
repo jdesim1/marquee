@@ -37,6 +37,9 @@
   /* the roll (header + day tabs) */
   --band:#c0271c;
   --bandink:#fbfaf6;
+  --daybar:#1b1a19;             /* day tabs print in letterpress black */
+  --daybarink:#fbfaf6;
+  --daybarred:#e14a39;          /* red bright enough to stamp on black */
   --focus:#c0271c;
   --shadow:0 1px 0 rgba(35,40,45,.25), 0 2px 6px rgba(35,40,45,.14);
   /* paper tooth */
@@ -58,6 +61,9 @@
     --field:#f0efe9;
     --band:#9c1f16;
     --bandink:#f4f3ee;
+    --daybar:#050607;
+    --daybarink:#f4f3ee;
+    --daybarred:#e14a39;
     --groundred:#e14a39;
     --focus:#e14a39;
     --shadow:0 2px 3px rgba(0,0,0,.55), 0 6px 16px rgba(0,0,0,.35);
@@ -145,7 +151,7 @@ select{background-image:linear-gradient(45deg,transparent 46%,var(--ink) 46%,var
 
 /* ---------- day tabs: the roll, torn day by day ---------- */
 .dayhead{position:sticky;top:0;z-index:10;
-  background:var(--band);background-image:var(--noise);color:var(--bandink);
+  background:var(--daybar);background-image:var(--noise);color:var(--daybarink);
   font-family:var(--disp);font-weight:400;font-size:16px;letter-spacing:.06em;text-transform:uppercase;
   padding:9px 14px 12px;box-shadow:0 2px 5px rgba(0,0,0,.22)}
 .dayhead::after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;
@@ -154,7 +160,7 @@ select{background-image:linear-gradient(45deg,transparent 46%,var(--ink) 46%,var
 .dn{opacity:1}
 .dayhead .rest{opacity:.85}
 .todaytag{display:inline-block;margin-left:10px;font-family:var(--stamp);font-size:11px;
-  letter-spacing:.12em;color:var(--bandink);border:1.5px solid var(--bandink);
+  letter-spacing:.12em;color:var(--daybarred);border:1.5px solid var(--daybarred);
   padding:1px 7px;transform:rotate(-2.5deg);vertical-align:3px}
 
 /* ---------- issuing house line (printed on the counter) ---------- */
@@ -313,7 +319,7 @@ footer a{color:inherit;text-decoration:none;border-bottom:1.5px dotted var(--gro
       <option value="">Any time</option>
       <option value="17:00">After 5 PM</option>
       <option value="20:00">After 8 PM</option>
-      <option value="22:00">After 10 PM</option>
+      <option value="21:00">After 9 PM</option>
     </select>
     <label class="lab" for="venue">House</label>
     <select id="venue"><option value="">All venues</option></select>
@@ -544,7 +550,7 @@ function railHTML(serial,tr,title){
     '<span class="no" aria-hidden="true">No. '+serial+'</span></span></span>';
 }
 function rowHTML(s){
-  var late=!!(s.time&&s.time>='22:00');
+  var late=!!(s.time&&s.time>='21:00');
   var meta=[];
   if(s.year)meta.push(esc(s.year));
   if(s.director)meta.push(esc(s.director));
@@ -663,7 +669,7 @@ function renderTitle(rows,listEl){
           var at=a.time||'99:99', bt=b.time||'99:99';
           return at<bt?-1:(at>bt?1:0);});
         var th=ts.map(function(r){
-          var late=!!(r.time&&r.time>='22:00');
+          var late=!!(r.time&&r.time>='21:00');
           var body=timeHTML(r.time);
           if(r.ticket_url&&/^https?:\/\//i.test(r.ticket_url))
             return '<a class="ftime'+(late?' late':'')+'" href="'+esc(r.ticket_url)+'" rel="noopener">'+body+'</a>';
@@ -739,7 +745,7 @@ document.addEventListener('click',function(e){
     return;
   }
   var vw=S.view;  /* the view survives preset resets: it's a lens, not a filter */
-  if(act==='preset-tonight'){S=defaults();S.view=vw;S.from=today();S.to=endOfWeek();S.after='22:00';}
+  if(act==='preset-tonight'){S=defaults();S.view=vw;S.from=today();S.to=endOfWeek();S.after='21:00';}
   else if(act==='preset-weekend'){S=defaults();S.view=vw;w=weekendRange();S.from=w[0];S.to=w[1];S.after='20:00';
     S.cat=['doc','rep','indie','micro','museum','dine-in'];}
   else if(act==='preset-reset'){S=defaults();S.view=vw;}
