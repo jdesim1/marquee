@@ -214,15 +214,22 @@ a.stub:active{filter:brightness(.96)}
   text-transform:uppercase;border:1px solid var(--inkfaint);color:var(--inkfaint);
   padding:1px 5px 0;vertical-align:1px}
 .fmt.film{border:1.5px solid var(--red);color:var(--red);font-weight:400}
-.sctile{display:inline-flex;align-items:center;gap:3px;font-family:var(--gothic);font-size:11.5px;
-  letter-spacing:.06em;border:1px solid var(--inkfaint);color:var(--ink);
-  padding:1px 5px 0;vertical-align:1px}
+/* scores: one unified scale, floated top-right so titles wrap around them */
+.scores{float:right;display:flex;gap:5px;align-items:stretch;
+  margin:2px 0 5px 10px;pointer-events:none}
+.sctile,.mcbox{display:inline-flex;align-items:center;justify-content:center;
+  font-family:var(--gothic);font-size:11.5px;letter-spacing:.04em;height:20px;
+  padding:0 6px;box-sizing:border-box}
+.sctile{gap:3px;border:1px solid var(--inkfaint);color:var(--ink);background:var(--stockhi)}
 .scico{width:11px;height:11px;flex:0 0 auto}
-.mcbox{display:inline-block;font-family:var(--gothic);font-size:11.5px;letter-spacing:.02em;
-  padding:1px 6px 0;vertical-align:1px;color:#fff;font-weight:600;min-width:14px;text-align:center}
+.mcbox{color:#fff;font-weight:600;min-width:22px}
 .mcbox.g{background:#66cc33}
 .mcbox.y{background:#ffcc33;color:#1f1e1c}
 .mcbox.r{background:#ff3b30}
+.ftfmt{font-family:var(--gothic);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;
+  border:1px solid var(--inkfaint);color:var(--inkfaint);padding:0 3px;vertical-align:2px;
+  white-space:nowrap}
+.ftfmt.film{border-color:var(--red);color:var(--red)}
 /* rubber stamp for open-air screenings — smaller sibling of the Today seal */
 .airstamp{display:inline-block;font-family:var(--stamp);font-size:10px;letter-spacing:.08em;
   text-transform:uppercase;color:var(--blue);border:1.5px solid var(--blue);
@@ -235,7 +242,8 @@ a.stub:active{filter:brightness(.96)}
   color:var(--inkfaint);opacity:.8;white-space:nowrap;overflow:hidden}
 .serialrow .no{font-family:var(--stamp);font-size:9px;letter-spacing:.14em}
 .serialrow .rr{display:flex;gap:12px;align-items:baseline}
-.trl{pointer-events:auto;color:var(--red);text-decoration:none;border-bottom:1px dotted transparent}
+.trl{pointer-events:auto;color:var(--red);text-decoration:none;border-bottom:1px dotted transparent;
+  font-size:12px;letter-spacing:.24em;font-weight:600}
 .trl:hover{border-bottom-color:var(--red)}
 
 /* ---------- the film card (By Title view): same stock, laid out flat ---------- */
@@ -574,11 +582,11 @@ function scoreTiles(fk){
 }
 /* the fine-print rail lives NEXT TO the stub (inside .srow), never inside its
    <a>, so the trailer link can be a real anchor without nesting anchors */
-function railHTML(serial,tr,title){
+function railHTML(tr,title){
   return '<span class="serialrow"><span aria-hidden="true">Admit One</span><span class="rr">'+
     (tr?'<a class="trl" href="'+esc(tr)+'" target="_blank" rel="noopener" aria-label="Trailer: '+
         esc(title)+'">&#9654;&#xFE0E; Trailer</a>':'')+
-    '<span class="no" aria-hidden="true">No. '+serial+'</span></span></span>';
+    '</span></span>';
 }
 function rowHTML(s){
   var late=!!(s.time&&s.time>='21:00');
@@ -594,13 +602,13 @@ function rowHTML(s){
   if(s._out)mhtml+=(mhtml?' ':'')+'<span class="airstamp">Open Air</span>';
   if((s.tags||[]).indexOf('qa')>=0)mhtml+=(mhtml?' ':'')+'<span class="airstamp">Q&amp;A</span>';
   var sct=scoreTiles(s.film_key);
-  if(sct)mhtml+=(mhtml?' ':'')+sct;
   var inner='<span class="tstamp'+(late?' late':'')+'">'+timeHTML(s.time)+'</span>'+
-    '<span class="main"><span class="title">'+esc(s.title)+'</span>'+
+    '<span class="main">'+(sct?'<span class="scores">'+sct+'</span>':'')+
+    '<span class="title">'+esc(s.title)+'</span>'+
     (mhtml?'<span class="meta">'+mhtml+'</span>':'')+
     (s.series?'<span class="series">'+esc(s.series)+'</span>':'')+
     '</span>';
-  var rail=railHTML(s._serial,trailerFor(s.film_key),s.title);
+  var rail=railHTML(trailerFor(s.film_key),s.title);
   var u=s.ticket_url, core;
   if(u&&/^https?:\/\//i.test(u)){
     core='<a class="stub" href="'+esc(u)+'" rel="noopener">'+inner+'</a>';
@@ -705,10 +713,15 @@ function renderTitle(rows,listEl){
         var th=ts.map(function(r){
           var late=!!(r.time&&r.time>='21:00');
           var body=timeHTML(r.time);
-          var qa=(r.tags||[]).indexOf('qa')>=0?' <span class="qat">Q&amp;A</span>':'';
+          var marks='';
+          if(r.format&&!/^(digital|dcp|4k|4k dcp|digital video|video|dcp\/digital\/video)$/i.test(r.format)){
+            var film=/\b(8|16|35|70)\s?mm\b/i.test(r.format);
+            marks+=' <span class="ftfmt'+(film?' film':'')+'">'+esc(r.format)+'</span>';
+          }
+          if((r.tags||[]).indexOf('qa')>=0)marks+=' <span class="qat">Q&amp;A</span>';
           if(r.ticket_url&&/^https?:\/\//i.test(r.ticket_url))
-            return '<a class="ftime'+(late?' late':'')+'" href="'+esc(r.ticket_url)+'" rel="noopener">'+body+'</a>'+qa;
-          return '<span class="ftime'+(late?' late':'')+'">'+body+'</span>'+qa;
+            return '<a class="ftime'+(late?' late':'')+'" href="'+esc(r.ticket_url)+'" rel="noopener">'+body+'</a>'+marks;
+          return '<span class="ftime'+(late?' late':'')+'">'+body+'</span>'+marks;
         }).join(', ');
         return '<span class="fdate">'+mdLabel(ds)+'</span> '+th;
       }).join(' &middot; ');
@@ -716,16 +729,17 @@ function renderTitle(rows,listEl){
         (v.out?' <span class="airstamp">Open Air</span>':'')+
         '<span class="dash"> &mdash; </span>'+runs+'</p>';
     }).join('');
-    var gsc=scoreTiles(g.fk);
-    var metaHTML=meta.join(' &middot; ')+(gsc?(meta.length?' ':'')+gsc:'');
+    var metaHTML=meta.join(' &middot; ');
     var gfe=g.fk?FILMS[g.fk]:null;
     var poster=(gfe&&gfe.poster&&/^https?:\/\//i.test(gfe.poster))?
       '<img class="fposter" loading="lazy" alt="" onerror="this.style.display=\'none\'" src="'+esc(gfe.poster)+'">':'';
-    var inner=poster+'<div class="main"><span class="title">'+esc(g.title)+'</span>'+
+    var gsc=scoreTiles(g.fk);
+    var inner=poster+'<div class="main">'+(gsc?'<span class="scores">'+gsc+'</span>':'')+
+      '<span class="title">'+esc(g.title)+'</span>'+
       (metaHTML?'<span class="meta">'+metaHTML+'</span>':'')+
       '<div class="fvenues">'+lines+'</div></div>';
     out.push('<div class="srow"><div class="stub filmcard">'+inner+'</div>'+
-      railHTML('F-'+pad6(i+1).slice(2),trailerFor(g.fk),g.title)+'</div>');
+      railHTML(trailerFor(g.fk),g.title)+'</div>');
   }
   out.push('</section>');
   listEl.innerHTML=out.join('');
