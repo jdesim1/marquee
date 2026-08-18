@@ -9,6 +9,9 @@ import datetime
 import json
 import pathlib
 import sys
+from zoneinfo import ZoneInfo
+
+NYC = ZoneInfo("America/New_York")
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -18,7 +21,8 @@ def main(argv=None):
     p.add_argument("--days", type=int, default=60, help="horizon in days (default 60)")
     p.add_argument("--start", default=None, help="start date YYYY-MM-DD (default today)")
     args = p.parse_args(argv)
-    start = args.start or datetime.date.today().isoformat()
+    # CI runners live in UTC; the moviegoing day is New York's.
+    start = args.start or datetime.datetime.now(NYC).date().isoformat()
 
     from .adapters import alamo, nyc_parks, poorstuart, repertory_nyc, screenslate
     from . import enrich, normalize, store, build_site
@@ -50,7 +54,7 @@ def main(argv=None):
         films = {}
 
     site_dir = ROOT / "build" / "site"
-    generated_at = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    generated_at = datetime.datetime.now(NYC).strftime("%Y-%m-%d %H:%M")
     build_site.build(site_dir, venues["venues"], screenings, generated_at, films)
     print(f"[marquee] {len(screenings)} screenings -> {site_dir / 'index.html'}", file=sys.stderr)
     return 0

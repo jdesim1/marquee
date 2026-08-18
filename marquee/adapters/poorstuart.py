@@ -46,8 +46,16 @@ import time as _time
 import urllib.error
 import urllib.request
 from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
 
 from ..model import RawScreening
+
+NYC = ZoneInfo("America/New_York")
+
+
+def _today_nyc() -> date:
+    # CI runners live in UTC; "today" must always mean New York's today.
+    return datetime.now(NYC).date()
 
 PAGE_URL = "https://www.poorstuart.com/nyc-movie-showtimes-citywide-by-theater/"
 REST_URL = ("https://www.poorstuart.com/wp-json/wp/v2/pages"
@@ -356,7 +364,7 @@ def fetch(start_date: str, days: int = 60) -> list[RawScreening]:
     except ValueError as err:
         raise ValueError(f"start_date must be YYYY-MM-DD, got {start_date!r}") from err
     days = max(1, int(days))
-    today = date.today()
+    today = _today_nyc()
     if start > today:
         return []
 
@@ -378,7 +386,7 @@ def fetch(start_date: str, days: int = 60) -> list[RawScreening]:
 
 
 if __name__ == "__main__":
-    today = date.today().isoformat()
+    today = _today_nyc().isoformat()
     screenings = fetch(today)
     print(f"poorstuart: {len(screenings)} screenings for {today}")
     venues = sorted({s.venue_raw for s in screenings})
