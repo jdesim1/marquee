@@ -52,6 +52,11 @@ def main(argv=None):
     except Exception as e:  # enrichment is additive — never fatal
         print(f"[marquee] WARNING: enrich failed: {e}", file=sys.stderr)
         films = {}
+    try:
+        from . import omdb
+        films = omdb.attach_ratings(films, ROOT / "data" / "omdb_cache.json")
+    except Exception as e:
+        print(f"[marquee] WARNING: omdb failed: {e}", file=sys.stderr)
 
     site_dir = ROOT / "build" / "site"
     generated_at = datetime.datetime.now(NYC).strftime("%Y-%m-%d %H:%M")

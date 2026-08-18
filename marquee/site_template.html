@@ -228,6 +228,7 @@ a.stub:active{filter:brightness(.96)}
 .serialrow .rr{display:flex;gap:12px;align-items:baseline}
 .trl{pointer-events:auto;color:var(--red);text-decoration:none;border-bottom:1px dotted transparent}
 .trl:hover{border-bottom-color:var(--red)}
+.scr{font-family:var(--stamp);font-size:9px;letter-spacing:.1em;color:var(--blue)}
 
 /* ---------- the film card (By Title view): same stock, laid out flat ---------- */
 .filmcard{display:block}
@@ -541,10 +542,19 @@ function trailerFor(fk){
   var fe=fk?FILMS[fk]:null;
   return (fe&&fe.trailer&&/^https?:\/\//i.test(fe.trailer))?fe.trailer:null;
 }
+function scoresFor(fk){
+  var fe=fk?FILMS[fk]:null;
+  if(!fe)return null;
+  var parts=[];
+  if(fe.rt)parts.push('RT '+fe.rt);
+  if(fe.metascore)parts.push('MC '+fe.metascore);
+  return parts.length?parts.join(' · '):null;
+}
 /* the fine-print rail lives NEXT TO the stub (inside .srow), never inside its
    <a>, so the trailer link can be a real anchor without nesting anchors */
-function railHTML(serial,tr,title){
+function railHTML(serial,tr,title,scores){
   return '<span class="serialrow"><span aria-hidden="true">Admit One</span><span class="rr">'+
+    (scores?'<span class="scr">'+esc(scores)+'</span>':'')+
     (tr?'<a class="trl" href="'+esc(tr)+'" target="_blank" rel="noopener" aria-label="Trailer: '+
         esc(title)+'">&#9654;&#xFE0E; Trailer</a>':'')+
     '<span class="no" aria-hidden="true">No. '+serial+'</span></span></span>';
@@ -566,7 +576,7 @@ function rowHTML(s){
     (mhtml?'<span class="meta">'+mhtml+'</span>':'')+
     (s.series?'<span class="series">'+esc(s.series)+'</span>':'')+
     '</span>';
-  var rail=railHTML(s._serial,trailerFor(s.film_key),s.title);
+  var rail=railHTML(s._serial,trailerFor(s.film_key),s.title,scoresFor(s.film_key));
   var u=s.ticket_url, core;
   if(u&&/^https?:\/\//i.test(u)){
     core='<a class="stub" href="'+esc(u)+'" rel="noopener">'+inner+'</a>';
@@ -685,7 +695,7 @@ function renderTitle(rows,listEl){
       (meta.length?'<span class="meta">'+meta.join(' &middot; ')+'</span>':'')+
       '<div class="fvenues">'+lines+'</div></div>';
     out.push('<div class="srow"><div class="stub filmcard">'+inner+'</div>'+
-      railHTML('F-'+pad6(i+1).slice(2),trailerFor(g.fk),g.title)+'</div>');
+      railHTML('F-'+pad6(i+1).slice(2),trailerFor(g.fk),g.title,scoresFor(g.fk))+'</div>');
   }
   out.push('</section>');
   listEl.innerHTML=out.join('');
