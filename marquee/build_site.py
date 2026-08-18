@@ -17,4 +17,5 @@ def build(site_dir, venues, screenings, generated_at, films=None):
         {"generated_at": generated_at, "venues": venues, "screenings": screenings,
          "films": films or {}},
         separators=(",", ":"), default=str))
-    (site_dir / "index.html").write_text(TEMPLATE.read_text())
+    (site_dir / "index.html").write_text(
+        TEMPLATE.read_text().replace("__MARQUEE_BUILD__", generated_at))
