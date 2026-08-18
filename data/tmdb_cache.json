@@ -11,6 +11,19 @@
   "trailer": "https://www.youtube.com/watch?v=kR2r-A9H3Kg",
   "year": 1968
  },
+ "2001 space odyssey|1968": {
+  "genres": [
+   "Science Fiction",
+   "Mystery",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+  "title": "2001: A Space Odyssey",
+  "tmdb_id": 62,
+  "trailer": "https://www.youtube.com/watch?v=kR2r-A9H3Kg",
+  "year": 1968
+ },
+ "2026 etheria film festival short film showcase|": null,
  "2046|2004": {
   "genres": [
    "Drama",
@@ -115,6 +128,29 @@
   "trailer": null,
   "year": 2005
  },
+ "above rim|1994": {
+  "genres": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/56NFHuZXdgZbVxvCyYw92E5uLQa.jpg",
+  "title": "Above the Rim",
+  "tmdb_id": 19092,
+  "trailer": "https://www.youtube.com/watch?v=sEsCXWD7-Cc",
+  "year": 1994
+ },
+ "afa members only twilight zone on|": null,
+ "afrique sur seine|": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/axYgZgG3ZRJoh2SYyxNVMjAnRKd.jpg",
+  "title": "Africa on the Seine",
+  "tmdb_id": 272391,
+  "trailer": null,
+  "year": 1955
+ },
  "after hours|1985": {
   "genres": [
    "Comedy",
@@ -138,6 +174,16 @@
   "tmdb_id": 702751,
   "trailer": null,
   "year": 2018
+ },
+ "alanis|2017": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/dla95sUlksJuVmXXgbu9mk2j650.jpg",
+  "title": "Alanis",
+  "tmdb_id": 472035,
+  "trailer": "https://www.youtube.com/watch?v=ZGBC-PjYBCg",
+  "year": 2017
  },
  "alice in wonderland|1951": {
   "genres": [
@@ -175,6 +221,16 @@
   "trailer": "https://www.youtube.com/watch?v=Kwlh-z2R8QE",
   "year": 2001
  },
+ "all that jazz|1979": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/culCEdj4srLljefgn4XKd6k3C5t.jpg",
+  "title": "All That Jazz",
+  "tmdb_id": 16858,
+  "trailer": "https://www.youtube.com/watch?v=8_aIhkKlrwk",
+  "year": 1979
+ },
  "all wishes come true|": {
   "genres": [
    "Comedy",
@@ -210,6 +266,17 @@
   "trailer": "https://www.youtube.com/watch?v=Be7_u8jzHzU",
   "year": 2026
  },
+ "amussu|2019": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/spsHJbbuKnVFauQqJUU2AKMgZI2.jpg",
+  "title": "Amussu",
+  "tmdb_id": 598654,
+  "trailer": null,
+  "year": 2019
+ },
+ "amyl and sniffers present truth or consequence|": null,
  "amyl and the sniffers present truth or consequence|": null,
  "an evening with marlene dietrich|1973": {
   "genres": [
@@ -220,6 +287,17 @@
   "tmdb_id": 116023,
   "trailer": null,
   "year": 1973
+ },
+ "and then there was light|1989": {
+  "genres": [
+   "Comedy",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/4r1fj4sRWxGitGyAwd5WYxFeddy.jpg",
+  "title": "And Then There Was Light",
+  "tmdb_id": 203986,
+  "trailer": null,
+  "year": 1989
  },
  "animal farm|2026": {
   "genres": [
@@ -235,6 +313,8 @@
   "trailer": "https://www.youtube.com/watch?v=NN6J7l6ulYk",
   "year": 2026
  },
+ "anime no gogo|": null,
+ "another day in paradise with larry clark|1998": null,
  "apaches apachen|1973": null,
  "apocalypse now 1979 roadshow version|1979": null,
  "apocalypse now final cut|1979": {
@@ -295,6 +375,7 @@
   "year": 2017
  },
  "august crunchyroll anime nights your letter|": null,
+ "avatars dominatrix sleeps tonight|": null,
  "awarapan 2|": {
   "genres": [
    "Action",
@@ -329,6 +410,18 @@
   "tmdb_id": 615777,
   "trailer": "https://www.youtube.com/watch?v=OumYv1aE1VI",
   "year": 2022
+ },
+ "back to future|1985": {
+  "genres": [
+   "Adventure",
+   "Comedy",
+   "Science Fiction"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
+  "title": "Back to the Future",
+  "tmdb_id": 105,
+  "trailer": "https://www.youtube.com/watch?v=ez6WQ7IX72U",
+  "year": 1985
  },
  "back to the future|1985": {
   "genres": [
@@ -366,6 +459,18 @@
   "trailer": "https://www.youtube.com/watch?v=74cN0TJdjPM",
   "year": 1941
  },
+ "ballad of little jo|1993": {
+  "genres": [
+   "Romance",
+   "Drama",
+   "Western"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/cFGLQ3NigGdDmJy2Wjhcp9nmHe4.jpg",
+  "title": "The Ballad of Little Jo",
+  "tmdb_id": 71940,
+  "trailer": null,
+  "year": 1993
+ },
  "barbie|2023": {
   "genres": [
    "Comedy",
@@ -388,6 +493,17 @@
   "tmdb_id": 1310573,
   "trailer": "https://www.youtube.com/watch?v=pAbGrYP8Ooo",
   "year": 2026
+ },
+ "basic instinct|": {
+  "genres": [
+   "Thriller",
+   "Mystery"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
+  "title": "Basic Instinct",
+  "tmdb_id": 402,
+  "trailer": "https://www.youtube.com/watch?v=cvktbdKzsq4",
+  "year": 1992
  },
  "batman|1989": {
   "genres": [
@@ -412,6 +528,18 @@
   "tmdb_id": 1272586,
   "trailer": null,
   "year": 2025
+ },
+ "battle royale|2000": {
+  "genres": [
+   "Drama",
+   "Thriller",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/aLGKAQKgzWpJ6egyWzzC11jXBRJ.jpg",
+  "title": "Battle Royale",
+  "tmdb_id": 3176,
+  "trailer": "https://www.youtube.com/watch?v=oKCN6hzD5J4",
+  "year": 2000
  },
  "batwara 1947|": {
   "genres": [
@@ -446,6 +574,37 @@
   "trailer": null,
   "year": 1993
  },
+ "bend in river|2025": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/wjdsle7hI2dw0Z7yAump1I19E3i.jpg",
+  "title": "The Bend in the River",
+  "tmdb_id": 1532787,
+  "trailer": null,
+  "year": 2025
+ },
+ "best of betty boop|": null,
+ "better go mad in wild|2025": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/hvwRKFN8Gpje9KYmphTG5aUrAmS.jpg",
+  "title": "Better Go Mad in the Wild",
+  "tmdb_id": 1491966,
+  "trailer": "https://www.youtube.com/watch?v=Hjs4zJpSg8A",
+  "year": 2025
+ },
+ "between ditches and ramparts|2024": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": null,
+  "title": "Between The Ditches And Ramparts",
+  "tmdb_id": 1379130,
+  "trailer": null,
+  "year": 2024
+ },
  "between the ditches and ramparts|2024": {
   "genres": [
    "Documentary"
@@ -457,6 +616,16 @@
   "year": 2024
  },
  "bibliomania book fair|": null,
+ "big cheese|2025": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/7Mji0YUQglZRqEzIZqfnsE3BN7Y.jpg",
+  "title": "The Big Cheese",
+  "tmdb_id": 1567810,
+  "trailer": "https://www.youtube.com/watch?v=2k9gZuxN1Js",
+  "year": 2026
+ },
  "billy liar|1963": {
   "genres": [
    "Comedy",
@@ -468,6 +637,41 @@
   "tmdb_id": 26535,
   "trailer": "https://www.youtube.com/watch?v=5cg2yvjneLw",
   "year": 1963
+ },
+ "birdcage|": {
+  "genres": [
+   "Comedy",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/4IpC35BoA5aRO0Q1DpFGJ8iKKYq.jpg",
+  "title": "The Birdcage",
+  "tmdb_id": 11000,
+  "trailer": "https://www.youtube.com/watch?v=Y46JSmjcpeM",
+  "year": 1996
+ },
+ "black dahlia|2006": {
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/su7yuXqGUHICfoijtcSaxWLE34Y.jpg",
+  "title": "The Black Dahlia",
+  "tmdb_id": 9676,
+  "trailer": "https://www.youtube.com/watch?v=49DrnE1s6ho",
+  "year": 2006
+ },
+ "blade runner final cut|1982": {
+  "genres": [
+   "Science Fiction",
+   "Drama",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
+  "title": "Blade Runner",
+  "tmdb_id": 78,
+  "trailer": "https://www.youtube.com/watch?v=qoEyZoOTtss",
+  "year": 1982
  },
  "blade runner the final cut|1982": {
   "genres": [
@@ -517,6 +721,17 @@
   "year": 1981
  },
  "body hackers|2026": null,
+ "body heat|1981": {
+  "genres": [
+   "Thriller",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5LipPcaW1J9IjAP7TOTesw8OcMS.jpg",
+  "title": "Body Heat",
+  "tmdb_id": 14412,
+  "trailer": "https://www.youtube.com/watch?v=UWnHLgmcwAw",
+  "year": 1981
+ },
  "bodyhackers|2026": {
   "genres": [
    "Science Fiction",
@@ -529,6 +744,19 @@
   "trailer": null,
   "year": null
  },
+ "bone collector|1999": {
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Drama",
+   "Mystery"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/7atMCqRaDpAOnGsteTRm17zmvN3.jpg",
+  "title": "The Bone Collector",
+  "tmdb_id": 9481,
+  "trailer": "https://www.youtube.com/watch?v=krU7HZgCxsI",
+  "year": 1999
+ },
  "boogie nights|1997": {
   "genres": [
    "Drama",
@@ -539,6 +767,16 @@
   "tmdb_id": 4995,
   "trailer": "https://www.youtube.com/watch?v=6__jTfyCMsc",
   "year": 1997
+ },
+ "boorman and devil|2025": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/gAjei5EpYkyRVB0DP9vKaQGtJSA.jpg",
+  "title": "Boorman and the Devil",
+  "tmdb_id": 1517111,
+  "trailer": "https://www.youtube.com/watch?v=a_VjhXJ0N54",
+  "year": 2026
  },
  "boorman and the devil|2025": {
   "genres": [
@@ -594,9 +832,58 @@
   "trailer": "https://www.youtube.com/watch?v=xD6JMxOGBLQ",
   "year": 1992
  },
+ "bride of earth|1968": {
+  "genres": [
+   "Drama",
+   "Western"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/vVdOc3z1U62JytOyzIxvMRsNrV7.jpg",
+  "title": "Bride of the Earth",
+  "tmdb_id": 126560,
+  "trailer": null,
+  "year": 1968
+ },
+ "brink of war|": {
+  "genres": [
+   "Drama",
+   "History",
+   "Thriller",
+   "War"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/hFborW6HmffKL05GIWlkTFdvVpN.jpg",
+  "title": "The Brink of War",
+  "tmdb_id": 192139,
+  "trailer": "https://www.youtube.com/watch?v=a-T0TlMN-RE",
+  "year": 2026
+ },
  "brooklyn bridge park movies with a view presented by persol|": null,
+ "brooklyn bridge park movies with view presented by persol|": null,
  "bryant park movie nights|": null,
  "bugs we love|1950": null,
+ "bullet|1996": {
+  "genres": [
+   "Action",
+   "Drama",
+   "Thriller",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/plsSRQwRfF2FIvoLmVsjo1ELqbl.jpg",
+  "title": "Bullet",
+  "tmdb_id": 14469,
+  "trailer": "https://www.youtube.com/watch?v=8F76-l3w-YI",
+  "year": 1996
+ },
+ "butthole surfers hole truth and nothing butt|": {
+  "genres": [
+   "Documentary",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/y2AzPZ3TD0w8wSX00pJQbLSStSF.jpg",
+  "title": "Butthole Surfers: The Hole Truth and Nothing Butt",
+  "tmdb_id": 982116,
+  "trailer": "https://www.youtube.com/watch?v=UFtkc11i3uE",
+  "year": 2025
+ },
  "butthole surfers the hole truth and nothing butt|": {
   "genres": [
    "Documentary",
@@ -620,6 +907,31 @@
   "trailer": "https://www.youtube.com/watch?v=fvnyrBnUx4E",
   "year": 2026
  },
+ "cabinet of dr caligari|": {
+  "genres": [
+   "Drama",
+   "Horror",
+   "Thriller",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/myK9DeIsXWGKgUTZyGXg2IfFk0W.jpg",
+  "title": "The Cabinet of Dr. Caligari",
+  "tmdb_id": 234,
+  "trailer": "https://www.youtube.com/watch?v=6_uvMK0dbMY",
+  "year": 1920
+ },
+ "cameraman|1928": {
+  "genres": [
+   "Comedy",
+   "Romance",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/oz7dVRzxN95IIpa7hsG5XS3nO2L.jpg",
+  "title": "The Cameraman",
+  "tmdb_id": 31411,
+  "trailer": "https://www.youtube.com/watch?v=lWQTXkb5VYQ",
+  "year": 1928
+ },
  "carrie 1976|": {
   "genres": [
    "Horror",
@@ -642,6 +954,18 @@
   "trailer": "https://www.youtube.com/watch?v=zbdIXI1s3aU",
   "year": 1976
  },
+ "casting blossoms to sky|2012": {
+  "genres": [
+   "Fantasy",
+   "Drama",
+   "War"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/xy5YGtIfFE77gUsoyFgQYlXNDrQ.jpg",
+  "title": "Casting Blossoms to the Sky",
+  "tmdb_id": 127453,
+  "trailer": "https://www.youtube.com/watch?v=maO1KFWv27U",
+  "year": 2012
+ },
  "casting blossoms to the sky|2012": {
   "genres": [
    "Fantasy",
@@ -653,6 +977,16 @@
   "tmdb_id": 127453,
   "trailer": "https://www.youtube.com/watch?v=maO1KFWv27U",
   "year": 2012
+ },
+ "catvideofest 2026|2026": {
+  "genres": [
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/wXgqFo84RwEt6cRIe24BCjBPqPS.jpg",
+  "title": "CatVideoFest 2026",
+  "tmdb_id": 1711224,
+  "trailer": "https://www.youtube.com/watch?v=wbzRCI1AgZ8",
+  "year": 2026
  },
  "center stage|1991": {
   "genres": [
@@ -667,6 +1001,16 @@
   "year": 1991
  },
  "centre stage yuen ling yuk|": null,
+ "changeling|1980": {
+  "genres": [
+   "Horror"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/z4nTYj3JZ5jWAhDgrmEhW2GRAzb.jpg",
+  "title": "The Changeling",
+  "tmdb_id": 13550,
+  "trailer": "https://www.youtube.com/watch?v=UwUI7d5TgGA",
+  "year": 1980
+ },
  "characters disappearing|2025": {
   "genres": [
    "Drama"
@@ -676,6 +1020,18 @@
   "tmdb_id": 1083427,
   "trailer": null,
   "year": 2025
+ },
+ "chaser|2008": {
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/hy49xJiKN1nakkN1ZmKuOf6vQYR.jpg",
+  "title": "The Chaser",
+  "tmdb_id": 13855,
+  "trailer": "https://www.youtube.com/watch?v=akiHkFxV24w",
+  "year": 2008
  },
  "chasing butterflies aug 26 metrograph|": null,
  "chasing butterflies|1992": {
@@ -712,6 +1068,16 @@
   "trailer": "https://www.youtube.com/watch?v=RKdXf-fiBcw",
   "year": 1974
  },
+ "chocolat|1988": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/opJnIodpg8HPu9UiNXkKX8UXFsw.jpg",
+  "title": "Chocolat",
+  "tmdb_id": 41951,
+  "trailer": "https://www.youtube.com/watch?v=K2y-h4fUR4c",
+  "year": 1988
+ },
  "chronovisor|2026": {
   "genres": [
    "Mystery",
@@ -736,6 +1102,7 @@
   "trailer": "https://www.youtube.com/watch?v=P9Mxf_6pVA0",
   "year": 1994
  },
+ "cin guerrilas scenes from labudovi reels|2022": null,
  "city dudes|": null,
  "claire s knee|1970": {
   "genres": [
@@ -747,6 +1114,16 @@
   "tmdb_id": 2860,
   "trailer": null,
   "year": 1970
+ },
+ "clerks|1994": {
+  "genres": [
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/9IiSgiq4h4siTIS9H3o4nZ3h5L9.jpg",
+  "title": "Clerks",
+  "tmdb_id": 2292,
+  "trailer": "https://www.youtube.com/watch?v=f8yqQkABBjY",
+  "year": 1994
  },
  "click   2006 movies|2006": null,
  "click|2006": {
@@ -774,6 +1151,40 @@
   "year": 2014
  },
  "clueles|": null,
+ "collateral|2004": {
+  "genres": [
+   "Drama",
+   "Crime",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/nV5316WUsVij8sVXLCF1g7TFitg.jpg",
+  "title": "Collateral",
+  "tmdb_id": 1538,
+  "trailer": "https://www.youtube.com/watch?v=-JDf2zIFgO8",
+  "year": 2004
+ },
+ "combat breathing amussu|": null,
+ "combat breathing cin guerrillas|": null,
+ "combat breathing insurgent poieses|": null,
+ "combat breathing insurgent poiesis|": null,
+ "combat breathing laboring images i|": null,
+ "combat breathing laboring images part 1|": null,
+ "combat breathing laboring images part 2 sicilia|": null,
+ "combat breathing laboring masses i|": null,
+ "combat breathing perpetual recurrences part 1 cin guerrillas|": null,
+ "combat breathing perpetual recurrences part 2 testament|": null,
+ "combat breathing perpetual recurrences part 3 perpetual recurrences|": null,
+ "combat breathing perpetual recurrences|": null,
+ "combat breathing postscripts of modernity i|": null,
+ "combat breathing postscripts of modernity part 1|": null,
+ "combat breathing postscripts of modernity part 2 amussu|": null,
+ "combat breathing read my desire ii|": null,
+ "combat breathing read my desire i|": null,
+ "combat breathing read my desire part 1|": null,
+ "combat breathing read my desire part 2|": null,
+ "combat breathing sicilia|": null,
+ "combat breathing testament|": null,
+ "combat breathing time beneath concrete|": null,
  "come what may|2026": {
   "genres": [
    "Documentary"
@@ -786,6 +1197,29 @@
  },
  "commodity trading dies irae numb spiral 4|2022": null,
  "conversation on eyes wide shut|": null,
+ "conversation piece|1977": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/vLFdB2MsgAH7UCVb60EzLTjIoqN.jpg",
+  "title": "Conversation Piece",
+  "tmdb_id": 56142,
+  "trailer": "https://www.youtube.com/watch?v=XY_93j3gM1M",
+  "year": 1974
+ },
+ "conversation|1974": {
+  "genres": [
+   "Crime",
+   "Drama",
+   "Mystery"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/dHqVBwcv1SGymOpUueRoKzcmdes.jpg",
+  "title": "The Conversation",
+  "tmdb_id": 592,
+  "trailer": "https://www.youtube.com/watch?v=mDgKPQWyjRk",
+  "year": 1974
+ },
  "cookie queens|": {
   "genres": [
    "Documentary"
@@ -808,6 +1242,27 @@
   "trailer": "https://www.youtube.com/watch?v=7RaBcFSABEM",
   "year": 1995
  },
+ "cosi fan tutte|2026": {
+  "genres": [
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/9T8TF0FndF6F6DzrUmDHfo4xLbo.jpg",
+  "title": "Così fan tutte",
+  "tmdb_id": 551689,
+  "trailer": null,
+  "year": 1989
+ },
+ "cotton club encore|1984": {
+  "genres": [
+   "Crime",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/jgCsLhIRLKlvUy1p1iImCi0nPnX.jpg",
+  "title": "The Cotton Club",
+  "tmdb_id": 2148,
+  "trailer": "https://www.youtube.com/watch?v=UNI2e07-aD4",
+  "year": 1984
+ },
  "coyote vs acme|": {
   "genres": [
    "Comedy",
@@ -820,6 +1275,14 @@
   "tmdb_id": 1204680,
   "trailer": "https://www.youtube.com/watch?v=kMsiD1Nky5I",
   "year": 2026
+ },
+ "crack|2000": {
+  "genres": [],
+  "poster": "https://image.tmdb.org/t/p/w342/46erQV5KqvmVE8XPj2m9mexIZr1.jpg",
+  "title": "The Crack",
+  "tmdb_id": 777498,
+  "trailer": null,
+  "year": 2002
  },
  "crank   2006 movies|2006": null,
  "crank|2006": {
@@ -856,6 +1319,30 @@
   "trailer": "https://www.youtube.com/watch?v=9dIC-lDgpZU",
   "year": 1996
  },
+ "crimes of passion|1984": {
+  "genres": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/tstF6JMrZe75AdEAoPejwPrDfMA.jpg",
+  "title": "Crimes of Passion",
+  "tmdb_id": 40814,
+  "trailer": "https://www.youtube.com/watch?v=MA2RASz9RKE",
+  "year": 1984
+ },
+ "curse of demon|1957": {
+  "genres": [
+   "Fantasy",
+   "Horror",
+   "Mystery"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ePAjGAhynpwEI5HbpIrB28ML6lg.jpg",
+  "title": "Night of the Demon",
+  "tmdb_id": 25103,
+  "trailer": "https://www.youtube.com/watch?v=-rwfiJpyFrI",
+  "year": 1957
+ },
  "curse of the demon|1957": {
   "genres": [
    "Fantasy",
@@ -868,6 +1355,51 @@
   "trailer": "https://www.youtube.com/watch?v=-rwfiJpyFrI",
   "year": 1957
  },
+ "dagger of kamui|1985": {
+  "genres": [
+   "Animation",
+   "Action",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/jKc4PsZxhEcRTTFCBI6M2dftjCz.jpg",
+  "title": "The Dagger of Kamui",
+  "tmdb_id": 48215,
+  "trailer": "https://www.youtube.com/watch?v=-zNKOANqCH0",
+  "year": 1985
+ },
+ "dancehall queen|1997": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/1m05xnZbgYWqueMJQNSAaIdal5c.jpg",
+  "title": "Dancehall Queen",
+  "tmdb_id": 19159,
+  "trailer": null,
+  "year": 1997
+ },
+ "dark knight|2008": {
+  "genres": [
+   "Action",
+   "Crime",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+  "title": "The Dark Knight",
+  "tmdb_id": 155,
+  "trailer": "https://www.youtube.com/watch?v=LDG9bisJEaI",
+  "year": 2008
+ },
+ "day of wrath|1943": {
+  "genres": [
+   "Drama",
+   "History"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/jEOqbGLFo8fxHHgYoZVTMVYMoQG.jpg",
+  "title": "Day of Wrath",
+  "tmdb_id": 41391,
+  "trailer": "https://www.youtube.com/watch?v=6_SATxIRMts",
+  "year": 1943
+ },
  "daylight|2026": {
   "genres": [
    "Documentary"
@@ -877,6 +1409,17 @@
   "tmdb_id": 1696677,
   "trailer": null,
   "year": 2026
+ },
+ "days and nights in forest|1970": {
+  "genres": [
+   "Drama",
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/lkaPfN95q8aaO8c0jUR6ytUhcwd.jpg",
+  "title": "Days and Nights in the Forest",
+  "tmdb_id": 35867,
+  "trailer": "https://www.youtube.com/watch?v=r9Uf_t9FwV0",
+  "year": 1970
  },
  "days and nights in the forest|1970": {
   "genres": [
@@ -935,6 +1478,52 @@
   "trailer": "https://www.youtube.com/watch?v=YB4g03Z_WvI",
   "year": 1970
  },
+ "dear mama|2023": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/kNMX5kOfX51jal7PWpVl07CVbBS.jpg",
+  "title": "Dear Mama...",
+  "tmdb_id": 901517,
+  "trailer": null,
+  "year": 2021
+ },
+ "death wish|1974": {
+  "genres": [
+   "Crime",
+   "Drama",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/rNksI6UiuTgLtBy69WvKT1PrG0R.jpg",
+  "title": "Death Wish",
+  "tmdb_id": 13939,
+  "trailer": "https://www.youtube.com/watch?v=FuDFXV56gQ0",
+  "year": 1974
+ },
+ "def by temptation|1990": {
+  "genres": [
+   "Horror",
+   "Thriller",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/cC96OjOeYXmBF6RuePlxA709tkz.jpg",
+  "title": "Def by Temptation",
+  "tmdb_id": 71853,
+  "trailer": "https://www.youtube.com/watch?v=FB4DLSJsmDA",
+  "year": 1990
+ },
+ "deliverance|1972": {
+  "genres": [
+   "Drama",
+   "Adventure",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/2TrAzNJlHyNYYSkQf6asg3rs2Xr.jpg",
+  "title": "Deliverance",
+  "tmdb_id": 10669,
+  "trailer": "https://www.youtube.com/watch?v=iuOUF1-4P3c",
+  "year": 1972
+ },
  "dementia 13 director s cut|1963": {
   "genres": [
    "Horror",
@@ -946,6 +1535,19 @@
   "tmdb_id": 28503,
   "trailer": "https://www.youtube.com/watch?v=T5Lu2G0O3TA",
   "year": 1963
+ },
+ "demolition chaiqian|": null,
+ "departed|2006": {
+  "genres": [
+   "Drama",
+   "Thriller",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+  "title": "The Departed",
+  "tmdb_id": 1422,
+  "trailer": "https://www.youtube.com/watch?v=r-MiSNsCdQ4",
+  "year": 2006
  },
  "der fan|1982": {
   "genres": [
@@ -972,6 +1574,27 @@
   "trailer": "https://www.youtube.com/watch?v=LtNYaH61dXY",
   "year": 2024
  },
+ "destroy all monsters|": {
+  "genres": [
+   "Science Fiction",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/24r1hsRisfUidwLF67J0iMuWh7p.jpg",
+  "title": "Destroy All Monsters",
+  "tmdb_id": 3107,
+  "trailer": "https://www.youtube.com/watch?v=mBdamsfrkKQ",
+  "year": 1968
+ },
+ "deux fois|1968": {
+  "genres": [
+   "Mystery"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/826urGhrt8pqpTzLsTIKQan5AAm.jpg",
+  "title": "Deux fois",
+  "tmdb_id": 170856,
+  "trailer": null,
+  "year": 1968
+ },
  "die hard|1988": {
   "genres": [
    "Action",
@@ -983,7 +1606,29 @@
   "trailer": "https://www.youtube.com/watch?v=4Wi28Vsi_ZU",
   "year": 1988
  },
+ "dog stars|": {
+  "genres": [
+   "Adventure",
+   "Science Fiction",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/A7i16oDi03qrKep5pBfuTWNUTb.jpg",
+  "title": "The Dog Stars",
+  "tmdb_id": 1384216,
+  "trailer": "https://www.youtube.com/watch?v=-xSxaE1ClEE",
+  "year": 2026
+ },
  "don t torture a duckling|": {
+  "genres": [
+   "Horror"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ehH1xFUdcLyEeJMBfW5FVeT0Flf.jpg",
+  "title": "Don't Torture a Duckling",
+  "tmdb_id": 49361,
+  "trailer": "https://www.youtube.com/watch?v=ksyT8y238SE",
+  "year": 1972
+ },
+ "don t torture duckling|": {
   "genres": [
    "Horror"
   ],
@@ -995,6 +1640,18 @@
  },
  "don t touch the white woman touche pas la femme blanche|": null,
  "don t touch the white woman|1974": {
+  "genres": [
+   "Comedy",
+   "Western"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/e17CdsK2fsSGYjwfI6LbC9NmMaT.jpg",
+  "title": "Don't Touch the White Woman!",
+  "tmdb_id": 83343,
+  "trailer": null,
+  "year": 1974
+ },
+ "don t touch white woman touche pas la femme blanche|": null,
+ "don t touch white woman|1974": {
   "genres": [
    "Comedy",
    "Western"
@@ -1027,6 +1684,17 @@
   "trailer": "https://www.youtube.com/watch?v=J8lZi3ocbYk",
   "year": 2011
  },
+ "drunken master ii|1994": {
+  "genres": [
+   "Action",
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/xqUBrSBtPYLvCtfqHF5sapU6Div.jpg",
+  "title": "The Legend of Drunken Master",
+  "tmdb_id": 12207,
+  "trailer": "https://www.youtube.com/watch?v=p4X2naY_2-k",
+  "year": 1994
+ },
  "dumplings gaau ji|": null,
  "dumplings|2004": {
   "genres": [
@@ -1037,6 +1705,28 @@
   "tmdb_id": 9060,
   "trailer": "https://www.youtube.com/watch?v=5ixdhYr3a6g",
   "year": 2004
+ },
+ "dutchman|1966": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/tQGSuTQO8TMSLLgqgAWaCTAuv6i.jpg",
+  "title": "Dutchman",
+  "tmdb_id": 66770,
+  "trailer": null,
+  "year": 1966
+ },
+ "e t extra terrestrial|1982": {
+  "genres": [
+   "Adventure",
+   "Science Fiction",
+   "Family"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+  "title": "E.T. the Extra-Terrestrial",
+  "tmdb_id": 601,
+  "trailer": "https://www.youtube.com/watch?v=NsvdZ_z56c0",
+  "year": 1982
  },
  "e t the extra terrestrial|1982": {
   "genres": [
@@ -1074,10 +1764,18 @@
  "ec arsenal|": null,
  "ec cavalcanti crockwell|": null,
  "ec conner conrad|": null,
+ "ec day of wrath|": null,
  "ec earth zemlya|": null,
+ "ec gertrud|": null,
  "ec joseph cornell|": null,
  "ec maya deren|": null,
+ "ec michael|": null,
+ "ec ordet|": null,
+ "ec parson s widow|": null,
+ "ec passion of joan of arc|": null,
+ "ec vampyr|": null,
  "ec zvenigora|": null,
+ "effect of gamma rays on man in moon marigolds|": null,
  "effect of gamma rays on man in the moon marigolds|": null,
  "elaine stritch at liberty|": {
   "genres": [
@@ -1089,6 +1787,18 @@
   "tmdb_id": 140595,
   "trailer": "https://www.youtube.com/watch?v=3Q-pgK5eFwg",
   "year": 2004
+ },
+ "elevator to gallows|1957": {
+  "genres": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/jgeZS97po2luaeElfUh07VAbVfV.jpg",
+  "title": "Elevator to the Gallows",
+  "tmdb_id": 1093,
+  "trailer": "https://www.youtube.com/watch?v=LciQ1A5PvLI",
+  "year": 1958
  },
  "elevator to the gallows|1957": {
   "genres": [
@@ -1113,6 +1823,19 @@
   "trailer": "https://www.youtube.com/watch?v=5LtxY2e7h5E",
   "year": 2026
  },
+ "end of oak street|": {
+  "genres": [
+   "Science Fiction",
+   "Mystery",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
+  "title": "The End of Oak Street",
+  "tmdb_id": 1101383,
+  "trailer": "https://www.youtube.com/watch?v=3oB9AxspVow",
+  "year": 2026
+ },
+ "ernie emma|": null,
  "escape from l a|1996": {
   "genres": [
    "Action",
@@ -1126,6 +1849,30 @@
   "year": 1996
  },
  "escape from la|1996": null,
+ "escape from l|1996": {
+  "genres": [
+   "Action",
+   "Thriller",
+   "Science Fiction"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/3L9lL2eUsmLNNfENPwNOc82Hzpw.jpg",
+  "title": "Escape from L.A.",
+  "tmdb_id": 10061,
+  "trailer": "https://www.youtube.com/watch?v=EMvoxhtPXXA",
+  "year": 1996
+ },
+ "eternal sunshine of spotless mind|": {
+  "genres": [
+   "Science Fiction",
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
+  "title": "Eternal Sunshine of the Spotless Mind",
+  "tmdb_id": 38,
+  "trailer": "https://www.youtube.com/watch?v=c2e-bj6qy8Y",
+  "year": 2004
+ },
  "europa europa|1990": {
   "genres": [
    "History",
@@ -1148,6 +1895,16 @@
   "trailer": "https://www.youtube.com/watch?v=6mXU9qVFRpM",
   "year": 1997
  },
+ "evening with marlene dietrich|1973": {
+  "genres": [
+   "Music"
+  ],
+  "poster": null,
+  "title": "I Wish You Love",
+  "tmdb_id": 116023,
+  "trailer": null,
+  "year": 1973
+ },
  "existenz|1999": {
   "genres": [
    "Action",
@@ -1159,6 +1916,19 @@
   "tmdb_id": 1946,
   "trailer": "https://www.youtube.com/watch?v=DZZJrQc-wtw",
   "year": 1999
+ },
+ "fallen angels by no l coward|": null,
+ "fallen angels|1995": {
+  "genres": [
+   "Action",
+   "Romance",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/yyM9BPdwttK5LKZSLvHae7QPKo1.jpg",
+  "title": "Fallen Angels",
+  "tmdb_id": 11220,
+  "trailer": "https://www.youtube.com/watch?v=uxaT19BlH0M",
+  "year": 1995
  },
  "falling leaves|1966": {
   "genres": [
@@ -1182,6 +1952,18 @@
   "trailer": null,
   "year": 2026
  },
+ "fan|1996": {
+  "genres": [
+   "Thriller",
+   "Action",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/lu7CjP8YES5dJMCFg5O9o9jCkjl.jpg",
+  "title": "The Fan",
+  "tmdb_id": 9566,
+  "trailer": "https://www.youtube.com/watch?v=OJhwzOqqdqU",
+  "year": 1996
+ },
  "fargo|1996": {
   "genres": [
    "Crime",
@@ -1194,6 +1976,7 @@
   "trailer": "https://www.youtube.com/watch?v=aoOZDiswNaw",
   "year": 1996
  },
+ "fast and furious 25th anniversary|": null,
  "fast|2026": {
   "genres": [
    "Drama"
@@ -1213,6 +1996,30 @@
   "tmdb_id": 16993,
   "trailer": "https://www.youtube.com/watch?v=sVXhoiS0BPA",
   "year": 1972
+ },
+ "faust 1926|": {
+  "genres": [
+   "Fantasy",
+   "Drama",
+   "Horror"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/rN703hMFxmkZfyEzsXvFtuFhkXE.jpg",
+  "title": "Faust",
+  "tmdb_id": 10728,
+  "trailer": "https://www.youtube.com/watch?v=Luuw4yTTtRU",
+  "year": 1926
+ },
+ "favorites of moon|1984": {
+  "genres": [
+   "Comedy",
+   "Crime",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/fOMkUa1XiAtldmfRwoeh130fB4H.jpg",
+  "title": "Favorites of the Moon",
+  "tmdb_id": 47450,
+  "trailer": null,
+  "year": 1985
  },
  "favorites of the moon|1984": {
   "genres": [
@@ -1272,6 +2079,18 @@
   "trailer": "https://www.youtube.com/watch?v=9o9fbSl5F0w",
   "year": 1968
  },
+ "first blood|1982": {
+  "genres": [
+   "Action",
+   "Thriller",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/a9sa6ERZCpplbPEO7OMWE763CLD.jpg",
+  "title": "First Blood",
+  "tmdb_id": 1368,
+  "trailer": "https://www.youtube.com/watch?v=M9Fy2Vq_SX8",
+  "year": 1982
+ },
  "first cow|2019": {
   "genres": [
    "Drama",
@@ -1282,6 +2101,18 @@
   "tmdb_id": 558582,
   "trailer": "https://www.youtube.com/watch?v=mj8-uY92CIE",
   "year": 2020
+ },
+ "fist church|": null,
+ "flying dutchman|1964": {
+  "genres": [
+   "Music",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ftUXnMQX5Ezpd9VAKhHP6UlQKpR.jpg",
+  "title": "The Flying Dutchman",
+  "tmdb_id": 276656,
+  "trailer": null,
+  "year": 1964
  },
  "franz|2025": {
   "genres": [
@@ -1305,6 +2136,17 @@
   "trailer": "https://www.youtube.com/watch?v=7ZDSYBkcH2U",
   "year": 2026
  },
+ "freefall reckoning for boeing open captioning|2026": null,
+ "freefall reckoning for boeing|": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
+  "title": "Freefall: A Reckoning for Boeing",
+  "tmdb_id": 1688804,
+  "trailer": "https://www.youtube.com/watch?v=7ZDSYBkcH2U",
+  "year": 2026
+ },
  "friday night lights tv|": null,
  "from dusk till dawn|1996": {
   "genres": [
@@ -1318,6 +2160,16 @@
   "trailer": "https://www.youtube.com/watch?v=jNuIn4T-CLk",
   "year": 1996
  },
+ "from other side|2002": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/gRCr31SMpnElH5W6EZZG6cLdv0q.jpg",
+  "title": "From the Other Side",
+  "tmdb_id": 103699,
+  "trailer": null,
+  "year": 2003
+ },
  "from the other side|2002": {
   "genres": [
    "Documentary"
@@ -1327,6 +2179,16 @@
   "tmdb_id": 103699,
   "trailer": null,
   "year": 2003
+ },
+ "fucktoys|2025": {
+  "genres": [
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/hYDSzen6p8wkhkskWzwgr5dz5EN.jpg",
+  "title": "Fucktoys",
+  "tmdb_id": 1422008,
+  "trailer": "https://www.youtube.com/watch?v=7GSTsiEyDN4",
+  "year": 2025
  },
  "future future futuro futuro|": null,
  "future future|": {
@@ -1340,6 +2202,18 @@
   "trailer": "https://www.youtube.com/watch?v=2Ik_n8ye_3w",
   "year": 2026
  },
+ "future future|2025": {
+  "genres": [
+   "Science Fiction",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/xWzYDoeAmQeR0N1YgMV2h1xB5Do.jpg",
+  "title": "Future Future",
+  "tmdb_id": 1293202,
+  "trailer": "https://www.youtube.com/watch?v=2Ik_n8ye_3w",
+  "year": 2026
+ },
+ "fx s dear mama|2023": null,
  "g force|2009": {
   "genres": [
    "Family",
@@ -1354,6 +2228,20 @@
   "trailer": "https://www.youtube.com/watch?v=7GaEZ2e9Ijs",
   "year": 2009
  },
+ "gabby s dollhouse movie|": {
+  "genres": [
+   "Adventure",
+   "Animation",
+   "Comedy",
+   "Family",
+   "Fantasy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/t6LLguAmu6iZUN8pWhT7Q0IcaQ5.jpg",
+  "title": "Gabby's Dollhouse: The Movie",
+  "tmdb_id": 1280282,
+  "trailer": "https://www.youtube.com/watch?v=S-GFCPEWqe4",
+  "year": 2025
+ },
  "gabby s dollhouse the movie|": {
   "genres": [
    "Adventure",
@@ -1367,6 +2255,16 @@
   "tmdb_id": 1280282,
   "trailer": "https://www.youtube.com/watch?v=S-GFCPEWqe4",
   "year": 2025
+ },
+ "gail daughtry and celebrity sex pass|2026": {
+  "genres": [
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/98T4bnMjJs71WOVZoeY8edZhfgZ.jpg",
+  "title": "Gail Daughtry and the Celebrity Sex Pass",
+  "tmdb_id": 1476682,
+  "trailer": "https://www.youtube.com/watch?v=GEbaLieo_Kw",
+  "year": 2026
  },
  "gail daughtry and the celebrity sex pass|2026": {
   "genres": [
@@ -1390,6 +2288,19 @@
   "trailer": null,
   "year": 1998
  },
+ "gang related|1997": {
+  "genres": [
+   "Action",
+   "Crime",
+   "Thriller",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/zvl4RYK5OHo2d9V1aUkHkxhh9Zv.jpg",
+  "title": "Gang Related",
+  "tmdb_id": 14398,
+  "trailer": "https://www.youtube.com/watch?v=MbwxXXfzJTQ",
+  "year": 1997
+ },
  "garchaster s cornblade|2026": {
   "genres": [],
   "poster": "https://image.tmdb.org/t/p/w342/xztI34KVNBuWo2Jfh4UXFnjxAdV.jpg",
@@ -1410,7 +2321,29 @@
   "trailer": "https://www.youtube.com/watch?v=nXbEHBE7DFc",
   "year": 1987
  },
+ "gertrud|1964": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/kHjqxHcJlwd5fL8G6pDuLfOCaPW.jpg",
+  "title": "Gertrud",
+  "tmdb_id": 34181,
+  "trailer": "https://www.youtube.com/watch?v=ofoj3YEER0A",
+  "year": 1964
+ },
  "ghost 2 big to rig|": null,
+ "ghost world|2001": {
+  "genres": [
+   "Comedy",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/uwKqnUPE4dSM0kKuMW0vXpURh2T.jpg",
+  "title": "Ghost World",
+  "tmdb_id": 1548,
+  "trailer": "https://www.youtube.com/watch?v=PXD5GtKF2Dc",
+  "year": 2001
+ },
  "giants of africa|": {
   "genres": [
    "Documentary"
@@ -1432,6 +2365,52 @@
   "trailer": "https://www.youtube.com/watch?v=yGxWoppTujU",
   "year": 1996
  },
+ "girl is gun une aventure de billy le kid|": null,
+ "girl is gun|1971": {
+  "genres": [
+   "Western",
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ubyOIzqgUCoktOTWVc8r9cNsofN.jpg",
+  "title": "A Girl Is a Gun",
+  "tmdb_id": 162450,
+  "trailer": "https://www.youtube.com/watch?v=0hEOTG-HYK4",
+  "year": 1971
+ },
+ "girlhood|2014": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/qZ52DlSVguX0WHYoiOD464IIONd.jpg",
+  "title": "Girlhood",
+  "tmdb_id": 266082,
+  "trailer": "https://www.youtube.com/watch?v=eo1TSLr6NTM",
+  "year": 2014
+ },
+ "gloria of your imagination|2024": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ggGsXVA23OrsLqfHOZ8bl7DrhQn.jpg",
+  "title": "The Gloria of Your Imagination",
+  "tmdb_id": 1323893,
+  "trailer": null,
+  "year": 2024
+ },
+ "gloria|1980": {
+  "genres": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/mrYZInXp0JEoZYXs0Z108l2jN0C.jpg",
+  "title": "Gloria",
+  "tmdb_id": 10889,
+  "trailer": "https://www.youtube.com/watch?v=12ql7orFSgQ",
+  "year": 1980
+ },
+ "go go go slow book release event|": null,
+ "go go go slow|": null,
  "goat|": {
   "genres": [
    "Animation",
@@ -1443,6 +2422,42 @@
   "tmdb_id": 1297842,
   "trailer": "https://www.youtube.com/watch?v=kmY-rYS7yng",
   "year": 2026
+ },
+ "godfather coda death of michael corleone|2020": {
+  "genres": [
+   "Action",
+   "Crime",
+   "Mystery",
+   "Thriller",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/198EQ9spIYqAumKxLyV69nAiJh5.jpg",
+  "title": "The Godfather, Coda: The Death of Michael Corleone",
+  "tmdb_id": 1674276,
+  "trailer": "https://www.youtube.com/watch?v=nWxDwvLhkDw",
+  "year": 2020
+ },
+ "godfather part ii|1974": {
+  "genres": [
+   "Drama",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+  "title": "The Godfather Part II",
+  "tmdb_id": 240,
+  "trailer": "https://www.youtube.com/watch?v=9O1Iy9od7-A",
+  "year": 1974
+ },
+ "godfather|1972": {
+  "genres": [
+   "Drama",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+  "title": "The Godfather",
+  "tmdb_id": 238,
+  "trailer": "https://www.youtube.com/watch?v=Ew9ngL1GZvs",
+  "year": 1972
  },
  "good morning|1959": {
   "genres": [
@@ -1488,6 +2503,17 @@
   "trailer": null,
   "year": 2026
  },
+ "great silence|1968": {
+  "genres": [
+   "Western",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/3kpxS7SZMyYSXvhDnmxQXOOxiTM.jpg",
+  "title": "The Great Silence",
+  "tmdb_id": 9028,
+  "trailer": "https://www.youtube.com/watch?v=nMrhQp35uUo",
+  "year": 1968
+ },
  "green border|2023": {
   "genres": [
    "Drama"
@@ -1497,6 +2523,54 @@
   "tmdb_id": 1121956,
   "trailer": "https://www.youtube.com/watch?v=7sfSUzVNNio",
   "year": 2023
+ },
+ "gridlock d|1997": {
+  "genres": [
+   "Comedy",
+   "Crime",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/jlOL8fLsG0tGBtkj9qzHgqcHPVV.jpg",
+  "title": "Gridlock'd",
+  "tmdb_id": 12489,
+  "trailer": "https://www.youtube.com/watch?v=Blp_G4F8gdY",
+  "year": 1997
+ },
+ "guardians of galaxy vol 2|2017": {
+  "genres": [
+   "Science Fiction",
+   "Adventure",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg",
+  "title": "Guardians of the Galaxy Vol. 2",
+  "tmdb_id": 283995,
+  "trailer": "https://www.youtube.com/watch?v=wUn05hdkhjM",
+  "year": 2017
+ },
+ "guardians of galaxy vol 3|2023": {
+  "genres": [
+   "Science Fiction",
+   "Adventure",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+  "title": "Guardians of the Galaxy Vol. 3",
+  "tmdb_id": 447365,
+  "trailer": "https://www.youtube.com/watch?v=AAE5VZktooM",
+  "year": 2023
+ },
+ "guardians of galaxy|2014": {
+  "genres": [
+   "Action",
+   "Science Fiction",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
+  "title": "Guardians of the Galaxy",
+  "tmdb_id": 118340,
+  "trailer": "https://www.youtube.com/watch?v=3CqymRQ1uUU",
+  "year": 2014
  },
  "guardians of the galaxy|2014": {
   "genres": [
@@ -1510,7 +2584,16 @@
   "trailer": "https://www.youtube.com/watch?v=3CqymRQ1uUU",
   "year": 2014
  },
+ "gypsy 83 director s cut|2001": null,
  "gypsy 83 the director s cut|2001": null,
+ "ha ha shanghai|2001": {
+  "genres": [],
+  "poster": "https://image.tmdb.org/t/p/w342/9B4hnDy8vHqOvJrtkSJhyqX11Nn.jpg",
+  "title": "Ha Ha Shanghai",
+  "tmdb_id": 1005958,
+  "trailer": null,
+  "year": 2001
+ },
  "hamilton|": {
   "genres": [
    "History",
@@ -1543,6 +2626,18 @@
   "trailer": "https://www.youtube.com/watch?v=cU_u8xQspQg",
   "year": 1997
  },
+ "harriet spy|1996": {
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Family"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/spTUUMgIVm4gOdWL35IoYWEuZQl.jpg",
+  "title": "Harriet the Spy",
+  "tmdb_id": 38223,
+  "trailer": "https://www.youtube.com/watch?v=pPUdYUdCofY",
+  "year": 1996
+ },
  "harriet the spy|1996": {
   "genres": [
    "Comedy",
@@ -1565,7 +2660,26 @@
   "trailer": "https://www.youtube.com/watch?v=LnN4t7xJd_s",
   "year": 1998
  },
+ "heart as willing la corazonada|": null,
+ "heart as willing|2025": {
+  "genres": [],
+  "poster": "https://image.tmdb.org/t/p/w342/yrqZhV3QU5CnjDvPFU6X8xum2SI.jpg",
+  "title": "A Heart as Willing",
+  "tmdb_id": 1466153,
+  "trailer": null,
+  "year": 2026
+ },
  "hearts of darkness a filmmaker s apocalypse|1991": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/nVMCtL3r2nj4fySihDDvamaVkfx.jpg",
+  "title": "Hearts of Darkness: A Filmmaker's Apocalypse",
+  "tmdb_id": 4539,
+  "trailer": "https://www.youtube.com/watch?v=NuxlYozLpeI",
+  "year": 1991
+ },
+ "hearts of darkness filmmaker s apocalypse|1991": {
   "genres": [
    "Documentary"
   ],
@@ -1586,6 +2700,27 @@
   "tmdb_id": 949,
   "trailer": "https://www.youtube.com/watch?v=14oNcFxiVaQ",
   "year": 1995
+ },
+ "hell s highway true story of highway safety films|2003": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/jERpn7kbYxv6WIrwXtjqBNganj6.jpg",
+  "title": "Hell's Highway: The True Story of Highway Safety Films",
+  "tmdb_id": 92501,
+  "trailer": null,
+  "year": 2003
+ },
+ "hell s highway|2002": {
+  "genres": [
+   "Horror",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/kUP0km0Jgx3DaV7Fy3C8VmXeE6A.jpg",
+  "title": "Hell's Highway",
+  "tmdb_id": 28040,
+  "trailer": null,
+  "year": 2002
  },
  "helpless|1996": {
   "genres": [
@@ -1647,6 +2782,16 @@
   "trailer": "https://www.youtube.com/watch?v=PypDSyIRRSs",
   "year": 2026
  },
+ "hotel new york|": {
+  "genres": [
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/2JzETzVhBrENvpLyUtWEklHL7ra.jpg",
+  "title": "Hotel New York",
+  "tmdb_id": 384375,
+  "trailer": null,
+  "year": 1984
+ },
  "house|1977": {
   "genres": [
    "Comedy",
@@ -1669,6 +2814,61 @@
   "tmdb_id": 1529024,
   "trailer": "https://www.youtube.com/watch?v=36eO2GEf0Qs",
   "year": 2026
+ },
+ "how to divorce during war|": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/naG3eXp5wsq7us6hnNKdaUgwOgk.jpg",
+  "title": "How to Divorce During the War",
+  "tmdb_id": 1529024,
+  "trailer": "https://www.youtube.com/watch?v=36eO2GEf0Qs",
+  "year": 2026
+ },
+ "hunchback of notre dame 1996|1996": {
+  "genres": [
+   "Drama",
+   "Animation",
+   "Family"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/dmMBtXuFzZzLYgeQXkOkg98w2Ak.jpg",
+  "title": "The Hunchback of Notre Dame",
+  "tmdb_id": 10545,
+  "trailer": "https://www.youtube.com/watch?v=HUGraD-rxjk",
+  "year": 1996
+ },
+ "hunchback of notre dame|1956": {
+  "genres": [
+   "Drama",
+   "Horror"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ds4pCq0GOEarBHI35bYSN2PC0KQ.jpg",
+  "title": "The Hunchback of Notre Dame",
+  "tmdb_id": 11594,
+  "trailer": null,
+  "year": 1956
+ },
+ "hundred foot journey|": {
+  "genres": [
+   "Drama",
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/1vFhSr7INoulu18smHqicft05i8.jpg",
+  "title": "The Hundred-Foot Journey",
+  "tmdb_id": 228194,
+  "trailer": "https://www.youtube.com/watch?v=_kgUXVQiJYs",
+  "year": 2014
+ },
+ "hunger|1983": {
+  "genres": [
+   "Horror",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/lFTDtRtK8J55A1LTpwigV7QGQg7.jpg",
+  "title": "The Hunger",
+  "tmdb_id": 11654,
+  "trailer": "https://www.youtube.com/watch?v=g7DzTgy6_Vk",
+  "year": 1983
  },
  "i shot andy warhol|1996": {
   "genres": [
@@ -1711,6 +2911,30 @@
   "trailer": "https://www.youtube.com/watch?v=UoAf0LNAn30",
   "year": 2026
  },
+ "idlewild|2006": {
+  "genres": [
+   "Crime",
+   "Drama",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/d1KW3hrGAJCsvs2GC2MCkYebD2u.jpg",
+  "title": "Idlewild",
+  "tmdb_id": 13816,
+  "trailer": "https://www.youtube.com/watch?v=vLn7aNjVNMA",
+  "year": 2006
+ },
+ "in hand of dante|2026": {
+  "genres": [
+   "Drama",
+   "Crime",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/nPPIufTBnzEg0d7NoR5RLL1oPra.jpg",
+  "title": "In the Hand of Dante",
+  "tmdb_id": 1020047,
+  "trailer": "https://www.youtube.com/watch?v=cXA3Zgsky18",
+  "year": 2026
+ },
  "in jackson heights|2014": {
   "genres": [
    "Documentary"
@@ -1720,6 +2944,17 @@
   "tmdb_id": 355230,
   "trailer": "https://www.youtube.com/watch?v=uiaHXctUzVc",
   "year": 2015
+ },
+ "in mood for love|2000": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg",
+  "title": "In the Mood for Love",
+  "tmdb_id": 843,
+  "trailer": "https://www.youtube.com/watch?v=rc3QleuaQMw",
+  "year": 2000
  },
  "in my skin|2002": {
   "genres": [
@@ -1765,6 +3000,29 @@
   "trailer": "https://www.youtube.com/watch?v=rc3QleuaQMw",
   "year": 2000
  },
+ "in vanda s room no quarto da vanda|": null,
+ "in vanda s room|2000": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/wi70RuDNiYqIyruZtXPeBOHTtj2.jpg",
+  "title": "In Vanda's Room",
+  "tmdb_id": 87063,
+  "trailer": "https://www.youtube.com/watch?v=OMtsdwWSjyk",
+  "year": 2001
+ },
+ "incident|1967": {
+  "genres": [
+   "Thriller",
+   "Crime",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ghXkcvpKPwOaViJ1V9SK8UyZ27g.jpg",
+  "title": "The Incident",
+  "tmdb_id": 66043,
+  "trailer": "https://www.youtube.com/watch?v=9pk8Fdvxrew",
+  "year": 1967
+ },
  "india sweets and spices|2021": {
   "genres": [
    "Comedy",
@@ -1776,6 +3034,28 @@
   "tmdb_id": 821493,
   "trailer": "https://www.youtube.com/watch?v=iqtVoCj1sQk",
   "year": 2021
+ },
+ "indiana jones and last crusade on|1989": {
+  "genres": [
+   "Adventure",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
+  "title": "Indiana Jones and the Last Crusade",
+  "tmdb_id": 89,
+  "trailer": "https://www.youtube.com/watch?v=DKg36LBVgfg",
+  "year": 1989
+ },
+ "indiana jones and last crusade|1989": {
+  "genres": [
+   "Adventure",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
+  "title": "Indiana Jones and the Last Crusade",
+  "tmdb_id": 89,
+  "trailer": "https://www.youtube.com/watch?v=DKg36LBVgfg",
+  "year": 1989
  },
  "indiana jones and the last crusade on|1989": {
   "genres": [
@@ -1811,6 +3091,17 @@
   "trailer": "https://www.youtube.com/watch?v=BTRMkQzFYHI",
   "year": 2014
  },
+ "insidious out of further|": {
+  "genres": [
+   "Horror",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
+  "title": "Insidious: Out of the Further",
+  "tmdb_id": 1291595,
+  "trailer": "https://www.youtube.com/watch?v=gXjurDkYnEM",
+  "year": 2026
+ },
  "insidious out of the further|": {
   "genres": [
    "Horror",
@@ -1820,6 +3111,18 @@
   "title": "Insidious: Out of the Further",
   "tmdb_id": 1291595,
   "trailer": "https://www.youtube.com/watch?v=gXjurDkYnEM",
+  "year": 2026
+ },
+ "invite|2026": {
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/b7Dr8Chzse8VagexAporUu2RtLx.jpg",
+  "title": "The Invite",
+  "tmdb_id": 950028,
+  "trailer": "https://www.youtube.com/watch?v=nelkiuezJxg",
   "year": 2026
  },
  "is god is|2026": {
@@ -1833,6 +3136,18 @@
   "trailer": "https://www.youtube.com/watch?v=pgtdkuNFoKk",
   "year": 2026
  },
+ "island close to heaven|": null,
+ "island closest to heaven|1984": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ctepLZAMh3HCJo4n5zfHbzsvUX5.jpg",
+  "title": "The Island Closest to Heaven",
+  "tmdb_id": 298972,
+  "trailer": "https://www.youtube.com/watch?v=gyS_t_ibz2o",
+  "year": 1984
+ },
+ "it ends open captioning|": null,
  "it ends|2026": {
   "genres": [
    "Horror",
@@ -1846,6 +3161,19 @@
  },
  "it s a summer film summer film ni notte|": null,
  "it s a summer film|2021": {
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Romance",
+   "Science Fiction"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/zAEI0nAXkWp5tOsceWDirF8bNIC.jpg",
+  "title": "It's a Summer Film!",
+  "tmdb_id": 747983,
+  "trailer": "https://www.youtube.com/watch?v=MbW5XY0Uw1o",
+  "year": 2021
+ },
+ "it s summer film|2021": {
   "genres": [
    "Comedy",
    "Drama",
@@ -1881,6 +3209,18 @@
   "trailer": "https://www.youtube.com/watch?v=n1J9Migw-zQ",
   "year": 1967
  },
+ "jawbreaker|1999": {
+  "genres": [
+   "Comedy",
+   "Crime",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/7YrxXoG25hVCK4nYDHQv9YIk3Ye.jpg",
+  "title": "Jawbreaker",
+  "tmdb_id": 18892,
+  "trailer": "https://www.youtube.com/watch?v=ascDz9SZ-uI",
+  "year": 1999
+ },
  "jaws|1975": {
   "genres": [
    "Horror",
@@ -1893,6 +3233,19 @@
   "trailer": "https://www.youtube.com/watch?v=N9hzLQUGr34",
   "year": 1975
  },
+ "je tu il elle|1974": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/4arnTs41WSLWsnENWdljFKo0pu1.jpg",
+  "title": "Je Tu Il Elle",
+  "tmdb_id": 93934,
+  "trailer": "https://www.youtube.com/watch?v=pGq0MkMGQsM",
+  "year": 1974
+ },
+ "jennifer reeves short film pgm|": null,
+ "jennifer reeves short film program|": null,
  "jennifer s body|2009": {
   "genres": [
    "Horror",
@@ -1903,6 +3256,39 @@
   "tmdb_id": 19994,
   "trailer": "https://www.youtube.com/watch?v=C8azftM5puI",
   "year": 2009
+ },
+ "jerker|1991": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/h0Ji7iaLEfb2FgPNV6Iqd9GZRHX.jpg",
+  "title": "Jerker",
+  "tmdb_id": 279368,
+  "trailer": null,
+  "year": 1991
+ },
+ "jfk|1991": {
+  "genres": [
+   "Drama",
+   "Thriller",
+   "History"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg",
+  "title": "JFK",
+  "tmdb_id": 820,
+  "trailer": "https://www.youtube.com/watch?v=s8az13Y1rUM",
+  "year": 1991
+ },
+ "josie and pussycats|2001": {
+  "genres": [
+   "Comedy",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/mHOix87RdBO3YQuyvFFZAZxpt5P.jpg",
+  "title": "Josie and the Pussycats",
+  "tmdb_id": 19366,
+  "trailer": "https://www.youtube.com/watch?v=XvVhTHJWFr0",
+  "year": 2001
  },
  "josie and the pussycats|2001": {
   "genres": [
@@ -1915,6 +3301,30 @@
   "trailer": "https://www.youtube.com/watch?v=XvVhTHJWFr0",
   "year": 2001
  },
+ "juice|1992": {
+  "genres": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/hfXFPMhNjLnCugBHMN0nrtKW7Ra.jpg",
+  "title": "Juice",
+  "tmdb_id": 16136,
+  "trailer": "https://www.youtube.com/watch?v=ECi021J_j18",
+  "year": 1992
+ },
+ "jungle book|1967": {
+  "genres": [
+   "Family",
+   "Animation",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/yN1kuupnPTLUprgfvC5WapgrxG4.jpg",
+  "title": "The Jungle Book",
+  "tmdb_id": 9325,
+  "trailer": "https://www.youtube.com/watch?v=eCOMboHkC3s",
+  "year": 1967
+ },
  "jurassic world rebirth|2025": {
   "genres": [
    "Science Fiction",
@@ -1926,6 +3336,28 @@
   "tmdb_id": 1234821,
   "trailer": "https://www.youtube.com/watch?v=2ZhB-YO5Tnk",
   "year": 2025
+ },
+ "k2 invisible footmen|2015": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/mXoGHhqVL15vunXQbh5JqSrMDh9.jpg",
+  "title": "K2 & The Invisible Footmen",
+  "tmdb_id": 314292,
+  "trailer": null,
+  "year": 2015
+ },
+ "kama sutra tale of love|1996": {
+  "genres": [
+   "Drama",
+   "History",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/kUaWgLrI7HqpPqPxgR54wSGokCV.jpg",
+  "title": "Kama Sutra: A Tale of Love",
+  "tmdb_id": 28005,
+  "trailer": "https://www.youtube.com/watch?v=y_52xXLw0jc",
+  "year": 1997
  },
  "karate kid legends|": {
   "genres": [
@@ -1960,6 +3392,29 @@
   "tmdb_id": 4291,
   "trailer": "https://www.youtube.com/watch?v=EhUsQvoAeAY",
   "year": 1999
+ },
+ "kill bill whole bloody affair|2025": {
+  "genres": [
+   "Action",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/nSOJfWJCdVFZQwXQA7RXn7FIIiY.jpg",
+  "title": "Kill Bill: The Whole Bloody Affair",
+  "tmdb_id": 414419,
+  "trailer": "https://www.youtube.com/watch?v=-SzkFgEqB6Y",
+  "year": 2011
+ },
+ "kono sora no hana nagaoka hanabi monogatari|": {
+  "genres": [
+   "Fantasy",
+   "Drama",
+   "War"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/xy5YGtIfFE77gUsoyFgQYlXNDrQ.jpg",
+  "title": "Casting Blossoms to the Sky",
+  "tmdb_id": 127453,
+  "trailer": "https://www.youtube.com/watch?v=maO1KFWv27U",
+  "year": 2012
  },
  "l argent 1928|": {
   "genres": [
@@ -2027,6 +3482,42 @@
   "trailer": "https://www.youtube.com/watch?v=cT8qbVVU4HI",
   "year": 2006
  },
+ "lady in water|2006": {
+  "genres": [
+   "Drama",
+   "Fantasy",
+   "Mystery"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ddNmoSy1Jd3PBF5XDZvrrBIfrja.jpg",
+  "title": "Lady in the Water",
+  "tmdb_id": 9697,
+  "trailer": "https://www.youtube.com/watch?v=cT8qbVVU4HI",
+  "year": 2006
+ },
+ "lake house|2006": {
+  "genres": [
+   "Romance",
+   "Drama",
+   "Fantasy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/tHpc1118dYWLnHZleGhwZxRbpae.jpg",
+  "title": "The Lake House",
+  "tmdb_id": 2044,
+  "trailer": "https://www.youtube.com/watch?v=V02lqEpbk2Y",
+  "year": 2006
+ },
+ "land o landow land mark land survey o george land ow aka owen land s own film and vide o|": null,
+ "last picture show|1971": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/7NYePZc0lZrRomtmQsjOJMePTEb.jpg",
+  "title": "The Last Picture Show",
+  "tmdb_id": 25188,
+  "trailer": "https://www.youtube.com/watch?v=NufO2KXHbKQ",
+  "year": 1971
+ },
  "last summer|1969": {
   "genres": [
    "Drama"
@@ -2071,6 +3562,28 @@
   "trailer": "https://www.youtube.com/watch?v=BpAFPgNyxmc",
   "year": 2011
  },
+ "les bonnes femmes|1960": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/9KV6RqMfnHmyrqK7phsH6lEQa52.jpg",
+  "title": "Les Bonnes Femmes",
+  "tmdb_id": 27419,
+  "trailer": null,
+  "year": 1960
+ },
+ "light that never goes out|2025": {
+  "genres": [
+   "Drama",
+   "Comedy",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/oTuudvTMi9c2oPcCBervo2OwVyX.jpg",
+  "title": "A Light That Never Goes Out",
+  "tmdb_id": 1304527,
+  "trailer": "https://www.youtube.com/watch?v=gSpHShwJxhY",
+  "year": 2025
+ },
  "lilo stitch|2025": {
   "genres": [
    "Family",
@@ -2093,6 +3606,29 @@
   "trailer": "https://www.youtube.com/watch?v=U4BNdAaa948",
   "year": 2020
  },
+ "linkin park unshatter|": {
+  "genres": [
+   "Music",
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/sqVlD8OoqEkcczRNWmnPjmhXh1M.jpg",
+  "title": "LINKIN PARK: UNSHATTER",
+  "tmdb_id": 1388805,
+  "trailer": "https://www.youtube.com/watch?v=K9Lpxc7bVTM",
+  "year": 2026
+ },
+ "litany for survival life and work of audre lorde|1995": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/soQwbV3nUU958wQEi4q6crBJRwl.jpg",
+  "title": "A Litany for Survival: The Life and Work of Audre Lorde",
+  "tmdb_id": 327115,
+  "trailer": null,
+  "year": 1995
+ },
+ "little deaths las muertes chiquitas|": null,
+ "little deaths|2009": null,
  "little shop of horrors 1986|": {
   "genres": [
    "Horror",
@@ -2114,6 +3650,16 @@
   "trailer": "https://www.youtube.com/watch?v=LNLESq_Mf44",
   "year": 2025
  },
+ "live little|2025": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/pDPQBc27hMOrm9IYBhmANuxVYx0.jpg",
+  "title": "Live a Little",
+  "tmdb_id": 1414079,
+  "trailer": "https://www.youtube.com/watch?v=LNLESq_Mf44",
+  "year": 2025
+ },
  "lockjaw|2025": {
   "genres": [
    "Comedy"
@@ -2123,6 +3669,65 @@
   "tmdb_id": 1355142,
   "trailer": "https://www.youtube.com/watch?v=HzV1nX9GMlU",
   "year": 2026
+ },
+ "longshots|": {
+  "genres": [
+   "Drama",
+   "Family",
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/mrejNUR8giaAYIJkaLztELRrVXe.jpg",
+  "title": "The Longshots",
+  "tmdb_id": 13579,
+  "trailer": "https://www.youtube.com/watch?v=0ls_1-UQVO4",
+  "year": 2008
+ },
+ "lord of rings fellowship of ring|2001": {
+  "genres": [
+   "Adventure",
+   "Fantasy",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "tmdb_id": 120,
+  "trailer": "https://www.youtube.com/watch?v=_nZdmwHrcnw",
+  "year": 2001
+ },
+ "lord of rings return of king|2003": {
+  "genres": [
+   "Adventure",
+   "Fantasy",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+  "title": "The Lord of the Rings: The Return of the King",
+  "tmdb_id": 122,
+  "trailer": "https://www.youtube.com/watch?v=zckJCxYxn1g",
+  "year": 2003
+ },
+ "lord of rings two towers|2002": {
+  "genres": [
+   "Adventure",
+   "Fantasy",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+  "title": "The Lord of the Rings: The Two Towers",
+  "tmdb_id": 121,
+  "trailer": "https://www.youtube.com/watch?v=nuTU5XcZTLA",
+  "year": 2002
+ },
+ "love in afternoon|1972": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5fItTSqhGG2T9WkUNu2nSruSKsP.jpg",
+  "title": "Love in the Afternoon",
+  "tmdb_id": 12116,
+  "trailer": null,
+  "year": 1972
  },
  "mad dog morgan|1976": {
   "genres": [
@@ -2160,6 +3765,18 @@
   "trailer": "https://www.youtube.com/watch?v=IjfX8l5XrF8",
   "year": 2026
  },
+ "magic faraway tree|": {
+  "genres": [
+   "Adventure",
+   "Family",
+   "Fantasy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+  "title": "The Magic Faraway Tree",
+  "tmdb_id": 1140521,
+  "trailer": "https://www.youtube.com/watch?v=cTKFa2dAiuA",
+  "year": 2026
+ },
  "main theme|1984": {
   "genres": [
    "Comedy",
@@ -2172,6 +3789,41 @@
   "trailer": "https://www.youtube.com/watch?v=-BYpq_fD3Ao",
   "year": 1984
  },
+ "mamma mia|": {
+  "genres": [
+   "Comedy",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/xYLiCWmAMHJubx5jNZ7HuXKjAbV.jpg",
+  "title": "Mamma Mia!",
+  "tmdb_id": 11631,
+  "trailer": "https://www.youtube.com/watch?v=8RBNHdG35WY",
+  "year": 2008
+ },
+ "man with 2 heads|1972": {
+  "genres": [
+   "Horror",
+   "Science Fiction"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/99ICCgWdOUZDoZvjUmn2W9otSN4.jpg",
+  "title": "The Man with Two Heads",
+  "tmdb_id": 112812,
+  "trailer": null,
+  "year": 1972
+ },
+ "manhunter final cut|1986": null,
+ "manhunter|1986": {
+  "genres": [
+   "Crime",
+   "Horror",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/6rb24x39vV8n5301IelC8rCPJTH.jpg",
+  "title": "Manhunter",
+  "tmdb_id": 11454,
+  "trailer": "https://www.youtube.com/watch?v=fywNBuzD2SU",
+  "year": 1986
+ },
  "manson family movies|1984": {
   "genres": [
    "Horror"
@@ -2181,6 +3833,39 @@
   "tmdb_id": 92695,
   "trailer": "https://www.youtube.com/watch?v=XfeV2sGM6IY",
   "year": 1979
+ },
+ "marching band|": {
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/6lATJ42bWGAIQ0cG2dzSZD8bNcL.jpg",
+  "title": "The Marching Band",
+  "tmdb_id": 1000866,
+  "trailer": "https://www.youtube.com/watch?v=bhfCXPYIKs8",
+  "year": 2024
+ },
+ "marie antoinette|2006": {
+  "genres": [
+   "Drama",
+   "History"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/cybXGmv8Rjd5Os8Xml6YxMBQ0Zt.jpg",
+  "title": "Marie Antoinette",
+  "tmdb_id": 1887,
+  "trailer": "https://www.youtube.com/watch?v=yBWyKRoh98U",
+  "year": 2006
+ },
+ "mary oliver saved by beauty of world|2026": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/aAZ7Ih2tU65y55CfE0nIFSaow4n.jpg",
+  "title": "Mary Oliver: Saved by the Beauty of the World",
+  "tmdb_id": 1631822,
+  "trailer": "https://www.youtube.com/watch?v=ZJMd3u741pA",
+  "year": 2026
  },
  "mary oliver saved by the beauty of the world|2026": {
   "genres": [
@@ -2192,6 +3877,17 @@
   "trailer": "https://www.youtube.com/watch?v=ZJMd3u741pA",
   "year": 2026
  },
+ "master|2012": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/rUSjbyvYWN9H4az8xt0tDtU7I6v.jpg",
+  "title": "The Master",
+  "tmdb_id": 68722,
+  "trailer": "https://www.youtube.com/watch?v=RApl06pYIuU",
+  "year": 2012
+ },
+ "matter propounded three films by david gatten|": null,
  "meek s cutoff|2010": {
   "genres": [
    "Western",
@@ -2215,6 +3911,25 @@
   "tmdb_id": 592831,
   "trailer": "https://www.youtube.com/watch?v=pq6mvHZU0fc",
   "year": 2024
+ },
+ "meishi street|": {
+  "genres": [],
+  "poster": "https://image.tmdb.org/t/p/w342/g3TVOgkEoAnxEXfYhlKnH1WQvdZ.jpg",
+  "title": "Meishi Street",
+  "tmdb_id": 94717,
+  "trailer": null,
+  "year": 2006
+ },
+ "mektoub my love canto uno|2017": {
+  "genres": [
+   "Romance",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/jJLL0E243c8CBTlryvYh69rQQV9.jpg",
+  "title": "Mektoub, My Love: Canto Uno",
+  "tmdb_id": 337676,
+  "trailer": null,
+  "year": 2018
  },
  "memoria|2021": {
   "genres": [
@@ -2251,6 +3966,9 @@
   "trailer": "https://www.youtube.com/watch?v=ulcSW8VAVPc",
   "year": 1932
  },
+ "merritt pgm 1 psychodramas masked figures multiple identities|": null,
+ "merritt pgm 2 vignettes miniatures|": null,
+ "merritt pgm 3 later work|": null,
  "mes petites amoureuses|": {
   "genres": [
    "Drama"
@@ -2261,6 +3979,7 @@
   "trailer": null,
   "year": 1974
  },
+ "michael mann s manhunter final cut|1986": null,
  "michael mann s manhunter the final cut|1986": null,
  "michael|2026": {
   "genres": [
@@ -2273,6 +3992,7 @@
   "trailer": "https://www.youtube.com/watch?v=mbtgEE6rkxw",
   "year": 2026
  },
+ "mike kuchar|": null,
  "minari|2020": {
   "genres": [
    "Drama"
@@ -2298,6 +4018,7 @@
   "year": 2026
  },
  "missing movies   double feature|": null,
+ "missing movies double feature|": null,
  "mississippi mermaid|1969": {
   "genres": [
    "Romance",
@@ -2324,6 +4045,17 @@
   "tmdb_id": 1108427,
   "trailer": "https://www.youtube.com/watch?v=EEz5xbzYPKI",
   "year": 2026
+ },
+ "mommy is coming|2012": {
+  "genres": [
+   "Comedy",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5TTIN4a5OLuhMvek2dA1nq6BJTS.jpg",
+  "title": "Mommy Is Coming",
+  "tmdb_id": 275968,
+  "trailer": "https://www.youtube.com/watch?v=6DFIoqCaIaM",
+  "year": 2012
  },
  "moonrise kingdom|": {
   "genres": [
@@ -2361,6 +4093,8 @@
  },
  "movies on the waterfront audience choice|": null,
  "movies on the waterfront the wild robot|2024": null,
+ "movies on waterfront audience choice|": null,
+ "movies on waterfront wild robot|2024": null,
  "mr jones|2019": {
   "genres": [
    "Thriller",
@@ -2385,6 +4119,10 @@
   "trailer": "https://www.youtube.com/watch?v=3oa64ktrwKY",
   "year": 2001
  },
+ "multi media resource center pgm 1 confessions and sex histories|": null,
+ "multi media resource center pgm 2 active partners|": null,
+ "multi media resource center program 1 confessions and sex histories|": null,
+ "multi media resource center program 2 active partners|": null,
  "muppet treasure island|": {
   "genres": [
    "Romance",
@@ -2409,6 +4147,19 @@
   "trailer": "https://www.youtube.com/watch?v=MPyXlWTZ32E",
   "year": 2026
  },
+ "my heart is that eternal rose|1989": {
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/igW5rfwv0BBMu3ogmbjxUMQxm6q.jpg",
+  "title": "My Heart Is That Eternal Rose",
+  "tmdb_id": 78033,
+  "trailer": "https://www.youtube.com/watch?v=_JefIFLCSHc",
+  "year": 1989
+ },
  "my little loves|1974": {
   "genres": [
    "Drama"
@@ -2418,6 +4169,29 @@
   "tmdb_id": 64296,
   "trailer": null,
   "year": 1974
+ },
+ "my name ain t suzie fa gai si doi|": null,
+ "my name ain t suzie|1985": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/eNdY1OCdqElOjUyzGsi1aXI5FUi.jpg",
+  "title": "My Name Ain't Suzie",
+  "tmdb_id": 187021,
+  "trailer": "https://www.youtube.com/watch?v=pUPYuC_nCIg",
+  "year": 1985
+ },
+ "my night at maud s|1969": {
+  "genres": [
+   "Romance",
+   "Comedy",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/9usKgth3ROn4LwPQ7tTvxKnpBGL.jpg",
+  "title": "My Night at Maud's",
+  "tmdb_id": 48831,
+  "trailer": "https://www.youtube.com/watch?v=FD7ONauhqsg",
+  "year": 1969
  },
  "mysterious skin|2004": {
   "genres": [
@@ -2438,6 +4212,18 @@
   "trailer": null,
   "year": null
  },
+ "nacho libre|": {
+  "genres": [
+   "Comedy",
+   "Action",
+   "Family"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/kh7B91bMl2lZ0mH9WhPfaNUIEQH.jpg",
+  "title": "Nacho Libre",
+  "tmdb_id": 9353,
+  "trailer": "https://www.youtube.com/watch?v=m2Vh4tfnvKk",
+  "year": 2006
+ },
  "namaslay|": {
   "genres": [
    "Horror",
@@ -2449,6 +4235,19 @@
   "trailer": "https://www.youtube.com/watch?v=f8N0ZWgUoIE",
   "year": 2026
  },
+ "name of rose|1986": {
+  "genres": [
+   "Drama",
+   "Thriller",
+   "Mystery"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/d6dlbTBb3N7nXDz7tQslDJs2jgv.jpg",
+  "title": "The Name of the Rose",
+  "tmdb_id": 192,
+  "trailer": "https://www.youtube.com/watch?v=BX2u0cxj-KU",
+  "year": 1986
+ },
+ "narrow rooms jerker|": null,
  "national theatre live all my sons 2026|": {
   "genres": [
    "Drama"
@@ -2513,6 +4312,27 @@
   "trailer": null,
   "year": 2026
  },
+ "never after dark|2026": {
+  "genres": [
+   "Horror"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/4rDgzOCBREeTaqZvTeFtEcnrju8.jpg",
+  "title": "Never After Dark",
+  "tmdb_id": 1629051,
+  "trailer": null,
+  "year": 2026
+ },
+ "new leaf|": {
+  "genres": [
+   "Comedy",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/2yKcVFrizqpBBzZBEBvvBR3JKJF.jpg",
+  "title": "A New Leaf",
+  "tmdb_id": 36850,
+  "trailer": "https://www.youtube.com/watch?v=_kpOUqih-iA",
+  "year": 1971
+ },
  "new york new york|1977": {
   "genres": [
    "Romance",
@@ -2537,6 +4357,19 @@
   "trailer": "https://www.youtube.com/watch?v=r0MtQ1s_A_4",
   "year": 1989
  },
+ "night is short walk on girl|2017": {
+  "genres": [
+   "Comedy",
+   "Romance",
+   "Animation",
+   "Fantasy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/cDp45WZNqgAli3u4GTnUhsqFn5K.jpg",
+  "title": "Night Is Short, Walk On Girl",
+  "tmdb_id": 430214,
+  "trailer": "https://www.youtube.com/watch?v=x4IROrwsR-Q",
+  "year": 2017
+ },
  "night of the vamp friars|2026": {
   "genres": [
    "Horror"
@@ -2547,6 +4380,17 @@
   "trailer": "https://www.youtube.com/watch?v=bWRCWgB2eAo",
   "year": 2026
  },
+ "night of vamp friars|2026": {
+  "genres": [
+   "Horror"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/lnoSUIAE4ghfPW7trT3sqXIZa3u.jpg",
+  "title": "Night of the Vamp-Friars",
+  "tmdb_id": 1367693,
+  "trailer": "https://www.youtube.com/watch?v=bWRCWgB2eAo",
+  "year": 2026
+ },
+ "night with james baldwin black august remembrance|": null,
  "nightborn|": {
   "genres": [
    "Horror"
@@ -2568,6 +4412,17 @@
   "trailer": "https://www.youtube.com/watch?v=5mtbOhpqroo",
   "year": 2026
  },
+ "nimrods green day comedy|": {
+  "genres": [
+   "Comedy",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/aebmSpFu1lUV78PtOpqMUn4d82B.jpg",
+  "title": "Nimrods",
+  "tmdb_id": 1432474,
+  "trailer": "https://www.youtube.com/watch?v=5mtbOhpqroo",
+  "year": 2026
+ },
  "no more excuses|": {
   "genres": [
    "Comedy"
@@ -2577,6 +4432,27 @@
   "tmdb_id": 110692,
   "trailer": null,
   "year": 1968
+ },
+ "no other land|": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/s7XYieuZg9kMe07i9VI4bfGN4Pw.jpg",
+  "title": "No Other Land",
+  "tmdb_id": 1232493,
+  "trailer": "https://www.youtube.com/watch?v=jOOgJICcxu0",
+  "year": 2024
+ },
+ "nosferatu 1922|": {
+  "genres": [
+   "Horror",
+   "Fantasy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
+  "title": "Nosferatu",
+  "tmdb_id": 653,
+  "trailer": "https://www.youtube.com/watch?v=npxhdRMYHy0",
+  "year": 1922
  },
  "nostalghia|1983": {
   "genres": [
@@ -2589,6 +4465,17 @@
   "trailer": "https://www.youtube.com/watch?v=vMy-T5GI7Z0",
   "year": 1983
  },
+ "nostos return|1989": {
+  "genres": [
+   "Drama",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/xDSH9Pxmj0MtXPYd0f8SiXdGJ88.jpg",
+  "title": "Nostos: The Return",
+  "tmdb_id": 237957,
+  "trailer": null,
+  "year": 1990
+ },
  "nostos the return|1989": {
   "genres": [
    "Drama",
@@ -2600,6 +4487,8 @@
   "trailer": null,
   "year": 1990
  },
+ "nouja m pgm 1 veiled struggles|": null,
+ "nouja m pgm 2 re telling|": null,
  "now you see me now you don t|2025": {
   "genres": [
    "Crime",
@@ -2622,7 +4511,46 @@
   "trailer": "https://www.youtube.com/watch?v=p-pVxwaFuBs",
   "year": 2013
  },
+ "nutty professor 1996|": {
+  "genres": [
+   "Comedy",
+   "Science Fiction",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/fMtb5aZoLRNbMnCkatFsTmPRfl5.jpg",
+  "title": "The Nutty Professor",
+  "tmdb_id": 9327,
+  "trailer": "https://www.youtube.com/watch?v=FFVbS0qm0TI",
+  "year": 1996
+ },
  "nyc short film showcase|": null,
+ "obsession|1976": {
+  "genres": [
+   "Thriller",
+   "Mystery",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/a0bOKTldOJVJivmPNGBHfMYJU9x.jpg",
+  "title": "Obsession",
+  "tmdb_id": 4780,
+  "trailer": "https://www.youtube.com/watch?v=oYkV1s9hM-Q",
+  "year": 1976
+ },
+ "odyssey dcp|": null,
+ "odyssey digital screening|2026": null,
+ "odyssey screening|2026": null,
+ "odyssey|2026": {
+  "genres": [
+   "Adventure",
+   "Action",
+   "Fantasy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+  "title": "The Odyssey",
+  "tmdb_id": 1368337,
+  "trailer": "https://www.youtube.com/watch?v=AyIZ9tiiN8I",
+  "year": 2026
+ },
  "old joy|2006": {
   "genres": [
    "Drama"
@@ -2644,6 +4572,28 @@
   "trailer": "https://www.youtube.com/watch?v=Gw9OKjNP1Jw",
   "year": 2026
  },
+ "on silver globe|1988": {
+  "genres": [
+   "Science Fiction",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/4zzam82e6rCY2Ktm0fyRoseHhkh.jpg",
+  "title": "On the Silver Globe",
+  "tmdb_id": 27072,
+  "trailer": "https://www.youtube.com/watch?v=zBFRiSlcBAg",
+  "year": 1989
+ },
+ "on string|2026": {
+  "genres": [
+   "Comedy",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/dOxMS77IdgJtoFsSsk5V1nsWcUc.jpg",
+  "title": "On a String",
+  "tmdb_id": 1215458,
+  "trailer": "https://www.youtube.com/watch?v=24afAxfiHAY",
+  "year": 2026
+ },
  "on the silver globe|1988": {
   "genres": [
    "Science Fiction",
@@ -2654,6 +4604,17 @@
   "tmdb_id": 27072,
   "trailer": "https://www.youtube.com/watch?v=zBFRiSlcBAg",
   "year": 1989
+ },
+ "on town|1949": {
+  "genres": [
+   "Comedy",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/lEU8QQmIayAtPZrCDf2czQgTjQ1.jpg",
+  "title": "On the Town",
+  "tmdb_id": 31516,
+  "trailer": "https://www.youtube.com/watch?v=ri4OegFn3Jk",
+  "year": 1949
  },
  "once upon a time in hollywood|2019": {
   "genres": [
@@ -2666,6 +4627,40 @@
   "tmdb_id": 466272,
   "trailer": "https://www.youtube.com/watch?v=vKgITiP1UMg",
   "year": 2019
+ },
+ "once upon time in hollywood|2019": {
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
+  "title": "Once Upon a Time... in Hollywood",
+  "tmdb_id": 466272,
+  "trailer": "https://www.youtube.com/watch?v=vKgITiP1UMg",
+  "year": 2019
+ },
+ "one from heart reprise|1981": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5EyIQksa8C9tm82rHIJYGQXZ5Vs.jpg",
+  "title": "One from the Heart",
+  "tmdb_id": 41291,
+  "trailer": "https://www.youtube.com/watch?v=G8OdSGjOBR4",
+  "year": 1982
+ },
+ "one from heart|1982": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5EyIQksa8C9tm82rHIJYGQXZ5Vs.jpg",
+  "title": "One from the Heart",
+  "tmdb_id": 41291,
+  "trailer": "https://www.youtube.com/watch?v=G8OdSGjOBR4",
+  "year": 1982
  },
  "one from the heart reprise|1981": {
   "genres": [
@@ -2690,6 +4685,86 @@
   "year": 2026
  },
  "open screening|": null,
+ "ordet|1955": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/c9Oef9uQEuadZlnvv8hphRmTIgx.jpg",
+  "title": "Ordet",
+  "tmdb_id": 48035,
+  "trailer": "https://www.youtube.com/watch?v=-uQEPjRog84",
+  "year": 1955
+ },
+ "others|2001": {
+  "genres": [
+   "Horror",
+   "Mystery",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/p8g1vlTvpM6nr2hMMiZ1fUlKF0D.jpg",
+  "title": "The Others",
+  "tmdb_id": 1933,
+  "trailer": "https://www.youtube.com/watch?v=GekkoBitLvM",
+  "year": 2001
+ },
+ "our latin thing|1972": null,
+ "out of blue|1980": {
+  "genres": [
+   "Mystery",
+   "Thriller",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5EpQX8h6LuHKt7JzRV4T7IMaLJj.jpg",
+  "title": "Out of the Blue",
+  "tmdb_id": 1003813,
+  "trailer": "https://www.youtube.com/watch?v=Bs64JSTNy1c",
+  "year": 2022
+ },
+ "outsiders complete novel|": {
+  "genres": [
+   "Crime",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/l9os0HcXY8BOkvUWAx4rvby3j6L.jpg",
+  "title": "The Outsiders",
+  "tmdb_id": 227,
+  "trailer": "https://www.youtube.com/watch?v=3ud6PLVjY5Y",
+  "year": 1983
+ },
+ "outsiders|1983": {
+  "genres": [
+   "Crime",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/l9os0HcXY8BOkvUWAx4rvby3j6L.jpg",
+  "title": "The Outsiders",
+  "tmdb_id": 227,
+  "trailer": "https://www.youtube.com/watch?v=3ud6PLVjY5Y",
+  "year": 1983
+ },
+ "page of madness|1926": {
+  "genres": [
+   "Horror",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/oENG5j37qSJEk9htJYeSQrUZaDz.jpg",
+  "title": "A Page of Madness",
+  "tmdb_id": 94525,
+  "trailer": "https://www.youtube.com/watch?v=inZy5os7Aq4",
+  "year": 1926
+ },
+ "panic in needle park|1971": {
+  "genres": [
+   "Drama",
+   "Romance",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/rhJ8Dnl6Z9KR9R2zskBKIfrFeFs.jpg",
+  "title": "The Panic in Needle Park",
+  "tmdb_id": 27554,
+  "trailer": "https://www.youtube.com/watch?v=eNeN9ZU2CSM",
+  "year": 1971
+ },
  "panic room|2002": {
   "genres": [
    "Crime",
@@ -2702,6 +4777,61 @@
   "trailer": "https://www.youtube.com/watch?v=yCMKOqL94BQ",
   "year": 2002
  },
+ "paper|1993": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5AcaIDPSOONSYgFrMl8QIlYM5Ng.jpg",
+  "title": "The Paper",
+  "tmdb_id": 612917,
+  "trailer": null,
+  "year": 2000
+ },
+ "paranoid park|2007": {
+  "genres": [
+   "Drama",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/qdxQ8vZJoZuLqU9MXYW2vnRwhan.jpg",
+  "title": "Paranoid Park",
+  "tmdb_id": 1990,
+  "trailer": "https://www.youtube.com/watch?v=8-pKxaN34K0",
+  "year": 2007
+ },
+ "parsifal|1982": {
+  "genres": [
+   "Drama",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/aDyqdBFp84grpTPrP0FfjOtL5QT.jpg",
+  "title": "Parsifal",
+  "tmdb_id": 176167,
+  "trailer": null,
+  "year": 1982
+ },
+ "parson s widow|1921": {
+  "genres": [
+   "Comedy",
+   "Drama",
+   "History"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/xOntAvES3qCiFcX4vAq7U7Ic1kb.jpg",
+  "title": "The Parson's Widow",
+  "tmdb_id": 62982,
+  "trailer": null,
+  "year": 1920
+ },
+ "passion of joan of arc|1927": {
+  "genres": [
+   "Drama",
+   "History"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/tAgV9yxY6AC1bsPt3qJJQpD4s8.jpg",
+  "title": "The Passion of Joan of Arc",
+  "tmdb_id": 780,
+  "trailer": "https://www.youtube.com/watch?v=Iz3XmfNzrNs",
+  "year": 1928
+ },
  "pastorale|1975": {
   "genres": [
    "Drama"
@@ -2711,6 +4841,20 @@
   "tmdb_id": 168179,
   "trailer": null,
   "year": 1975
+ },
+ "paw patrol dino movie|2026": {
+  "genres": [
+   "Animation",
+   "Adventure",
+   "Family",
+   "Fantasy",
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/qnin56Syy5rbG7KCaxWY7SPuy6p.jpg",
+  "title": "PAW Patrol: The Dino Movie",
+  "tmdb_id": 1185806,
+  "trailer": "https://www.youtube.com/watch?v=xgI5iYmOf5Q",
+  "year": 2026
  },
  "paw patrol the dino movie|2026": {
   "genres": [
@@ -2739,6 +4883,19 @@
   "trailer": "https://www.youtube.com/watch?v=091_NXuANgg",
   "year": 1986
  },
+ "permanent vacation|": {
+  "genres": [
+   "Drama",
+   "Comedy",
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/v8OdqysgwYKQunXAwiumN6GWOIC.jpg",
+  "title": "Permanent Vacation",
+  "tmdb_id": 40727,
+  "trailer": null,
+  "year": 2007
+ },
+ "perpetual recurrences|2016": null,
  "petite maman|2021": {
   "genres": [
    "Drama",
@@ -2752,6 +4909,19 @@
  },
  "pgm 1 new discoveries|": null,
  "pgm 2 encore screenings|": null,
+ "phantom of paradise|1974": {
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Horror",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/qDOtGWeSQNwB3dG7Amt1K0JW0az.jpg",
+  "title": "Phantom of the Paradise",
+  "tmdb_id": 27327,
+  "trailer": "https://www.youtube.com/watch?v=ULldW6fU7Vw",
+  "year": 1974
+ },
  "phantom of the paradise|1974": {
   "genres": [
    "Comedy",
@@ -2765,7 +4935,28 @@
   "trailer": "https://www.youtube.com/watch?v=ULldW6fU7Vw",
   "year": 1974
  },
+ "piano|1993": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/rx8RKXn8OtuS6lqloYsjyrGOUp4.jpg",
+  "title": "The Piano",
+  "tmdb_id": 713,
+  "trailer": "https://www.youtube.com/watch?v=IeHHVJGrfpk",
+  "year": 1993
+ },
  "pier i picture show national treasure|2004": null,
+ "playing with fire ecosexual emergency|2025": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/qdlS02ZAKO3dYF5sbxiMR0jjxTo.jpg",
+  "title": "Playing with Fire: An Ecosexual Emergency",
+  "tmdb_id": 1481459,
+  "trailer": null,
+  "year": 2025
+ },
  "poetic justice|1993": {
   "genres": [
    "Drama",
@@ -2787,6 +4978,16 @@
   "trailer": "https://www.youtube.com/watch?v=aLXW-oVbTxE",
   "year": 1981
  },
+ "powwow people|2025": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/klheiHrCGwNNooVvYTJCFYMzmrI.jpg",
+  "title": "Powwow People",
+  "tmdb_id": 1249271,
+  "trailer": null,
+  "year": 2025
+ },
  "pp rider|1983": {
   "genres": [
    "Crime",
@@ -2798,6 +4999,46 @@
   "tmdb_id": 115780,
   "trailer": "https://www.youtube.com/watch?v=UuEnHCD3aHQ",
   "year": 1983
+ },
+ "practical magic 2|": {
+  "genres": [
+   "Romance",
+   "Fantasy",
+   "Comedy",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ogwQOLbCfncjvBhFb5l0OmQH8KC.jpg",
+  "title": "Practical Magic 2",
+  "tmdb_id": 1302904,
+  "trailer": "https://www.youtube.com/watch?v=Ho10_4IX1jE",
+  "year": 2026
+ },
+ "pretty peaches|1978": null,
+ "prince of egypt|1998": {
+  "genres": [
+   "Adventure",
+   "Animation",
+   "Drama",
+   "Family"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/2xUjYwL6Ol7TLJPPKs7sYW5PWLX.jpg",
+  "title": "The Prince of Egypt",
+  "tmdb_id": 9837,
+  "trailer": "https://www.youtube.com/watch?v=zmBDY-fSlIs",
+  "year": 1998
+ },
+ "princess and frog|2009": {
+  "genres": [
+   "Animation",
+   "Romance",
+   "Fantasy",
+   "Family"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/yprv5PbnEksoVj2v6XEnDBg9joR.jpg",
+  "title": "The Princess and the Frog",
+  "tmdb_id": 10198,
+  "trailer": "https://www.youtube.com/watch?v=uQBy6jqbmlU",
+  "year": 2009
  },
  "project hail mary|2026": {
   "genres": [
@@ -2822,6 +5063,51 @@
   "trailer": "https://www.youtube.com/watch?v=4s0iTlGRq0Q",
   "year": 2025
  },
+ "quiet beekeeper|2026": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/txmqhFSOujA0GTmDSsH9lDjpZXY.jpg",
+  "title": "The Quiet Beekeeper",
+  "tmdb_id": 1596163,
+  "trailer": null,
+  "year": 2026
+ },
+ "rain people|1969": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/v7QoTc6glt5zEpE05Wg5sFgH0Lf.jpg",
+  "title": "The Rain People",
+  "tmdb_id": 59231,
+  "trailer": "https://www.youtube.com/watch?v=o9XgOpsmLU8",
+  "year": 1969
+ },
+ "rainmaker|1997": {
+  "genres": [
+   "Drama",
+   "Crime",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/twLGHXPjQtS8UyVGp5GXmhJiTM7.jpg",
+  "title": "The Rainmaker",
+  "tmdb_id": 11975,
+  "trailer": "https://www.youtube.com/watch?v=Odb3LrbvS_0",
+  "year": 1997
+ },
+ "rambo first blood|": {
+  "genres": [
+   "Action",
+   "Adventure",
+   "Thriller",
+   "War"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/1eSQvGuD25ezKaiaQsyDDG3e9iN.jpg",
+  "title": "Rambo III",
+  "tmdb_id": 1370,
+  "trailer": "https://www.youtube.com/watch?v=SMLUwNSVX5Y",
+  "year": 1988
+ },
  "raw|2016": {
   "genres": [
    "Horror",
@@ -2832,6 +5118,40 @@
   "tmdb_id": 393519,
   "trailer": "https://www.youtube.com/watch?v=cdDZpQGsM5U",
   "year": 2017
+ },
+ "razor s edge|1984": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/tBiw9KXH9agSgi4WhgVkFuEhYjO.jpg",
+  "title": "The Razor's Edge",
+  "tmdb_id": 24453,
+  "trailer": "https://www.youtube.com/watch?v=kp3khtzYgAc",
+  "year": 1984
+ },
+ "rebecca|1940": {
+  "genres": [
+   "Mystery",
+   "Romance",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/1qz3qUOHnVy7dL7M7G8jSErxE4b.jpg",
+  "title": "Rebecca",
+  "tmdb_id": 223,
+  "trailer": "https://www.youtube.com/watch?v=cJok8CPtHRw",
+  "year": 1940
+ },
+ "red stars upon field|2025": {
+  "genres": [
+   "Crime",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/d9biUvRR2XgYFeIhBR8TeDYFHTU.jpg",
+  "title": "Red Stars Upon the Field",
+  "tmdb_id": 1174023,
+  "trailer": null,
+  "year": 2025
  },
  "remake|": {
   "genres": [
@@ -2861,6 +5181,42 @@
   "trailer": "https://www.youtube.com/watch?v=KWWdt-NZwCA",
   "year": 1990
  },
+ "rimbaud|2026": {
+  "genres": [
+   "History",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/lurwA6e2BExdp0uNrvV1XwyKMsr.jpg",
+  "title": "A. Rimbaud",
+  "tmdb_id": 1365834,
+  "trailer": null,
+  "year": 2026
+ },
+ "rivals of amziah king|": {
+  "genres": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/3iVDCDS1VwHIm95PjWEPwsfdhaf.jpg",
+  "title": "The Rivals of Amziah King",
+  "tmdb_id": 1124142,
+  "trailer": "https://www.youtube.com/watch?v=GwSvAyaMGMo",
+  "year": 2026
+ },
+ "rocky horror picture show live shadow cast|1975": null,
+ "rock|1996": {
+  "genres": [
+   "Action",
+   "Adventure",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/eBcoxveWzzXQrCrwWMGAROcqgpP.jpg",
+  "title": "The Rock",
+  "tmdb_id": 9802,
+  "trailer": "https://www.youtube.com/watch?v=a3qcNyjj9ZQ",
+  "year": 1996
+ },
  "roller junkies|2022": {
   "genres": [
    "Comedy",
@@ -2872,7 +5228,31 @@
   "trailer": "https://www.youtube.com/watch?v=WP4u7q9z4T8",
   "year": 2022
  },
+ "romancing stone|1984": {
+  "genres": [
+   "Romance",
+   "Comedy",
+   "Action",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/qfIlVOYZH5RiZ0ndFKUpr5Zn2Bx.jpg",
+  "title": "Romancing the Stone",
+  "tmdb_id": 9326,
+  "trailer": "https://www.youtube.com/watch?v=DL40GuLfxA8",
+  "year": 1984
+ },
  "rooftop shots closing night 2026|": null,
+ "room|2003": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/9QscHN4pXj6Ja1k7e1ZT4vWDGnr.jpg",
+  "title": "The Room",
+  "tmdb_id": 17473,
+  "trailer": "https://www.youtube.com/watch?v=cG_e8k9PILM",
+  "year": 2003
+ },
  "rose of nevada|": {
   "genres": [
    "Mystery",
@@ -2894,6 +5274,8 @@
   "trailer": null,
   "year": 1995
  },
+ "rubble on screen short film pgm|": null,
+ "rubble short film pgm|": null,
  "rumble fish|1983": {
   "genres": [
    "Crime",
@@ -2906,6 +5288,18 @@
   "trailer": "https://www.youtube.com/watch?v=09SzubNNEdA",
   "year": 1983
  },
+ "sad and beautiful world|2025": {
+  "genres": [
+   "Romance",
+   "Drama",
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/gW3j8B4VPCnVTELgiZee9Xct49J.jpg",
+  "title": "A Sad and Beautiful World",
+  "tmdb_id": 1376838,
+  "trailer": "https://www.youtube.com/watch?v=pGHWEz1-W-E",
+  "year": 2025
+ },
  "samba traor|1992": {
   "genres": [
    "Drama"
@@ -2914,6 +5308,31 @@
   "title": "Samba Traoré",
   "tmdb_id": 241172,
   "trailer": "https://www.youtube.com/watch?v=88k8_KZG91o",
+  "year": 1993
+ },
+ "sami song of survival|2025": null,
+ "samurai and prisoner|2026": {
+  "genres": [
+   "Drama",
+   "History",
+   "Mystery"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/1GWVlPM1v6k84LsmDkfDzLlGf0O.jpg",
+  "title": "The Samurai and the Prisoner",
+  "tmdb_id": 1620313,
+  "trailer": "https://www.youtube.com/watch?v=dY5kXykdbLo",
+  "year": 2026
+ },
+ "sandlot|": {
+  "genres": [
+   "Family",
+   "Comedy",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/7PYqz0viEuW8qTvuGinUMjDWMnj.jpg",
+  "title": "The Sandlot",
+  "tmdb_id": 11528,
+  "trailer": "https://www.youtube.com/watch?v=52yV9dSzV1E",
   "year": 1993
  },
  "satan s menagerie|2001": {
@@ -2926,8 +5345,44 @@
   "trailer": null,
   "year": 2001
  },
+ "scanner darkly|2006": {
+  "genres": [
+   "Animation",
+   "Science Fiction",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/lUKudOpHICDj6A6SO7DdaZM4W48.jpg",
+  "title": "A Scanner Darkly",
+  "tmdb_id": 3509,
+  "trailer": "https://www.youtube.com/watch?v=l1-xKcf9Q4s",
+  "year": 2006
+ },
+ "scenic route|1978": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/uX3pU4rNEXafixambssHPkg4JHh.jpg",
+  "title": "The Scenic Route",
+  "tmdb_id": 128042,
+  "trailer": null,
+  "year": 1978
+ },
+ "screamplay|1984": {
+  "genres": [
+   "Comedy",
+   "Crime",
+   "Horror"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/tmir6rZ5aPKtgjhLVQxf7EMRbcr.jpg",
+  "title": "Screamplay",
+  "tmdb_id": 83282,
+  "trailer": "https://www.youtube.com/watch?v=THhTkkWvhho",
+  "year": 1984
+ },
  "screening of soundtrack to a coup d 8217 etat|": null,
+ "screening of soundtrack to coup d 8217 etat|": null,
  "searchers maliglutit|2016": null,
+ "secret life of anthology film archives|": null,
  "secrets lies|1996": {
   "genres": [
    "Drama"
@@ -2937,6 +5392,16 @@
   "tmdb_id": 11159,
   "trailer": "https://www.youtube.com/watch?v=V1e9ovKQViw",
   "year": 1996
+ },
+ "seduction cruel woman|1985": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/iNziMzWtRSMopqhgAaJZizL5EM8.jpg",
+  "title": "Seduction: The Cruel Woman",
+  "tmdb_id": 42050,
+  "trailer": "https://www.youtube.com/watch?v=oPK2f_R02E0",
+  "year": 1986
  },
  "seeking haven for mr rambo|2024": {
   "genres": [
@@ -2964,7 +5429,28 @@
   "trailer": "https://www.youtube.com/watch?v=bKB2KclDMTY",
   "year": 1996
  },
+ "seventh victim aka racetrack murders das siebente opfer|": null,
  "sex wish|1976": null,
+ "sheep detectives|2026": {
+  "genres": [
+   "Comedy",
+   "Family",
+   "Mystery"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/mGWOmj2jHFol3kOGNv1EhbSDDE1.jpg",
+  "title": "The Sheep Detectives",
+  "tmdb_id": 1301421,
+  "trailer": "https://www.youtube.com/watch?v=826SRt1CFbg",
+  "year": 2026
+ },
+ "sheila and brainstem|1989": {
+  "genres": [],
+  "poster": "https://image.tmdb.org/t/p/w342/A9LnlUth5EnvvCv0Nfk2vGx7BJ8.jpg",
+  "title": "Sheila and the Brainstem",
+  "tmdb_id": 607292,
+  "trailer": "https://www.youtube.com/watch?v=8KTQ2ClYkbY",
+  "year": 1989
+ },
  "sheila and the brainstem|1989": {
   "genres": [],
   "poster": "https://image.tmdb.org/t/p/w342/A9LnlUth5EnvvCv0Nfk2vGx7BJ8.jpg",
@@ -2983,6 +5469,16 @@
   "trailer": "https://www.youtube.com/watch?v=Oy6e2X7a0PU",
   "year": 1986
  },
+ "sholay|1975": {
+  "genres": [
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ya9bwgqA4eNl5bQ9QqS0jcmRoBS.jpg",
+  "title": "Sholay",
+  "tmdb_id": 12259,
+  "trailer": "https://www.youtube.com/watch?v=RDY97iu1_q8",
+  "year": 1975
+ },
  "short film program|": null,
  "shrek|2001": {
   "genres": [
@@ -2998,6 +5494,26 @@
   "trailer": "https://www.youtube.com/watch?v=ppDwfm6e498",
   "year": 2001
  },
+ "sicilia|1999": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/hyB17QfiGKt12LmJYMpHoY9XooD.jpg",
+  "title": "Sicily!",
+  "tmdb_id": 104871,
+  "trailer": null,
+  "year": 1999
+ },
+ "silence of lambs|1991": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/cU6gd6i1tnXnPzO2RaNcQp87y7h.jpg",
+  "title": "Silence of the Lambs",
+  "tmdb_id": 1064810,
+  "trailer": null,
+  "year": 2022
+ },
  "silence of the lambs|1991": {
   "genres": [
    "Drama"
@@ -3007,6 +5523,18 @@
   "tmdb_id": 1064810,
   "trailer": null,
   "year": 2022
+ },
+ "six musical live|": {
+  "genres": [
+   "Comedy",
+   "Music",
+   "History"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/8m4LGpmZ0wTKKo0ISmSp69ZH70T.jpg",
+  "title": "SIX: The Musical Live!",
+  "tmdb_id": 1417019,
+  "trailer": "https://www.youtube.com/watch?v=Ow75n9vKpac",
+  "year": 2025
  },
  "six the musical live|": {
   "genres": [
@@ -3075,6 +5603,17 @@
   "trailer": null,
   "year": 1973
  },
+ "solomamma|2025": {
+  "genres": [
+   "Comedy",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/l57DviQNrx9p23vGwDmpAkUZKIo.jpg",
+  "title": "Solomamma",
+  "tmdb_id": 1471537,
+  "trailer": "https://www.youtube.com/watch?v=5C5Ydvv2qIY",
+  "year": 2025
+ },
  "something real|2026": {
   "genres": [
    "Thriller"
@@ -3084,6 +5623,19 @@
   "tmdb_id": 1552097,
   "trailer": "https://www.youtube.com/watch?v=sMKmqwNym68",
   "year": 2026
+ },
+ "son of sheik|1926": {
+  "genres": [
+   "Action",
+   "Adventure",
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/yZib8tHbOHrSTSszif728VwU2L6.jpg",
+  "title": "The Son of the Sheik",
+  "tmdb_id": 85689,
+  "trailer": null,
+  "year": 1926
  },
  "sorcerer|1977": {
   "genres": [
@@ -3095,6 +5647,19 @@
   "tmdb_id": 38985,
   "trailer": "https://www.youtube.com/watch?v=RlfJcU3nnl8",
   "year": 1977
+ },
+ "sound of music|1965": {
+  "genres": [
+   "Drama",
+   "Family",
+   "Music",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/c6CrUZypAsBCaRWX0M3RVRDbhNS.jpg",
+  "title": "The Sound of Music",
+  "tmdb_id": 15121,
+  "trailer": "https://www.youtube.com/watch?v=Q7wZClqWm_o",
+  "year": 1965
  },
  "spa weekend|": {
   "genres": [
@@ -3116,6 +5681,17 @@
   "trailer": "https://www.youtube.com/watch?v=OiSwg-79NhE",
   "year": 2019
  },
+ "space is place|1974": {
+  "genres": [
+   "Science Fiction",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5yPhG0iBQpBObowErVrZLPZzTq.jpg",
+  "title": "Space Is the Place",
+  "tmdb_id": 16203,
+  "trailer": "https://www.youtube.com/watch?v=XaA-JV2Ut60",
+  "year": 1974
+ },
  "space is the place|1974": {
   "genres": [
    "Science Fiction",
@@ -3136,6 +5712,18 @@
   "tmdb_id": 533030,
   "trailer": null,
   "year": 2000
+ },
+ "spartacus|1960": {
+  "genres": [
+   "History",
+   "Drama",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/r0Fgg1GyZgzokaiw2HFQv3oPaL2.jpg",
+  "title": "Spartacus",
+  "tmdb_id": 967,
+  "trailer": "https://www.youtube.com/watch?v=R8aWcZa18pc",
+  "year": 1960
  },
  "speed racer|2008": {
   "genres": [
@@ -3184,8 +5772,38 @@
   "trailer": null,
   "year": 1989
  },
+ "spongebob movie search for squarepants|2025": {
+  "genres": [
+   "Adventure",
+   "Animation",
+   "Comedy",
+   "Family",
+   "Fantasy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/xJnOMMsFASxNiFnG7v3TNIQ3ife.jpg",
+  "title": "The SpongeBob Movie: Search for SquarePants",
+  "tmdb_id": 991494,
+  "trailer": "https://www.youtube.com/watch?v=wS3mgDtELaU",
+  "year": 2025
+ },
+ "spoons toons all ages|": null,
  "spoons toons anime|": null,
  "spoons toons booze after dark|": null,
+ "spoons toons booze goes back to school|": null,
+ "spy kids|": {
+  "genres": [
+   "Family",
+   "Action",
+   "Comedy",
+   "Adventure",
+   "Science Fiction"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/j3rUkHIAAoKr6jU30q3Db4fcIF9.jpg",
+  "title": "Spy Kids",
+  "tmdb_id": 10054,
+  "trailer": "https://www.youtube.com/watch?v=GE5aHKJp6HI",
+  "year": 2001
+ },
  "stalker|1979": {
   "genres": [
    "Science Fiction",
@@ -3210,6 +5828,7 @@
   "year": 1986
  },
  "star trek day double feature|": null,
+ "star trek genesis trilogy|": null,
  "star trek ii the wrath of khan|": {
   "genres": [
    "Action",
@@ -3222,6 +5841,32 @@
   "tmdb_id": 154,
   "trailer": "https://www.youtube.com/watch?v=vOIYaRb6XpQ",
   "year": 1982
+ },
+ "star trek ii wrath of khan|": {
+  "genres": [
+   "Action",
+   "Adventure",
+   "Science Fiction",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/uPyLsKl8Z0LOoxeaFXsY5MxhR5s.jpg",
+  "title": "Star Trek II: The Wrath of Khan",
+  "tmdb_id": 154,
+  "trailer": "https://www.youtube.com/watch?v=vOIYaRb6XpQ",
+  "year": 1982
+ },
+ "star trek iii search for spock|": {
+  "genres": [
+   "Science Fiction",
+   "Action",
+   "Adventure",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/yqEj0oPfKBMCz7YcCARHDgH7VFm.jpg",
+  "title": "Star Trek III: The Search for Spock",
+  "tmdb_id": 157,
+  "trailer": "https://www.youtube.com/watch?v=4wzG1u4zStM",
+  "year": 1984
  },
  "star trek iii the search for spock|": {
   "genres": [
@@ -3247,8 +5892,32 @@
   "trailer": "https://www.youtube.com/watch?v=4IJVV2sjPT8",
   "year": 1986
  },
+ "star trek iv voyage home|": {
+  "genres": [
+   "Science Fiction",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/xY5TzGXJOB3L9rhZ1MbbPyVlW5J.jpg",
+  "title": "Star Trek IV: The Voyage Home",
+  "tmdb_id": 168,
+  "trailer": "https://www.youtube.com/watch?v=4IJVV2sjPT8",
+  "year": 1986
+ },
+ "star trek motion picture director s edition|": null,
  "star trek the genesis trilogy|": null,
  "star trek the motion picture director s edition|": null,
+ "star wars mandalorian and grogu|": {
+  "genres": [
+   "Action",
+   "Adventure",
+   "Science Fiction"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/7GV5rrUJf0BRUhoh2cyFoeNthlQ.jpg",
+  "title": "The Mandalorian and Grogu",
+  "tmdb_id": 1228710,
+  "trailer": "https://www.youtube.com/watch?v=uwild1rw7Aw",
+  "year": 2026
+ },
  "stavisky|1974": {
   "genres": [
    "Crime",
@@ -3272,6 +5941,28 @@
   "trailer": null,
   "year": 2024
  },
+ "stepping into unknown films from bob dylan center|": {
+  "genres": [
+   "Documentary",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/1YifNWaALs2UzA9UNUQV9J4qNRN.jpg",
+  "title": "Stepping Into the Unknown: Films from the Bob Dylan Center",
+  "tmdb_id": 1540829,
+  "trailer": null,
+  "year": 2024
+ },
+ "still life|2006": {
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/pJYBqUk9zZ3lotYo4711HqWh8QE.jpg",
+  "title": "Still Life",
+  "tmdb_id": 2346,
+  "trailer": "https://www.youtube.com/watch?v=3FKcupplP8c",
+  "year": 2006
+ },
  "straight out of brooklyn|1991": {
   "genres": [
    "Drama"
@@ -3281,6 +5972,17 @@
   "tmdb_id": 94072,
   "trailer": null,
   "year": 1991
+ },
+ "straight story|1999": {
+  "genres": [
+   "Drama",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/tT9cMiVDdtlcdZxOoFy3VRmEoKk.jpg",
+  "title": "The Straight Story",
+  "tmdb_id": 404,
+  "trailer": "https://www.youtube.com/watch?v=lcMyFckt_Hs",
+  "year": 1999
  },
  "straight to hell director s cut|1987": null,
  "strangers on a train|": {
@@ -3295,6 +5997,29 @@
   "trailer": "https://www.youtube.com/watch?v=PC62NBWBkjM",
   "year": 1951
  },
+ "strangers on train|": {
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ihC083U7ef56Ui4x0P0dobojrZ1.jpg",
+  "title": "Strangers on a Train",
+  "tmdb_id": 845,
+  "trailer": "https://www.youtube.com/watch?v=PC62NBWBkjM",
+  "year": 1951
+ },
+ "stroszek|1977": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/wDq9ytRxoVpICRcx1BvagmXhd4t.jpg",
+  "title": "Stroszek",
+  "tmdb_id": 11698,
+  "trailer": "https://www.youtube.com/watch?v=4fM4fL5KK5k",
+  "year": 1977
+ },
+ "summer movies in park|": null,
  "summer movies in the park space jam|": null,
  "summer wars|2009": {
   "genres": [
@@ -3308,6 +6033,38 @@
   "year": 2009
  },
  "summerstarz 2026 free movies|": null,
+ "sun never sets|": {
+  "genres": [
+   "Romance",
+   "Drama",
+   "Comedy"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/hpzzGHyVN4nE0GzqoAu12ko6ER3.jpg",
+  "title": "The Sun Never Sets",
+  "tmdb_id": 1490214,
+  "trailer": "https://www.youtube.com/watch?v=nTIfzXx8nJY",
+  "year": 2026
+ },
+ "sundays on fire secret hong kong feature at nitehawk prospect park|": null,
+ "sundays on fire secret hong kong feature|": {
+  "genres": [],
+  "poster": null,
+  "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
+  "tmdb_id": 1515192,
+  "trailer": null,
+  "year": null
+ },
+ "sunflower lane cycles|2026": null,
+ "sunset boulevard|1950": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg",
+  "title": "Sunset Boulevard",
+  "tmdb_id": 599,
+  "trailer": "https://www.youtube.com/watch?v=ZQWqIA1-kvA",
+  "year": 1950
+ },
  "super troopers 3|": {
   "genres": [
    "Comedy",
@@ -3342,6 +6099,55 @@
   "trailer": "https://www.youtube.com/watch?v=r03nDeTc1iM",
   "year": 2018
  },
+ "sweet charity|1969": {
+  "genres": [
+   "Comedy",
+   "Music",
+   "Romance",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/brwDwtckSCp2t4Hz3JU3vwCv83h.jpg",
+  "title": "Sweet Charity",
+  "tmdb_id": 42618,
+  "trailer": "https://www.youtube.com/watch?v=i2SZpEDYnJA",
+  "year": 1969
+ },
+ "taking of pelham 1 2 3|": {
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/rEnyQiBu6goqJfvQXpUZQjpoHVp.jpg",
+  "title": "The Taking of Pelham 1 2 3",
+  "tmdb_id": 18487,
+  "trailer": "https://www.youtube.com/watch?v=6-8DF96kLtQ",
+  "year": 2009
+ },
+ "taking of pelham 123|1974": {
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/rEnyQiBu6goqJfvQXpUZQjpoHVp.jpg",
+  "title": "The Taking of Pelham 1 2 3",
+  "tmdb_id": 18487,
+  "trailer": "https://www.youtube.com/watch?v=6-8DF96kLtQ",
+  "year": 2009
+ },
+ "taking of pelham one two three|1974": {
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Action"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/vNhywp9w1DVG6BytxKp4kjtaaGC.jpg",
+  "title": "The Taking of Pelham One Two Three",
+  "tmdb_id": 8333,
+  "trailer": "https://www.youtube.com/watch?v=_WnD63TiceA",
+  "year": 1974
+ },
  "tampopo|1985": {
   "genres": [
    "Comedy"
@@ -3351,6 +6157,17 @@
   "tmdb_id": 11830,
   "trailer": "https://www.youtube.com/watch?v=sur_pxcpuoE",
   "year": 1985
+ },
+ "tarzan and his mate|1934": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/cnLZv1qhaJtzqP8q9ofkSnjoAIn.jpg",
+  "title": "Tarzan and His Mate",
+  "tmdb_id": 18994,
+  "trailer": "https://www.youtube.com/watch?v=DzfmnGMlzFA",
+  "year": 1934
  },
  "teenage mutant ninja turtles mutant mayhem|2023": {
   "genres": [
@@ -3378,6 +6195,17 @@
   "year": 2026
  },
  "terminator 2 judgment day 35th anniversary|": null,
+ "terror tuesday angel heart|": null,
+ "testament|1988": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/17iuLXHPWNokCJtaaKgLNE0gBOZ.jpg",
+  "title": "Testament",
+  "tmdb_id": 271431,
+  "trailer": null,
+  "year": 1988
+ },
  "tetro|2009": {
   "genres": [
    "Drama"
@@ -3387,6 +6215,17 @@
   "tmdb_id": 11928,
   "trailer": "https://www.youtube.com/watch?v=XJ_XTIsMKig",
   "year": 2009
+ },
+ "tetsuo iron man|1989": {
+  "genres": [
+   "Horror",
+   "Science Fiction"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/lARc59hUAKW3ziWddftUnZ99R8c.jpg",
+  "title": "Tetsuo: The Iron Man",
+  "tmdb_id": 41428,
+  "trailer": "https://www.youtube.com/watch?v=LP8xB94Epd4",
+  "year": 1989
  },
  "tetsuo the iron man|1989": {
   "genres": [
@@ -3399,6 +6238,7 @@
   "trailer": "https://www.youtube.com/watch?v=LP8xB94Epd4",
   "year": 1989
  },
+ "texas chain saw day|": null,
  "the 2026 etheria film festival short film showcase|": null,
  "the ballad of little jo|1993": {
   "genres": [
@@ -4262,6 +7102,18 @@
   "trailer": "https://www.youtube.com/watch?v=YDa_z0op7iU",
   "year": 1981
  },
+ "thin man|1934": {
+  "genres": [
+   "Comedy",
+   "Mystery",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/6cL89ok9t8xEKboOjOVga2W66jj.jpg",
+  "title": "The Thin Man",
+  "tmdb_id": 3529,
+  "trailer": "https://www.youtube.com/watch?v=F2vlPkv0tQU",
+  "year": 1934
+ },
  "three amigos|1986": {
   "genres": [
    "Comedy",
@@ -4274,6 +7126,14 @@
   "trailer": "https://www.youtube.com/watch?v=_d4QbEknbbM",
   "year": 1986
  },
+ "threshing|2025": {
+  "genres": [],
+  "poster": "https://image.tmdb.org/t/p/w342/i0fyzdHfqYoSzea8YJAYwE2EMTK.jpg",
+  "title": "The Threshing",
+  "tmdb_id": 1516583,
+  "trailer": null,
+  "year": 2025
+ },
  "ticks|": {
   "genres": [
    "Horror",
@@ -4285,6 +7145,26 @@
   "trailer": "https://www.youtube.com/watch?v=b4uhzVlesk8",
   "year": 1993
  },
+ "titane|2021": {
+  "genres": [
+   "Drama",
+   "Thriller",
+   "Horror"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/mBlpouG3gqB8WLdP65LCOXb3jFb.jpg",
+  "title": "Titane",
+  "tmdb_id": 630240,
+  "trailer": "https://www.youtube.com/watch?v=_DmFHh7KsWc",
+  "year": 2021
+ },
+ "to love honor and obey|1980": {
+  "genres": [],
+  "poster": "https://image.tmdb.org/t/p/w342/jzLAht1P5UY0anivh08EOizPBl4.jpg",
+  "title": "To Love, Honor and Obey",
+  "tmdb_id": 936519,
+  "trailer": null,
+  "year": 1980
+ },
  "to use a mountain|2025": {
   "genres": [
    "Documentary"
@@ -4294,6 +7174,27 @@
   "tmdb_id": 1404153,
   "trailer": null,
   "year": 2025
+ },
+ "to use mountain|2025": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/q7bqVgcVcCoWAwfWIKlm4Ide3FJ.jpg",
+  "title": "To Use a Mountain",
+  "tmdb_id": 1404153,
+  "trailer": null,
+  "year": 2025
+ },
+ "to wong foo thanks for everything julie newmar|1995": {
+  "genres": [
+   "Comedy",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/8bkJiI6N8wDxAtQ49bLUt0qCBII.jpg",
+  "title": "To Wong Foo, Thanks for Everything! Julie Newmar",
+  "tmdb_id": 9090,
+  "trailer": "https://www.youtube.com/watch?v=sH0zihZWIK0",
+  "year": 1995
  },
  "tommy|1975": {
   "genres": [
@@ -4306,6 +7207,12 @@
   "trailer": "https://www.youtube.com/watch?v=QaFIq3dbu4U",
   "year": 1975
  },
+ "toney w merritt pgm 1 psychodramas|": null,
+ "toney w merritt pgm 2 vignettes miniatures|": null,
+ "toney w merritt pgm 3 later work|": null,
+ "toney w merritt program 1 psychodramas|": null,
+ "toney w merritt program 2 vignettes miniatures|": null,
+ "toney w merritt program 3 later work|": null,
  "tony|2026": {
   "genres": [
    "Drama",
@@ -4354,6 +7261,20 @@
   "trailer": "https://www.youtube.com/watch?v=4qm59Rcq1Fw",
   "year": 2016
  },
+ "transformers movie|": {
+  "genres": [
+   "Animation",
+   "Science Fiction",
+   "Action",
+   "Adventure",
+   "Family"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/xJ5W0mOAWCVaXmU0pBZh4NjSRv2.jpg",
+  "title": "The Transformers: The Movie",
+  "tmdb_id": 1857,
+  "trailer": "https://www.youtube.com/watch?v=OtgnqWLYqHo",
+  "year": 1986
+ },
  "transit|2018": {
   "genres": [
    "Drama",
@@ -4399,6 +7320,16 @@
   "trailer": "https://www.youtube.com/watch?v=6uoPeUa7Gkc",
   "year": 1993
  },
+ "tucker man and his dream|1988": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/uph7wz8WASLHwHyC5SYfQgqaoV7.jpg",
+  "title": "Tucker: The Man and His Dream",
+  "tmdb_id": 28176,
+  "trailer": "https://www.youtube.com/watch?v=ZokjNUOEkEM",
+  "year": 1988
+ },
  "tucker the man and his dream|1988": {
   "genres": [
    "Drama"
@@ -4408,6 +7339,31 @@
   "tmdb_id": 28176,
   "trailer": "https://www.youtube.com/watch?v=ZokjNUOEkEM",
   "year": 1988
+ },
+ "twilight 2008|": {
+  "genres": [
+   "Fantasy",
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg",
+  "title": "Twilight",
+  "tmdb_id": 8966,
+  "trailer": "https://www.youtube.com/watch?v=7tQk8pKnnVY",
+  "year": 2008
+ },
+ "twilight saga new moon|": {
+  "genres": [
+   "Adventure",
+   "Fantasy",
+   "Drama",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/k2qTooPlHffgNABNWxeJdGMglPK.jpg",
+  "title": "The Twilight Saga: New Moon",
+  "tmdb_id": 18239,
+  "trailer": "https://www.youtube.com/watch?v=q58iQSHhZGg",
+  "year": 2009
  },
  "umberto d|1952": {
   "genres": [
@@ -4430,6 +7386,42 @@
   "year": 2026
  },
  "uniondocs presents welfare|": null,
+ "untouchables|1987": {
+  "genres": [
+   "Crime",
+   "History",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/tPq0R4jTO4Ey8ZspFaWK9wGA4Ls.jpg",
+  "title": "The Untouchables",
+  "tmdb_id": 117,
+  "trailer": "https://www.youtube.com/watch?v=YbzkK06MJjE",
+  "year": 1987
+ },
+ "vacances|2025": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/iu4sAVvzfShbdyDIJ5GJUZfDpN2.jpg",
+  "title": "Vacances",
+  "tmdb_id": 1473160,
+  "trailer": null,
+  "year": 2025
+ },
+ "valentin nouja m pgm 1 veiled struggles|": null,
+ "valentin nouja m pgm 2 re telling|": null,
+ "vampyr|1932": {
+  "genres": [
+   "Horror",
+   "Fantasy",
+   "Mystery"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/yt3JS5JSoZseSohYkhs6FLU9B0O.jpg",
+  "title": "Vampyr",
+  "tmdb_id": 779,
+  "trailer": "https://www.youtube.com/watch?v=acZJwgwmk4w",
+  "year": 1932
+ },
  "vertigo|1958": {
   "genres": [
    "Mystery",
@@ -4442,6 +7434,10 @@
   "trailer": "https://www.youtube.com/watch?v=UHhsEYDg8GI",
   "year": 1958
  },
+ "vika kirchenbauer pgm 1|": null,
+ "vika kirchenbauer pgm 2|": null,
+ "vika kirchenbauer program 1|": null,
+ "vika kirchenbauer program 2|": null,
  "vishwanath sons|": {
   "genres": [
    "Drama",
@@ -4452,6 +7448,17 @@
   "tmdb_id": 1408162,
   "trailer": null,
   "year": 2026
+ },
+ "wake in fright|1971": {
+  "genres": [
+   "Drama",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/5XwMDn2acQZ3CHuJ3EDXLg348G3.jpg",
+  "title": "Wake in Fright",
+  "tmdb_id": 26405,
+  "trailer": "https://www.youtube.com/watch?v=yqwDmHioWcE",
+  "year": 1971
  },
  "walking and talking|1996": {
   "genres": [
@@ -4464,6 +7471,17 @@
   "tmdb_id": 49963,
   "trailer": "https://www.youtube.com/watch?v=ohAd27SbH6E",
   "year": 1996
+ },
+ "warriors|1979": {
+  "genres": [
+   "Action",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
+  "title": "The Warriors",
+  "tmdb_id": 11474,
+  "trailer": "https://www.youtube.com/watch?v=SjO5W6RHuuo",
+  "year": 1979
  },
  "weightless|2025": {
   "genres": [
@@ -4507,6 +7525,17 @@
   "trailer": "https://www.youtube.com/watch?v=pASs3rerRCY",
   "year": 2008
  },
+ "werewolf in women s prison|2006": {
+  "genres": [
+   "Horror"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/nt0eBd35ma1WUmauuTq84cBBYX7.jpg",
+  "title": "Werewolf in a Women's Prison",
+  "tmdb_id": 29638,
+  "trailer": "https://www.youtube.com/watch?v=hrBFsRlcsHM",
+  "year": 2006
+ },
+ "werewolf in womens prison|2006": null,
  "west side story|1961": {
   "genres": [
    "Crime",
@@ -4544,6 +7573,16 @@
   "trailer": "https://www.youtube.com/watch?v=s6nTJMdrGVU",
   "year": 2000
  },
+ "when it was blue|2008": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/6ygmlIGB2ooiOnPYU8kfirxL4Bo.jpg",
+  "title": "When It Was Blue",
+  "tmdb_id": 126734,
+  "trailer": "https://www.youtube.com/watch?v=GmAld5nz5lU",
+  "year": 2008
+ },
  "when marnie was there|2014": {
   "genres": [
    "Animation",
@@ -4556,6 +7595,17 @@
   "trailer": "https://www.youtube.com/watch?v=YBIfz76BYiY",
   "year": 2014
  },
+ "where is friend s house|": {
+  "genres": [
+   "Drama",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/lrrtMVv2X8PNO7UA0Ce0gTtfuC8.jpg",
+  "title": "Where Is The Friend's House?",
+  "tmdb_id": 49964,
+  "trailer": "https://www.youtube.com/watch?v=run-u_2zAdA",
+  "year": 1987
+ },
  "where is the friend s house|": {
   "genres": [
    "Drama",
@@ -4567,8 +7617,54 @@
   "trailer": "https://www.youtube.com/watch?v=run-u_2zAdA",
   "year": 1987
  },
+ "white material|2009": {
+  "genres": [
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/qqQOsXOf7HvoWVWjOLuKpGQFjMh.jpg",
+  "title": "White Material",
+  "tmdb_id": 46207,
+  "trailer": "https://www.youtube.com/watch?v=s3nh5zcGUsE",
+  "year": 2010
+ },
+ "white nights|1985": {
+  "genres": [
+   "Drama",
+   "Thriller"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/ampweVzwwWQHSwFvz2YTyRIrJza.jpg",
+  "title": "White Nights",
+  "tmdb_id": 16082,
+  "trailer": "https://www.youtube.com/watch?v=VHpKeRSLnF8",
+  "year": 1985
+ },
+ "white sun of desert beloe solntse pustyni|": null,
+ "white sun of desert beloye solntse pustyni|1970": null,
  "white sun of the desert beloe solntse pustyni|": null,
  "white sun of the desert beloye solntse pustyni|1970": null,
+ "who framed roger rabbit|1988": {
+  "genres": [
+   "Fantasy",
+   "Animation",
+   "Comedy",
+   "Crime"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/lYfRc57Kx9VgLZ48iulu0HKnM15.jpg",
+  "title": "Who Framed Roger Rabbit",
+  "tmdb_id": 856,
+  "trailer": "https://www.youtube.com/watch?v=XEIJpS26aAw",
+  "year": 1988
+ },
+ "who killed vincent chin|1987": {
+  "genres": [
+   "Documentary"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/tZcnNgeHoBti6EAe4HEEgwTw5Kd.jpg",
+  "title": "Who Killed Vincent Chin?",
+  "tmdb_id": 123398,
+  "trailer": null,
+  "year": 1987
+ },
  "wicked for good|": {
   "genres": [
    "Fantasy",
@@ -4590,6 +7686,42 @@
   "tmdb_id": 1501564,
   "trailer": "https://www.youtube.com/watch?v=GPTWsyD_q6A",
   "year": 2026
+ },
+ "wild robot|2024": {
+  "genres": [
+   "Family",
+   "Animation",
+   "Science Fiction",
+   "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg",
+  "title": "The Wild Robot",
+  "tmdb_id": 1184918,
+  "trailer": "https://www.youtube.com/watch?v=VUCNBAmse04",
+  "year": 2024
+ },
+ "wild style|1983": {
+  "genres": [
+   "Drama",
+   "Music"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/bhlf38aasEZjgdWQOzXwMhaOvGU.jpg",
+  "title": "Wild Style",
+  "tmdb_id": 14243,
+  "trailer": "https://www.youtube.com/watch?v=iq96MJpFrsA",
+  "year": 1982
+ },
+ "wind blows under your feet talpuk alatt f ty l sz l|1969": null,
+ "wind that shakes barley|2006": {
+  "genres": [
+   "Drama",
+   "War"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/yCb4LweL6U7KTgSda3Wb7vHiA9J.jpg",
+  "title": "The Wind That Shakes the Barley",
+  "tmdb_id": 1116,
+  "trailer": "https://www.youtube.com/watch?v=6yvHe_ksnDA",
+  "year": 2006
  },
  "withnail and i|1987": {
   "genres": [
@@ -4623,6 +7755,23 @@
   "trailer": null,
   "year": 1990
  },
+ "wizard of oz|1939": {
+  "genres": [
+   "Adventure",
+   "Fantasy",
+   "Family"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/uCC3j4pV9eOZwzDUWp2ilbcTf1f.jpg",
+  "title": "The Wizard of Oz",
+  "tmdb_id": 630,
+  "trailer": "https://www.youtube.com/watch?v=b_A2twyZevo",
+  "year": 1939
+ },
+ "women in animation pgm 1 animated animals|": null,
+ "women in animation pgm 2 on being woman|": null,
+ "women in animation pgm 3 sunflower lane|": null,
+ "women in animation program 1 animated animals|": null,
+ "women in animation program 2 on being woman|": null,
  "women on the verge of a nervous breakdown|1988": {
   "genres": [
    "Comedy",
@@ -4634,7 +7783,42 @@
   "trailer": "https://www.youtube.com/watch?v=1cVBr894wHs",
   "year": 1988
  },
+ "women on verge of nervous breakdown|1988": {
+  "genres": [
+   "Comedy",
+   "Drama"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/lOehCiqghODNrNBpI1JS76zl6Lx.jpg",
+  "title": "Women on the Verge of a Nervous Breakdown",
+  "tmdb_id": 4203,
+  "trailer": "https://www.youtube.com/watch?v=1cVBr894wHs",
+  "year": 1988
+ },
+ "work in progress en construcci n|": null,
+ "wrong girls|": {
+  "genres": [
+   "Comedy",
+   "Crime",
+   "Science Fiction"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/iEJshwO6g4WKTP4HJgCHRTJMWEd.jpg",
+  "title": "The Wrong Girls",
+  "tmdb_id": 1226699,
+  "trailer": "https://www.youtube.com/watch?v=zrcg8YHSys8",
+  "year": 2026
+ },
  "you re a big boy now|1966": {
+  "genres": [
+   "Comedy",
+   "Romance"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w342/4kjCCRZeZW7YiFZ6YPcI46tPTc0.jpg",
+  "title": "You're a Big Boy Now",
+  "tmdb_id": 42728,
+  "trailer": "https://www.youtube.com/watch?v=PlC04ulnMcw",
+  "year": 1966
+ },
+ "you re big boy now|1966": {
   "genres": [
    "Comedy",
    "Romance"
@@ -4692,5 +7876,6 @@
   "tmdb_id": 82088,
   "trailer": "https://www.youtube.com/watch?v=9dHNh0hNrxw",
   "year": 1928
- }
+ },
+ "|": null
 }

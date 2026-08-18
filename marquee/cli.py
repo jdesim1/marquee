@@ -58,6 +58,8 @@ def main(argv=None):
     except Exception as e:
         print(f"[marquee] WARNING: omdb failed: {e}", file=sys.stderr)
 
+    normalize.polish_titles(screenings, films)
+
     site_dir = ROOT / "build" / "site"
     generated_at = datetime.datetime.now(NYC).strftime("%Y-%m-%d %H:%M")
     build_site.build(site_dir, venues["venues"], screenings, generated_at, films)
